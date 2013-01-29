@@ -1,0 +1,19 @@
+A 5 u Eddm_part 5105fdf8b428.03.98.03.c2.20.00.09.83 11 2 2 0
+V v 9 1 4d4013ee8303.03.98.03.11.33.00.35.96
+F f 9 "part.part_9"
+V v 10 1 4d40142c947b.03.98.03.11.33.00.35.96
+F f 10 "part.part_10"
+V v 11 1 4d40159863fa.03.98.03.11.33.00.35.96
+F f 11 "part.part_11"
+O 11
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/ainv_rc_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5105fdf8a0fb.03.98.03.c2.20.00.09.83
+R csduv 1 "$JPO4NETS/ainv_rc_test/ainv_rc_test" 7 mgc_symbol 4d40159863e1.03.98.03.11.33.00.35.96 5105fdf89bc2.03.98.03.c2.20.00.09.83
+O 10
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/ainv_rc_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5105fdf8a0fb.03.98.03.c2.20.00.09.83
+R csduv 1 "$JPO4NETS/ainv_rc_test/ainv_rc_test" 6 mgc_symbol 4d40142c9460.03.98.03.11.33.00.35.96 5105fdf89bc2.03.98.03.c2.20.00.09.83
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/ainv_rc_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5105fdf8a0fb.03.98.03.c2.20.00.09.83
+R csduv 1 "$JPO4NETS/ainv_rc_test/ainv_rc_test" 5 mgc_symbol 4d4013ee82d9.03.98.03.11.33.00.35.96 5105fdf89bc2.03.98.03.c2.20.00.09.83
