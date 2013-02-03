@@ -1,13 +1,13 @@
-A 5 u mgc_symbol 510858e4c395.03.98.03.c2.20.00.43.6b 16 2 1 0
-V v 14 1 510eab6d2c65.03.98.03.c2.22.00.1e.67
-F f 14 "hw1_nmos.smbl_14"
-V v 15 1 510eabbb5992.03.98.03.c2.22.00.1e.67
-F f 15 "hw1_nmos.smbl_15"
-V v 16 1 510eabd8a190.03.98.03.c2.22.00.1e.67
-F f 16 "hw1_nmos.smbl_16"
-O 16
-R csduv 0 "$JPO4NETS/hw1_nmos/part" 18 Eddm_part 510eabbb59b6.03.98.03.c2.22.00.1e.67 510820e9117e.03.98.03.c2.1c.00.14.d3
-O 15
-R csduv 0 "$JPO4NETS/hw1_nmos/part" 18 Eddm_part 510eabbb59b6.03.98.03.c2.22.00.1e.67 510820e9117e.03.98.03.c2.1c.00.14.d3
-O 14
-R csduv 0 "$JPO4NETS/hw1_nmos/part" 17 Eddm_part 510eab6d2c7f.03.98.03.c2.22.00.1e.67 510820e9117e.03.98.03.c2.1c.00.14.d3
+A 5 u mgc_symbol 510858e4c395.03.98.03.c2.20.00.43.6b 19 2 1 0
+V v 17 1 510ed5dea937.03.98.03.c2.22.00.62.41
+F f 17 "hw1_nmos.smbl_17"
+V v 18 1 510ed5e2eb3e.03.98.03.c2.22.00.62.41
+F f 18 "hw1_nmos.smbl_18"
+V v 19 1 510ed6386ccc.03.98.03.c2.22.00.62.41
+F f 19 "hw1_nmos.smbl_19"
+O 19
+R csduv 0 "$JPO4NETS/hw1_nmos/part" 20 Eddm_part 510ed5e2eb46.03.98.03.c2.22.00.62.41 510820e9117e.03.98.03.c2.1c.00.14.d3
+O 18
+R csduv 0 "$JPO4NETS/hw1_nmos/part" 20 Eddm_part 510ed5e2eb46.03.98.03.c2.22.00.62.41 510820e9117e.03.98.03.c2.1c.00.14.d3
+O 17
+R csduv 0 "$JPO4NETS/hw1_nmos/part" 19 Eddm_part 510ed5dea951.03.98.03.c2.22.00.62.41 510820e9117e.03.98.03.c2.1c.00.14.d3
