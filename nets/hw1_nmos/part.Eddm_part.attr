@@ -1,19 +1,19 @@
-A 5 u Eddm_part 510858e4c59a.03.98.03.c2.20.00.43.6b 12 2 2 0
-V v 10 1 4d40142c947b.03.98.03.11.33.00.35.96
-F f 10 "part.part_10"
-V v 11 1 4d40159863fa.03.98.03.11.33.00.35.96
-F f 11 "part.part_11"
-V v 12 1 510820ee3b73.03.98.03.c2.1c.00.18.d3
-F f 12 "part.part_12"
-O 12
+A 5 u Eddm_part 510858e4c59a.03.98.03.c2.20.00.43.6b 18 2 2 0
+V v 16 1 510eab60ae55.03.98.03.c2.22.00.1e.67
+F f 16 "part.part_16"
+V v 17 1 510eab6d2c7f.03.98.03.c2.22.00.1e.67
+F f 17 "part.part_17"
+V v 18 1 510eabbb59b6.03.98.03.c2.22.00.1e.67
+F f 18 "part.part_18"
+O 18
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
-R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 7 mgc_symbol 4d40159863e1.03.98.03.11.33.00.35.96 510820e8f40e.03.98.03.c2.1c.00.14.d3
-O 11
+R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 15 mgc_symbol 510eabbb5992.03.98.03.c2.22.00.1e.67 510858e4c395.03.98.03.c2.20.00.43.6b
+O 17
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
-R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 7 mgc_symbol 4d40159863e1.03.98.03.11.33.00.35.96 510820e8f40e.03.98.03.c2.1c.00.14.d3
-O 10
+R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 14 mgc_symbol 510eab6d2c65.03.98.03.c2.22.00.1e.67 510858e4c395.03.98.03.c2.20.00.43.6b
+O 16
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
-R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 6 mgc_symbol 4d40142c9460.03.98.03.11.33.00.35.96 510820e8f40e.03.98.03.c2.1c.00.14.d3
+R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 13 mgc_symbol 510eab60ae3b.03.98.03.c2.22.00.1e.67 510858e4c395.03.98.03.c2.20.00.43.6b
