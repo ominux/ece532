@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 510ed45d717d.03.98.03.c2.22.00.62.41 18 2 1 0
+V v 16 1 510eabd8a190.03.98.03.c2.22.00.1e.67
+F f 16 "hw1.smbl_16"
+V v 17 1 510ed7365583.03.98.03.c2.22.00.62.41
+F f 17 "hw1.smbl_17"
+V v 18 1 510ed74a9af8.03.98.03.c2.22.00.62.41
+F f 18 "hw1.smbl_18"
+O 18
+R csduv 0 "$JPO4NETS/hw1/part" 21 Eddm_part 510ed74a9b1d.03.98.03.c2.22.00.62.41 510ed45d815e.03.98.03.c2.22.00.62.41
+O 17
+R csduv 0 "$JPO4NETS/hw1/part" 20 Eddm_part 510ed736559d.03.98.03.c2.22.00.62.41 510ed45d815e.03.98.03.c2.22.00.62.41
+O 16
+R csduv 0 "$JPO4NETS/hw1/part" 18 Eddm_part 510eabbb59b6.03.98.03.c2.22.00.1e.67 510ed45d815e.03.98.03.c2.22.00.62.41
