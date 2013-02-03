@@ -1,0 +1,58 @@
+A 5 u mgc_sheet 510ed45d7287.03.98.03.c2.22.00.62.41 111 2 45 0
+V v 109 2 510ed7586e0f.03.98.03.c2.22.00.62.41
+F f 109 "sheet1.ssht_109"
+F f 109 "sheet1.sgfx_109"
+V v 110 2 510ed771d732.03.98.03.c2.22.00.62.41
+F f 110 "sheet1.ssht_110"
+F f 110 "sheet1.sgfx_110"
+V v 111 2 510ed7ccad6b.03.98.03.c2.22.00.62.41
+F f 111 "sheet1.ssht_111"
+F f 111 "sheet1.sgfx_111"
+O 111
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510ed45d71db.03.98.03.c2.22.00.62.41
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 25 "$LIBNETS/gnd/part" 6 Eddm_part 774dc076bde3.02.98.03.c4.05.00.00.00 76d8bf20ffee.02.98.03.c4.09.00.00.00
+R csduv 26 "$LIBNETS/gnd/gnd" 7 mgc_symbol 774dc076b83d.02.98.03.c4.05.00.00.00 76d8bf20ffef.02.98.03.c4.09.00.00.00
+R csduv 29 "$EE299NETS/nmos/part" 31 Eddm_part 794df747f0a2.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.01.2f.82
+R csduv 30 "$EE299NETS/nmos/nmos" 38 mgc_symbol 794df747f0a1.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.00.2f.82
+R csduv 33 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 34 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 39 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 40 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 41 "$EE299NETS/pmos/part" 25 Eddm_part 794e0265f4b1.02.98.03.c1.6c.00.00.00 3883396479b8.03.98.03.c4.20.01.2f.82
+R csduv 42 "$EE299NETS/pmos/pmos" 32 mgc_symbol 794e0265f4b0.02.98.03.c1.6c.00.00.00 3883396479b9.03.98.03.c4.20.00.2f.82
+R csduv 43 "$LIBNETS/vdd/part" 2 Eddm_part 774dc21deb38.02.98.03.c4.05.00.00.00 76d8bf2168d3.02.98.03.c4.09.00.00.00
+R csduv 44 "$LIBNETS/vdd/vdd" 2 mgc_symbol 774dc21deb37.02.98.03.c4.05.00.00.00 76d8bf216998.02.98.03.c4.09.00.00.00
+O 110
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510ed45d71db.03.98.03.c2.22.00.62.41
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 25 "$LIBNETS/gnd/part" 6 Eddm_part 774dc076bde3.02.98.03.c4.05.00.00.00 76d8bf20ffee.02.98.03.c4.09.00.00.00
+R csduv 26 "$LIBNETS/gnd/gnd" 7 mgc_symbol 774dc076b83d.02.98.03.c4.05.00.00.00 76d8bf20ffef.02.98.03.c4.09.00.00.00
+R csduv 29 "$EE299NETS/nmos/part" 31 Eddm_part 794df747f0a2.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.01.2f.82
+R csduv 30 "$EE299NETS/nmos/nmos" 38 mgc_symbol 794df747f0a1.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.00.2f.82
+R csduv 33 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 34 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 39 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 40 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 41 "$EE299NETS/pmos/part" 25 Eddm_part 794e0265f4b1.02.98.03.c1.6c.00.00.00 3883396479b8.03.98.03.c4.20.01.2f.82
+R csduv 42 "$EE299NETS/pmos/pmos" 32 mgc_symbol 794e0265f4b0.02.98.03.c1.6c.00.00.00 3883396479b9.03.98.03.c4.20.00.2f.82
+R csduv 43 "$LIBNETS/vdd/part" 2 Eddm_part 774dc21deb38.02.98.03.c4.05.00.00.00 76d8bf2168d3.02.98.03.c4.09.00.00.00
+R csduv 44 "$LIBNETS/vdd/vdd" 2 mgc_symbol 774dc21deb37.02.98.03.c4.05.00.00.00 76d8bf216998.02.98.03.c4.09.00.00.00
+O 109
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510ed45d71db.03.98.03.c2.22.00.62.41
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 25 "$LIBNETS/gnd/part" 6 Eddm_part 774dc076bde3.02.98.03.c4.05.00.00.00 76d8bf20ffee.02.98.03.c4.09.00.00.00
+R csduv 26 "$LIBNETS/gnd/gnd" 7 mgc_symbol 774dc076b83d.02.98.03.c4.05.00.00.00 76d8bf20ffef.02.98.03.c4.09.00.00.00
+R csduv 29 "$EE299NETS/nmos/part" 31 Eddm_part 794df747f0a2.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.01.2f.82
+R csduv 30 "$EE299NETS/nmos/nmos" 38 mgc_symbol 794df747f0a1.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.00.2f.82
+R csduv 33 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 34 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 39 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 40 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 41 "$EE299NETS/pmos/part" 25 Eddm_part 794e0265f4b1.02.98.03.c1.6c.00.00.00 3883396479b8.03.98.03.c4.20.01.2f.82
+R csduv 42 "$EE299NETS/pmos/pmos" 32 mgc_symbol 794e0265f4b0.02.98.03.c1.6c.00.00.00 3883396479b9.03.98.03.c4.20.00.2f.82
+R csduv 43 "$LIBNETS/vdd/part" 2 Eddm_part 774dc21deb38.02.98.03.c4.05.00.00.00 76d8bf2168d3.02.98.03.c4.09.00.00.00
+R csduv 44 "$LIBNETS/vdd/vdd" 2 mgc_symbol 774dc21deb37.02.98.03.c4.05.00.00.00 76d8bf216998.02.98.03.c4.09.00.00.00

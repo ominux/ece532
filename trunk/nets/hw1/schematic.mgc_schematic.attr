@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 510ed45d71db.03.98.03.c2.22.00.62.41 112 2 1 0
+V v 110 1 510ed7587ef3.03.98.03.c2.22.00.62.41
+F o 0 ""
+V v 111 1 510ed771e7f2.03.98.03.c2.22.00.62.41
+F o 0 ""
+V v 112 1 510ed7ccc7ec.03.98.03.c2.22.00.62.41
+F o 0 ""
+O 112
+R cspuv 0 "$JPO4NETS/hw1/schematic/sheet1" 111 mgc_sheet 510ed7ccad6b.03.98.03.c2.22.00.62.41 510ed45d7287.03.98.03.c2.22.00.62.41
+O 111
+R cspuv 0 "$JPO4NETS/hw1/schematic/sheet1" 110 mgc_sheet 510ed771d732.03.98.03.c2.22.00.62.41 510ed45d7287.03.98.03.c2.22.00.62.41
+O 110
+R cspuv 0 "$JPO4NETS/hw1/schematic/sheet1" 109 mgc_sheet 510ed7586e0f.03.98.03.c2.22.00.62.41 510ed45d7287.03.98.03.c2.22.00.62.41
