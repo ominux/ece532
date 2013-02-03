@@ -1,19 +1,19 @@
-A 5 u Eddm_part 510eaadb2c05.03.98.03.c2.22.00.1e.67 22 2 2 0
-V v 20 1 510ead388c2a.03.98.03.c2.22.00.1e.67
-F f 20 "part.part_20"
-V v 21 1 510ead49cb90.03.98.03.c2.22.00.1e.67
-F f 21 "part.part_21"
+A 5 u Eddm_part 510eaadb2c05.03.98.03.c2.22.00.1e.67 24 2 2 0
 V v 22 1 510eae854317.03.98.03.c2.22.00.1e.67
 F f 22 "part.part_22"
+V v 23 1 510ed5ad78e6.03.98.03.c2.22.00.62.41
+F f 23 "part.part_23"
+V v 24 1 510ed5ed40b3.03.98.03.c2.22.00.62.41
+F f 24 "part.part_24"
+O 24
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw1_pmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510eaadb1dd7.03.98.03.c2.22.00.1e.67
+R csduv 1 "$JPO4NETS/hw1_pmos/hw1_pmos" 22 mgc_symbol 510ed5ed408c.03.98.03.c2.22.00.62.41 510eaadb1d80.03.98.03.c2.22.00.1e.67
+O 23
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw1_pmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510eaadb1dd7.03.98.03.c2.22.00.1e.67
+R csduv 1 "$JPO4NETS/hw1_pmos/hw1_pmos" 21 mgc_symbol 510ed5ad78cb.03.98.03.c2.22.00.62.41 510eaadb1d80.03.98.03.c2.22.00.1e.67
 O 22
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/hw1_pmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510eaadb1dd7.03.98.03.c2.22.00.1e.67
 R csduv 1 "$JPO4NETS/hw1_pmos/hw1_pmos" 18 mgc_symbol 510eae8542f6.03.98.03.c2.22.00.1e.67 510eaadb1d80.03.98.03.c2.22.00.1e.67
-O 21
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw1_pmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510eaadb1dd7.03.98.03.c2.22.00.1e.67
-R csduv 1 "$JPO4NETS/hw1_pmos/hw1_pmos" 17 mgc_symbol 510ead49cb76.03.98.03.c2.22.00.1e.67 510eaadb1d80.03.98.03.c2.22.00.1e.67
-O 20
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw1_pmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510eaadb1dd7.03.98.03.c2.22.00.1e.67
-R csduv 1 "$JPO4NETS/hw1_pmos/hw1_pmos" 16 mgc_symbol 510ead388c0f.03.98.03.c2.22.00.1e.67 510eaadb1d80.03.98.03.c2.22.00.1e.67

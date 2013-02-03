@@ -1,19 +1,19 @@
-A 5 u Eddm_part 510858e4c59a.03.98.03.c2.20.00.43.6b 18 2 2 0
-V v 16 1 510eab60ae55.03.98.03.c2.22.00.1e.67
-F f 16 "part.part_16"
-V v 17 1 510eab6d2c7f.03.98.03.c2.22.00.1e.67
-F f 17 "part.part_17"
+A 5 u Eddm_part 510858e4c59a.03.98.03.c2.20.00.43.6b 20 2 2 0
 V v 18 1 510eabbb59b6.03.98.03.c2.22.00.1e.67
 F f 18 "part.part_18"
+V v 19 1 510ed5dea951.03.98.03.c2.22.00.62.41
+F f 19 "part.part_19"
+V v 20 1 510ed5e2eb46.03.98.03.c2.22.00.62.41
+F f 20 "part.part_20"
+O 20
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
+R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 18 mgc_symbol 510ed5e2eb3e.03.98.03.c2.22.00.62.41 510858e4c395.03.98.03.c2.20.00.43.6b
+O 19
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
+R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 17 mgc_symbol 510ed5dea937.03.98.03.c2.22.00.62.41 510858e4c395.03.98.03.c2.20.00.43.6b
 O 18
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
 R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 15 mgc_symbol 510eabbb5992.03.98.03.c2.22.00.1e.67 510858e4c395.03.98.03.c2.20.00.43.6b
-O 17
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
-R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 14 mgc_symbol 510eab6d2c65.03.98.03.c2.22.00.1e.67 510858e4c395.03.98.03.c2.20.00.43.6b
-O 16
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw1_nmos/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 510820e9033b.03.98.03.c2.1c.00.14.d3
-R csduv 1 "$JPO4NETS/hw1_nmos/hw1_nmos" 13 mgc_symbol 510eab60ae3b.03.98.03.c2.22.00.1e.67 510858e4c395.03.98.03.c2.20.00.43.6b
