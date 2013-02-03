@@ -1,8 +1,8 @@
 *HSpice File
 .OPTIONS ACCT POST PROBE
-.DC Vdsp 0 -5 0.5 SWEEP Vgp 0 -6 0.1
+.DC Vdsp 0 -5 0.5 SWEEP Vgp 0 -6 0.5
 .PROBE I(V0p)
-.DC Vdsn 0 6 0.5 SWEEP Vgn 0 6 0.1
+.DC Vdsn 0 5 0.5 SWEEP Vgn 0 6 0.5
 .PROBE I(V0n)
 .OP
 
