@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 510858e4c3f4.03.98.03.c2.20.00.43.6b 113 2 1 0
-V v 111 1 510ed666a457.03.98.03.c2.22.00.62.41
+A 5 u mgc_schematic 510858e4c3f4.03.98.03.c2.20.00.43.6b 117 2 1 0
+V v 115 1 511194c4c7fa.03.98.03.c2.20.00.11.6b
 F o 0 ""
-V v 112 1 510ed66d8bdd.03.98.03.c2.22.00.62.41
+V v 116 1 511194d88fd2.03.98.03.c2.20.00.11.6b
 F o 0 ""
-V v 113 1 510fe61e6b8b.03.98.03.c2.20.00.33.5b
+V v 117 1 511194d9db78.03.98.03.c2.20.00.11.6b
 F o 0 ""
-O 113
-R cspuv 0 "$JPO4NETS/hw1_nmos/schematic/sheet1" 112 mgc_sheet 510fe61e58b8.03.98.03.c2.20.00.33.5b 510820e90735.03.98.03.c2.1c.00.14.d3
-O 112
-R cspuv 0 "$JPO4NETS/hw1_nmos/schematic/sheet1" 111 mgc_sheet 510ed66d69f6.03.98.03.c2.22.00.62.41 510820e90735.03.98.03.c2.1c.00.14.d3
-O 111
-R cspuv 0 "$JPO4NETS/hw1_nmos/schematic/sheet1" 110 mgc_sheet 510ed6669394.03.98.03.c2.22.00.62.41 510820e90735.03.98.03.c2.1c.00.14.d3
+O 117
+R cspuv 0 "$JPO4NETS/hw1_nmos/schematic/sheet1" 116 mgc_sheet 511194d9c5cd.03.98.03.c2.20.00.11.6b 510820e90735.03.98.03.c2.1c.00.14.d3
+O 116
+R cspuv 0 "$JPO4NETS/hw1_nmos/schematic/sheet1" 115 mgc_sheet 511194d87cb2.03.98.03.c2.20.00.11.6b 510820e90735.03.98.03.c2.1c.00.14.d3
+O 115
+R cspuv 0 "$JPO4NETS/hw1_nmos/schematic/sheet1" 114 mgc_sheet 511194c4a8ef.03.98.03.c2.20.00.11.6b 510820e90735.03.98.03.c2.1c.00.14.d3
