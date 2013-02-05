@@ -1,10 +1,15 @@
 *HSpice File
-.OPTIONS ACCT POST PROBE
-.DC Vdsp 0 -5 0.5 SWEEP Vgp 0 -6 0.5
+*.OPTIONS ACCT POST PROBE
+.OPTIONS ACCT POST
+.DC Vdsp 0 -6 0.5 SWEEP Vgp 0 -6 0.1
 .PROBE I(V0p)
-.DC Vdsn 0 5 0.5 SWEEP Vgn 0 6 0.5
+.DC Vdsn 0 6 0.5 SWEEP Vgn 0 6 0.1
 .PROBE I(V0n)
 .OP
+
+*Gate sources 
+Vgp 3 VDD 0
+Vgn 5 GND 0
 
 *VDS supply
 Vdsp GND VDD 0
@@ -13,10 +18,6 @@ Vdsn 1 GND 0
 *voltage sources for current measurement
 V0p GND 2 0
 V0n 1 4 0
-
-*Gate sources 
-Vgp 3 VDD 0
-Vgn 5 GND 0
 
 * EENET (10/24/99) output file </home/dept0/grad/ese/mentor/nets/ece262/hw1/te *
 * mp_net> *

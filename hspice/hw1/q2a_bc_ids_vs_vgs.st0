@@ -1,9 +1,9 @@
 ***** HSPICE -- F-2011.09-SP2 32-BIT (Feb 27 2012) linux ******
- Input File: q2a_ids_vs_vgs.sp
+ Input File: q2a_bc_ids_vs_vgs.sp
  lic:
  lic: FLEXlm: v10.8
  lic: USER:   jpo4                 HOSTNAME: vlsi05.egr.duke.edu
- lic: HOSTID: 180373300946         PID:      18092
+ lic: HOSTID: 180373300946         PID:      18591
  lic: Using FLEXlm license file:
  lic: 27060@license01.egr.duke.edu
  lic: Checkout 1 hspice
@@ -42,8 +42,8 @@
        option runlvl
        option acct
        option post
- init: end read circuit files,  cpu clock=  6.00E-02 memory=    149 kb
- init: begin check errors,  cpu clock=  6.00E-02
+ init: end read circuit files,  cpu clock=  7.00E-02 memory=    149 kb
+ init: begin check errors,  cpu clock=  7.00E-02
  init: end check errors,  cpu clock=  7.00E-02 memory=    151 kb
  init: begin setup matrix, pivot=     0 cpu clock=  7.00E-02
        establish matrix -- done,  cpu clock=  7.00E-02 memory=    154 kb
@@ -51,109 +51,109 @@
  init: end setup matrix,  cpu clock=  7.00E-02 memory=    167 kb
  sweep: voltage         voltage1         begin, #sweeps =  13
  voltage: vdsp            =   -1.00E-03
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc1    begin, #sweeps=  61 cpu clock=  7.00E-02
  sweep: dc dc1    end,  cpu clock=  7.00E-02 memory=    167 kb
  voltage: vdsp            =   -5.01E-01
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc2    begin, #sweeps=  61 cpu clock=  7.00E-02
  sweep: dc dc2    end,  cpu clock=  7.00E-02 memory=    167 kb
  voltage: vdsp            =   -1.00E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc3    begin, #sweeps=  61 cpu clock=  7.00E-02
- sweep: dc dc3    end,  cpu clock=  7.00E-02 memory=    167 kb
+ sweep: dc dc3    end,  cpu clock=  8.00E-02 memory=    167 kb
  voltage: vdsp            =   -1.50E+00
- output: q2a_ids_vs_vgs.sw0
- sweep: dc dc4    begin, #sweeps=  61 cpu clock=  7.00E-02
+ output: q2a_bc_ids_vs_vgs.sw0
+ sweep: dc dc4    begin, #sweeps=  61 cpu clock=  8.00E-02
  sweep: dc dc4    end,  cpu clock=  8.00E-02 memory=    167 kb
  voltage: vdsp            =   -2.00E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc5    begin, #sweeps=  61 cpu clock=  8.00E-02
  sweep: dc dc5    end,  cpu clock=  8.00E-02 memory=    167 kb
  voltage: vdsp            =   -2.50E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc6    begin, #sweeps=  61 cpu clock=  8.00E-02
  sweep: dc dc6    end,  cpu clock=  8.00E-02 memory=    167 kb
  voltage: vdsp            =   -3.00E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc7    begin, #sweeps=  61 cpu clock=  8.00E-02
  sweep: dc dc7    end,  cpu clock=  8.00E-02 memory=    167 kb
  voltage: vdsp            =   -3.50E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc8    begin, #sweeps=  61 cpu clock=  8.00E-02
- sweep: dc dc8    end,  cpu clock=  8.00E-02 memory=    167 kb
+ sweep: dc dc8    end,  cpu clock=  9.00E-02 memory=    167 kb
  voltage: vdsp            =   -4.00E+00
- output: q2a_ids_vs_vgs.sw0
- sweep: dc dc9    begin, #sweeps=  61 cpu clock=  8.00E-02
+ output: q2a_bc_ids_vs_vgs.sw0
+ sweep: dc dc9    begin, #sweeps=  61 cpu clock=  9.00E-02
  sweep: dc dc9    end,  cpu clock=  9.00E-02 memory=    167 kb
  voltage: vdsp            =   -4.50E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc10   begin, #sweeps=  61 cpu clock=  9.00E-02
  sweep: dc dc10   end,  cpu clock=  9.00E-02 memory=    167 kb
  voltage: vdsp            =   -5.00E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc11   begin, #sweeps=  61 cpu clock=  9.00E-02
  sweep: dc dc11   end,  cpu clock=  9.00E-02 memory=    167 kb
  voltage: vdsp            =   -5.50E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc12   begin, #sweeps=  61 cpu clock=  9.00E-02
  sweep: dc dc12   end,  cpu clock=  9.00E-02 memory=    167 kb
  voltage: vdsp            =   -6.00E+00
- output: q2a_ids_vs_vgs.sw0
+ output: q2a_bc_ids_vs_vgs.sw0
  sweep: dc dc13   begin, #sweeps=  61 cpu clock=  9.00E-02
  sweep: dc dc13   end,  cpu clock=  9.00E-02 memory=    167 kb
  sweep: voltage         voltage         1 end
  sweep: voltage         voltage1         begin, #sweeps =  13
  voltage: vdsn            =    1.00E-03
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc1    begin, #sweeps=  61 cpu clock=  9.00E-02
- sweep: dc dc1    end,  cpu clock=  1.00E-01 memory=    167 kb
+ sweep: dc dc1    end,  cpu clock=  9.00E-02 memory=    167 kb
  voltage: vdsn            =    5.01E-01
- output: q2a_ids_vs_vgs.sw1
- sweep: dc dc2    begin, #sweeps=  61 cpu clock=  1.00E-01
- sweep: dc dc2    end,  cpu clock=  1.00E-01 memory=    167 kb
+ output: q2a_bc_ids_vs_vgs.sw1
+ sweep: dc dc2    begin, #sweeps=  61 cpu clock=  9.00E-02
+ sweep: dc dc2    end,  cpu clock=  9.00E-02 memory=    167 kb
  voltage: vdsn            =    1.00E+00
- output: q2a_ids_vs_vgs.sw1
- sweep: dc dc3    begin, #sweeps=  61 cpu clock=  1.00E-01
+ output: q2a_bc_ids_vs_vgs.sw1
+ sweep: dc dc3    begin, #sweeps=  61 cpu clock=  9.00E-02
  sweep: dc dc3    end,  cpu clock=  1.00E-01 memory=    167 kb
  voltage: vdsn            =    1.50E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc4    begin, #sweeps=  61 cpu clock=  1.00E-01
  sweep: dc dc4    end,  cpu clock=  1.00E-01 memory=    167 kb
  voltage: vdsn            =    2.00E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc5    begin, #sweeps=  61 cpu clock=  1.00E-01
  sweep: dc dc5    end,  cpu clock=  1.00E-01 memory=    167 kb
  voltage: vdsn            =    2.50E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc6    begin, #sweeps=  61 cpu clock=  1.00E-01
- sweep: dc dc6    end,  cpu clock=  1.10E-01 memory=    167 kb
+ sweep: dc dc6    end,  cpu clock=  1.00E-01 memory=    167 kb
  voltage: vdsn            =    3.00E+00
- output: q2a_ids_vs_vgs.sw1
- sweep: dc dc7    begin, #sweeps=  61 cpu clock=  1.10E-01
+ output: q2a_bc_ids_vs_vgs.sw1
+ sweep: dc dc7    begin, #sweeps=  61 cpu clock=  1.00E-01
  sweep: dc dc7    end,  cpu clock=  1.10E-01 memory=    167 kb
  voltage: vdsn            =    3.50E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc8    begin, #sweeps=  61 cpu clock=  1.10E-01
  sweep: dc dc8    end,  cpu clock=  1.10E-01 memory=    167 kb
  voltage: vdsn            =    4.00E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc9    begin, #sweeps=  61 cpu clock=  1.10E-01
  sweep: dc dc9    end,  cpu clock=  1.10E-01 memory=    167 kb
  voltage: vdsn            =    4.50E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc10   begin, #sweeps=  61 cpu clock=  1.10E-01
  sweep: dc dc10   end,  cpu clock=  1.10E-01 memory=    167 kb
  voltage: vdsn            =    5.00E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc11   begin, #sweeps=  61 cpu clock=  1.10E-01
  sweep: dc dc11   end,  cpu clock=  1.20E-01 memory=    167 kb
  voltage: vdsn            =    5.50E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc12   begin, #sweeps=  61 cpu clock=  1.20E-01
  sweep: dc dc12   end,  cpu clock=  1.20E-01 memory=    167 kb
  voltage: vdsn            =    6.00E+00
- output: q2a_ids_vs_vgs.sw1
+ output: q2a_bc_ids_vs_vgs.sw1
  sweep: dc dc13   begin, #sweeps=  61 cpu clock=  1.20E-01
  sweep: dc dc13   end,  cpu clock=  1.20E-01 memory=    167 kb
  sweep: voltage         voltage         1 end
