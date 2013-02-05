@@ -1,8 +1,8 @@
 * "simulator" "HSPICE" 
 * "version" "F-2011.09-SP2 32-BIT"
 * "format" "HSP"
-* "rundate" "00:42:34 02/05/2013 "
-* "netlist" "q2a_ids_vs_vgs.sp "
+* "rundate" "00:46:22 02/05/2013 "
+* "netlist" "q2a_bc_ids_vs_vgs.sp "
 * "runtitle" "*hspice file"
 * time =    0.            
 * temperature =   25.0000        
@@ -10,10 +10,10 @@
 .option 
 + gmindc=   1.0000p       
 .nodeset
-+ 1 =   4.0000        
++ 1 =   0.            
 + 2 =   0.            
-+ 3 =   4.0000        
-+ 4 =   4.0000        
++ 3 =   0.            
++ 4 =   0.            
 + 5 =   0.            
-+ vdd =   4.0000        
++ vdd =   0.            
 ***   END: Saved Operating Point ***                     
