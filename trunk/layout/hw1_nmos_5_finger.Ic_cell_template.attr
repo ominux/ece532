@@ -1,0 +1,31 @@
+A 5 u Ic_cell_template 5111aaefc5c6.03.98.03.c2.20.00.3a.4b 47 4 22 0
+V v 43 1 5111af44e270.03.98.03.c2.20.00.3a.4b
+F f 43 "hw1_nmos_5_finger.iccel_43"
+V v 44 1 5111afa6a4af.03.98.03.c2.20.00.3a.4b
+F f 44 "hw1_nmos_5_finger.iccel_44"
+V v 45 1 5111b0075461.03.98.03.c2.20.00.3a.4b
+F f 45 "hw1_nmos_5_finger.iccel_45"
+V v 46 1 5111b010ced1.03.98.03.c2.20.00.3a.4b
+F f 46 "hw1_nmos_5_finger.iccel_46"
+V v 47 1 5111b0ed0220.03.98.03.c2.20.00.3a.4b
+F f 47 "hw1_nmos_5_finger.iccel_47"
+O 47
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 21 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 46
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 20 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+O 45
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 20 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+O 44
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 20 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+O 43
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 20 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
