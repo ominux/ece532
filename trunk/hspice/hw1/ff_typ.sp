@@ -1,26 +1,26 @@
 *HSpice File
 *.OPTIONS ACCT POST PROBE
 .OPTIONS ACCT POST
-.DC Vdsp 0 -6 0.5 SWEEP Vgp 0 -6 0.1
-*.PROBE I(Vdsp)
-.DC Vdsn 0 6 0.5 SWEEP Vgn 0 6 0.1
-.PROBE I(Vdsn)
+*.DC Vdsp 0 -6 0.5 SWEEP Vgp 0.01 -6.01 0.1
+.DC Vgp 0 -6 0.1 Vdsp -0.001 -6.001 0.5
+*.DC Vdsn 0 6 0.5 SWEEP Vgn 0.01 6.01 0.1
+.DC Vgn 0 6 0.1 Vdsn 0.001 6.001 0.5
 .OP
 
 *Gate sources 
-Vgp 3 VDD 0
+Vgp 3 VDD -6
 Vgn 5 GND 6
 
 *VDS supply
-Vdsp GND VDD 0
+Vdsp GND VDD -5
 Vdsn 1 GND 5
 
 *voltage sources for current measurement
 V0p GND 2 0
 V0n 1 4 0
 
-XTOCELL GND 4 5 hw1_nmos_5_finger
-XTOCELL2 GND 2 VDD hw1_pmos_5_finger
+X1 GND 4 5 hw1_nmos_5_finger
+X2 VDD 2 3 hw1_pmos_5_finger
 
 *XTOCELL VDD GND 3 5 2 4 VDD GND q_2a
 
@@ -36,16 +36,16 @@ m3 gnd NG ND NMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
 m4 ND NG gnd NMOS l=1u w=10u ad=34p as=10.5p pd=26.8u ps=12.1u nrd=0.07 nrs=0.07
 .ends * hw1_nmos_5_finger *
 
-.subckt hw1_pmos_5_finger gnd PD PG
+.subckt hw1_pmos_5_finger VDD PD PG
 * devices:
-m0 PD PG gnd PMOS l=1u w=10u ad=10.5p as=37p pd=12.1u ps=27.4u nrd=0.07 nrs=0.07
-m1 gnd PG PD PMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
+m0 PD PG VDD PMOS l=1u w=10u ad=10.5p as=37p pd=12.1u ps=27.4u nrd=0.07 nrs=0.07
+m1 VDD PG PD PMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
 + nrs=0.07
-m2 PD PG gnd PMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
+m2 PD PG VDD PMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
 + nrs=0.07
-m3 gnd PG PD PMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
+m3 VDD PG PD PMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
 + nrs=0.07
-m4 PD PG gnd PMOS l=1u w=10u ad=34p as=10.5p pd=26.8u ps=12.1u nrd=0.07 nrs=0.07
+m4 PD PG VDD PMOS l=1u w=10u ad=34p as=10.5p pd=26.8u ps=12.1u nrd=0.07 nrs=0.07
 .ends * hw1_pmos_5_finger *
 
 
