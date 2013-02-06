@@ -1,0 +1,13 @@
+* File: /home/software/ece532/jpo4/mentor/nmos5.  Creation time: Wed Feb  6 16:17:52 2013
+
+.subckt hw1_nmos_5_finger gnd ND NG
+* devices:
+m0 ND NG gnd NMOS l=1u w=10u ad=10.5p as=37p pd=12.1u ps=27.4u nrd=0.07 nrs=0.07
+m1 gnd NG ND NMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
++ nrs=0.07
+m2 ND NG gnd NMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
++ nrs=0.07
+m3 gnd NG ND NMOS l=1u w=10u ad=10.5p as=10.5p pd=12.1u ps=12.1u nrd=0.07
++ nrs=0.07
+m4 ND NG gnd NMOS l=1u w=10u ad=34p as=10.5p pd=26.8u ps=12.1u nrd=0.07 nrs=0.07
+.ends hw1_nmos_5_finger
