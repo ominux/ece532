@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 51184fde80bb.03.98.03.c2.1e.00.13.82 4 2 1 0
+V v 2 1 42678448e798.03.98.03.c1.8b.00.05.da
+F f 2 "ece262amp.smbl_2"
+V v 3 1 42737db0b54e.03.98.03.c1.8b.00.33.48
+F f 3 "ece262amp.smbl_3"
+V v 4 1 4291256a0562.03.98.03.c1.8b.00.29.45
+F f 4 "ece262amp.smbl_4"
+O 4
+R csduv 0 "$JPO4NETS/ece262amp/part" 5 Eddm_part 4291256a060c.03.98.03.c1.8b.00.29.45 51184fde8100.03.98.03.c2.1e.00.13.82
+O 3
+R csduv 0 "$JPO4NETS/ece262amp/part" 4 Eddm_part 42737db0b607.03.98.03.c1.8b.00.33.48 51184fde8100.03.98.03.c2.1e.00.13.82
+O 2
+R csduv 0 "$JPO4NETS/ece262amp/part" 3 Eddm_part 426783317e61.03.98.03.c1.8b.00.06.26 51184fde8100.03.98.03.c2.1e.00.13.82
