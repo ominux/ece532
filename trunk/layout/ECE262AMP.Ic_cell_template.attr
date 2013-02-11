@@ -1,0 +1,56 @@
+A 5 u Ic_cell_template 5118500aa67c.03.98.03.c2.1e.00.11.2b 182 4 57 0
+V v 178 1 441ff27432ab.03.98.03.c1.8b.00.52.2c
+F f 178 "ECE262AMP.iccel_178"
+V v 179 1 4420164be742.03.98.03.c1.8b.00.52.2c
+F f 179 "ECE262AMP.iccel_179"
+V v 180 1 44201bbfa36b.03.98.03.c1.8b.00.52.2c
+F f 180 "ECE262AMP.iccel_180"
+V v 181 1 47b740df5adb.03.98.03.11.33.00.4e.54
+F f 181 "ECE262AMP.iccel_181"
+V v 182 1 47b7412c96d3.03.98.03.11.33.00.4e.54
+F f 182 "ECE262AMP.iccel_182"
+O 182
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 56 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 181
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 4 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 54 "$IYADLAY/ACONE" 17 Ic_cell_template 38a9d24585ef.03.98.03.c4.01.00.10.2f 383ed32d60fb.03.98.03.c4.0a.00.0f.d1
+R csduv 55 "$IYADLAY/ACONP" 151 Ic_cell_template 3b8d6a9dbbe9.03.98.03.c4.03.00.1b.98 3b55d8af63c3.03.98.03.c4.1b.00.01.8f
+R csdni 56 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 180
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 4 "$EE299LAY/ACONA" 16 Ic_cell_template 3f4a3f678248.03.98.03.c1.8b.00.33.98 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 6 "$EE299LAY/ACONP" 10 Ic_cell_template 38a9d2a72110.03.98.03.c4.01.00.10.2f 3836b9433af1.03.98.03.c4.0a.00.05.71
+R csduv 9 "$EE299LAY/ACONV" 11 Ic_cell_template 38a9d394bed8.03.98.03.c4.01.00.10.2f 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 21 "$NEUROLAY/G_RING_P" 5 Ic_cell_template 441f7096ce24.03.98.03.c1.8b.00.48.08 38b9a44f0610.03.98.03.c4.04.00.3b.ef
+R csduv 22 "$NEUROLAY/G_RING" 14 Ic_cell_template 441f7096a80c.03.98.03.c1.8b.00.48.08 38b9a43d9680.03.98.03.c4.04.00.3b.ef
+R csduv 39 "$EE299LAY/ACONV2" 12 Ic_cell_template 38a9d411d21d.03.98.03.c4.01.00.10.2f 3836c3ad3745.03.98.03.c4.0a.00.05.71
+R csduv 40 "$ULTRALAY/2pF_cap" 17 Ic_cell_template 441f7096ef87.03.98.03.c1.8b.00.48.08 4273657fba66.03.98.03.c1.8b.00.31.c7
+R csduv 43 "$ULTRALAY/ACONE_IYAD" 21 Ic_cell_template 441f70968529.03.98.03.c1.8b.00.48.08 3b9950d2b99d.03.98.03.c1.03.00.50.ba
+R csduv 44 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+R csdni 53 "$MGC_HEP/technology/ic/ami.5um.rules.3term.nosub" 1 Mgc_file
+O 179
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 4 "$EE299LAY/ACONA" 16 Ic_cell_template 3f4a3f678248.03.98.03.c1.8b.00.33.98 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 6 "$EE299LAY/ACONP" 10 Ic_cell_template 38a9d2a72110.03.98.03.c4.01.00.10.2f 3836b9433af1.03.98.03.c4.0a.00.05.71
+R csduv 9 "$EE299LAY/ACONV" 11 Ic_cell_template 38a9d394bed8.03.98.03.c4.01.00.10.2f 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 21 "$NEUROLAY/G_RING_P" 5 Ic_cell_template 441f7096ce24.03.98.03.c1.8b.00.48.08 38b9a44f0610.03.98.03.c4.04.00.3b.ef
+R csduv 22 "$NEUROLAY/G_RING" 14 Ic_cell_template 441f7096a80c.03.98.03.c1.8b.00.48.08 38b9a43d9680.03.98.03.c4.04.00.3b.ef
+R csduv 39 "$EE299LAY/ACONV2" 12 Ic_cell_template 38a9d411d21d.03.98.03.c4.01.00.10.2f 3836c3ad3745.03.98.03.c4.0a.00.05.71
+R csduv 40 "$ULTRALAY/2pF_cap" 17 Ic_cell_template 441f7096ef87.03.98.03.c1.8b.00.48.08 4273657fba66.03.98.03.c1.8b.00.31.c7
+R csduv 43 "$ULTRALAY/ACONE_IYAD" 21 Ic_cell_template 441f70968529.03.98.03.c1.8b.00.48.08 3b9950d2b99d.03.98.03.c1.03.00.50.ba
+R csduv 44 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+R csdni 53 "$MGC_HEP/technology/ic/ami.5um.rules.3term.nosub" 1 Mgc_file
+O 178
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 4 "$EE299LAY/ACONA" 16 Ic_cell_template 3f4a3f678248.03.98.03.c1.8b.00.33.98 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 6 "$EE299LAY/ACONP" 10 Ic_cell_template 38a9d2a72110.03.98.03.c4.01.00.10.2f 3836b9433af1.03.98.03.c4.0a.00.05.71
+R csduv 9 "$EE299LAY/ACONV" 11 Ic_cell_template 38a9d394bed8.03.98.03.c4.01.00.10.2f 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 21 "$NEUROLAY/G_RING_P" 5 Ic_cell_template 441f7096ce24.03.98.03.c1.8b.00.48.08 38b9a44f0610.03.98.03.c4.04.00.3b.ef
+R csduv 22 "$NEUROLAY/G_RING" 14 Ic_cell_template 441f7096a80c.03.98.03.c1.8b.00.48.08 38b9a43d9680.03.98.03.c4.04.00.3b.ef
+R csduv 39 "$EE299LAY/ACONV2" 12 Ic_cell_template 38a9d411d21d.03.98.03.c4.01.00.10.2f 3836c3ad3745.03.98.03.c4.0a.00.05.71
+R csduv 40 "$ULTRALAY/2pF_cap" 17 Ic_cell_template 441f7096ef87.03.98.03.c1.8b.00.48.08 4273657fba66.03.98.03.c1.8b.00.31.c7
+R csduv 43 "$ULTRALAY/ACONE_IYAD" 21 Ic_cell_template 441f70968529.03.98.03.c1.8b.00.48.08 3b9950d2b99d.03.98.03.c1.03.00.50.ba
+R csduv 44 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+R csdni 52 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
