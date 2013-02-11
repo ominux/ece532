@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 511858cda956.03.98.03.c2.1e.00.22.e3 76 2 1 0
+V v 74 1 51185926b319.03.98.03.c2.1e.00.22.e3
+F o 0 ""
+V v 75 1 5118597b81d6.03.98.03.c2.1e.00.22.e3
+F o 0 ""
+V v 76 1 51185985140d.03.98.03.c2.1e.00.22.e3
+F o 0 ""
+O 76
+R cspuv 0 "$JPO4NETS/resistor_test/schematic/sheet1" 75 mgc_sheet 51185984f1c7.03.98.03.c2.1e.00.22.e3 511858cdaa10.03.98.03.c2.1e.00.22.e3
+O 75
+R cspuv 0 "$JPO4NETS/resistor_test/schematic/sheet1" 74 mgc_sheet 5118597b6979.03.98.03.c2.1e.00.22.e3 511858cdaa10.03.98.03.c2.1e.00.22.e3
+O 74
+R cspuv 0 "$JPO4NETS/resistor_test/schematic/sheet1" 73 mgc_sheet 511859269c5c.03.98.03.c2.1e.00.22.e3 511858cdaa10.03.98.03.c2.1e.00.22.e3

@@ -1,0 +1,19 @@
+A 5 u Eddm_part 511858cdb803.03.98.03.c2.1e.00.22.e3 14 2 2 0
+V v 12 1 511858d2c490.03.98.03.c2.1e.00.24.7d
+F f 12 "part.part_12"
+V v 13 1 5118597565ab.03.98.03.c2.1e.00.22.e3
+F f 13 "part.part_13"
+V v 14 1 5118597d47bc.03.98.03.c2.1e.00.22.e3
+F f 14 "part.part_14"
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/resistor_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511858cda956.03.98.03.c2.1e.00.22.e3
+R csduv 1 "$JPO4NETS/resistor_test/resistor_test" 9 mgc_symbol 5118597d4791.03.98.03.c2.1e.00.22.e3 511858cda8f8.03.98.03.c2.1e.00.22.e3
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/resistor_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511858cda956.03.98.03.c2.1e.00.22.e3
+R csduv 1 "$JPO4NETS/resistor_test/resistor_test" 8 mgc_symbol 511859756590.03.98.03.c2.1e.00.22.e3 511858cda8f8.03.98.03.c2.1e.00.22.e3
+O 12
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/resistor_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511858cda956.03.98.03.c2.1e.00.22.e3
+R csduv 1 "$JPO4NETS/resistor_test/resistor_test" 7 mgc_symbol 4d40159863e1.03.98.03.11.33.00.35.96 511858cda8f8.03.98.03.c2.1e.00.22.e3
