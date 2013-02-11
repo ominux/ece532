@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 511858cda8f8.03.98.03.c2.1e.00.22.e3 9 2 1 0
+V v 7 1 4d40159863e1.03.98.03.11.33.00.35.96
+F f 7 "resistor_test.smbl_7"
+V v 8 1 511859756590.03.98.03.c2.1e.00.22.e3
+F f 8 "resistor_test.smbl_8"
+V v 9 1 5118597d4791.03.98.03.c2.1e.00.22.e3
+F f 9 "resistor_test.smbl_9"
+O 9
+R csduv 0 "$JPO4NETS/resistor_test/part" 14 Eddm_part 5118597d47bc.03.98.03.c2.1e.00.22.e3 511858cdb803.03.98.03.c2.1e.00.22.e3
+O 8
+R csduv 0 "$JPO4NETS/resistor_test/part" 13 Eddm_part 5118597565ab.03.98.03.c2.1e.00.22.e3 511858cdb803.03.98.03.c2.1e.00.22.e3
+O 7
+R csduv 0 "$JPO4NETS/resistor_test/part" 11 Eddm_part 4d40159863fa.03.98.03.11.33.00.35.96 511858cdb803.03.98.03.c2.1e.00.22.e3
