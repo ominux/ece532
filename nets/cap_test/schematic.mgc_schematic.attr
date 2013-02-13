@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 5118589d9a68.03.98.03.c2.1e.00.22.e3 77 2 1 0
-V v 75 1 51185404ac39.03.98.03.c2.1e.00.1b.00
+A 5 u mgc_schematic 5118589d9a68.03.98.03.c2.1e.00.22.e3 89 2 1 0
+V v 87 1 511add5bb5ca.03.98.03.c2.1c.00.18.80
 F o 0 ""
-V v 76 1 511854835610.03.98.03.c2.1e.00.1b.00
+V v 88 1 511add86d544.03.98.03.c2.1c.00.18.80
 F o 0 ""
-V v 77 1 511858ddc224.03.98.03.c2.1e.00.22.e3
+V v 89 1 511add8895cc.03.98.03.c2.1c.00.18.80
 F o 0 ""
-O 77
-R cspuv 0 "$JPO4NETS/cap_test/schematic/sheet1" 76 mgc_sheet 511858ddae98.03.98.03.c2.1e.00.22.e3 5118589d9b17.03.98.03.c2.1e.00.22.e3
-O 76
-R cspuv 0 "$JPO4NETS/cap_test/schematic/sheet1" 75 mgc_sheet 5118548342f5.03.98.03.c2.1e.00.1b.00 5118589d9b17.03.98.03.c2.1e.00.22.e3
-O 75
-R cspuv 0 "$JPO4NETS/cap_test/schematic/sheet1" 74 mgc_sheet 511854049611.03.98.03.c2.1e.00.1b.00 5118589d9b17.03.98.03.c2.1e.00.22.e3
+O 89
+R cspuv 0 "$JPO4NETS/cap_test/schematic/sheet1" 88 mgc_sheet 511add8883c3.03.98.03.c2.1c.00.18.80 5118589d9b17.03.98.03.c2.1e.00.22.e3
+O 88
+R cspuv 0 "$JPO4NETS/cap_test/schematic/sheet1" 87 mgc_sheet 511add86be55.03.98.03.c2.1c.00.18.80 5118589d9b17.03.98.03.c2.1e.00.22.e3
+O 87
+R cspuv 0 "$JPO4NETS/cap_test/schematic/sheet1" 86 mgc_sheet 511add5ba535.03.98.03.c2.1c.00.18.80 5118589d9b17.03.98.03.c2.1e.00.22.e3
