@@ -1,40 +1,34 @@
-A 5 u mgc_sheet 5118589d9b17.03.98.03.c2.1e.00.22.e3 76 2 31 0
-V v 74 2 511854049611.03.98.03.c2.1e.00.1b.00
-F f 74 "sheet1.ssht_74"
-F f 74 "sheet1.sgfx_74"
-V v 75 2 5118548342f5.03.98.03.c2.1e.00.1b.00
-F f 75 "sheet1.ssht_75"
-F f 75 "sheet1.sgfx_75"
-V v 76 2 511858ddae98.03.98.03.c2.1e.00.22.e3
-F f 76 "sheet1.ssht_76"
-F f 76 "sheet1.sgfx_76"
-O 76
+A 5 u mgc_sheet 5118589d9b17.03.98.03.c2.1e.00.22.e3 88 2 31 0
+V v 86 2 511add5ba535.03.98.03.c2.1c.00.18.80
+F f 86 "sheet1.ssht_86"
+F f 86 "sheet1.sgfx_86"
+V v 87 2 511add86be55.03.98.03.c2.1c.00.18.80
+F f 87 "sheet1.ssht_87"
+F f 87 "sheet1.sgfx_87"
+V v 88 2 511add8883c3.03.98.03.c2.1c.00.18.80
+F f 88 "sheet1.ssht_88"
+F f 88 "sheet1.sgfx_88"
+O 88
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/cap_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5118589d9a68.03.98.03.c2.1e.00.22.e3
 P "eddm__refer_state" "eddm__refer_floating"
 R csduv 5 "$LIBNETS/cap/part" 14 Eddm_part 77e3489e6cfc.02.98.03.c4.05.00.00.00 76d8bf20f8e3.02.98.03.c4.09.00.00.00
 R csduv 6 "$LIBNETS/cap/cap" 15 mgc_symbol 77e3489e67ef.02.98.03.c4.05.00.00.00 76d8bf20f9a7.02.98.03.c4.09.00.00.00
-R csduv 25 "$LIBNETS/gnd/part" 6 Eddm_part 774dc076bde3.02.98.03.c4.05.00.00.00 76d8bf20ffee.02.98.03.c4.09.00.00.00
-R csduv 26 "$LIBNETS/gnd/gnd" 7 mgc_symbol 774dc076b83d.02.98.03.c4.05.00.00.00 76d8bf20ffef.02.98.03.c4.09.00.00.00
 R csduv 29 "$MGC_IC_GENERIC_LIB/portbi/part" 1 Eddm_part 35787ef1e080.03.86.56.31.87.00.12.b0 3890e8888efb.03.86.56.31.70.02.3a.eb
 R csduv 30 "$MGC_IC_GENERIC_LIB/portbi/portbi" 1 mgc_symbol 35787ef72425.03.86.56.31.87.00.12.b0 3890e8888efb.03.86.56.31.70.01.3a.eb
-O 75
+O 87
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/cap_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5118589d9a68.03.98.03.c2.1e.00.22.e3
 P "eddm__refer_state" "eddm__refer_floating"
 R csduv 5 "$LIBNETS/cap/part" 14 Eddm_part 77e3489e6cfc.02.98.03.c4.05.00.00.00 76d8bf20f8e3.02.98.03.c4.09.00.00.00
 R csduv 6 "$LIBNETS/cap/cap" 15 mgc_symbol 77e3489e67ef.02.98.03.c4.05.00.00.00 76d8bf20f9a7.02.98.03.c4.09.00.00.00
-R csduv 25 "$LIBNETS/gnd/part" 6 Eddm_part 774dc076bde3.02.98.03.c4.05.00.00.00 76d8bf20ffee.02.98.03.c4.09.00.00.00
-R csduv 26 "$LIBNETS/gnd/gnd" 7 mgc_symbol 774dc076b83d.02.98.03.c4.05.00.00.00 76d8bf20ffef.02.98.03.c4.09.00.00.00
 R csduv 29 "$MGC_IC_GENERIC_LIB/portbi/part" 1 Eddm_part 35787ef1e080.03.86.56.31.87.00.12.b0 3890e8888efb.03.86.56.31.70.02.3a.eb
 R csduv 30 "$MGC_IC_GENERIC_LIB/portbi/portbi" 1 mgc_symbol 35787ef72425.03.86.56.31.87.00.12.b0 3890e8888efb.03.86.56.31.70.01.3a.eb
-O 74
+O 86
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/cap_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5118589d9a68.03.98.03.c2.1e.00.22.e3
 P "eddm__refer_state" "eddm__refer_floating"
 R csduv 5 "$LIBNETS/cap/part" 14 Eddm_part 77e3489e6cfc.02.98.03.c4.05.00.00.00 76d8bf20f8e3.02.98.03.c4.09.00.00.00
 R csduv 6 "$LIBNETS/cap/cap" 15 mgc_symbol 77e3489e67ef.02.98.03.c4.05.00.00.00 76d8bf20f9a7.02.98.03.c4.09.00.00.00
-R csduv 25 "$LIBNETS/gnd/part" 6 Eddm_part 774dc076bde3.02.98.03.c4.05.00.00.00 76d8bf20ffee.02.98.03.c4.09.00.00.00
-R csduv 26 "$LIBNETS/gnd/gnd" 7 mgc_symbol 774dc076b83d.02.98.03.c4.05.00.00.00 76d8bf20ffef.02.98.03.c4.09.00.00.00
 R csduv 29 "$MGC_IC_GENERIC_LIB/portbi/part" 1 Eddm_part 35787ef1e080.03.86.56.31.87.00.12.b0 3890e8888efb.03.86.56.31.70.02.3a.eb
 R csduv 30 "$MGC_IC_GENERIC_LIB/portbi/portbi" 1 mgc_symbol 35787ef72425.03.86.56.31.87.00.12.b0 3890e8888efb.03.86.56.31.70.01.3a.eb
