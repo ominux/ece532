@@ -1,6 +1,4 @@
-A 5 u Ic_cell_template 511859d1ca08.03.98.03.c2.1e.00.23.10 57 4 37 0
-V v 53 1 511e9758bf2a.03.98.03.c2.20.00.1c.33
-F f 53 "cap_test.iccel_53"
+A 5 u Ic_cell_template 511859d1ca08.03.98.03.c2.1e.00.23.10 58 4 39 0
 V v 54 1 511e977f8701.03.98.03.c2.20.00.1c.33
 F f 54 "cap_test.iccel_54"
 V v 55 1 511e97dfe810.03.98.03.c2.20.00.1c.33
@@ -9,6 +7,12 @@ V v 56 1 511e9805eaa8.03.98.03.c2.20.00.1c.33
 F f 56 "cap_test.iccel_56"
 V v 57 1 511e98415286.03.98.03.c2.20.00.1c.33
 F f 57 "cap_test.iccel_57"
+V v 58 1 511e9902c844.03.98.03.c2.20.00.1e.24
+F f 58 "cap_test.iccel_58"
+O 58
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 37 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 511e98fe1d11.03.98.03.c2.20.01.1e.24 511e98fe1d11.03.98.03.c2.20.00.1e.24
+R csdni 38 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
 O 57
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
 R csdni 36 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
@@ -19,11 +23,6 @@ O 55
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
 R csdni 35 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
 O 54
-R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
-R csduv 33 "$EE299LAY/ACONP" 12 Ic_cell_template 44fd655712c7.03.98.03.c1.8b.00.3e.d4 3836b9433af1.03.98.03.c4.0a.00.05.71
-R csduv 34 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
-R csdni 35 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
-O 53
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
 R csduv 33 "$EE299LAY/ACONP" 12 Ic_cell_template 44fd655712c7.03.98.03.c1.8b.00.3e.d4 3836b9433af1.03.98.03.c4.0a.00.05.71
 R csduv 34 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
