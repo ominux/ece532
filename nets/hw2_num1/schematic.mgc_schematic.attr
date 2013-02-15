@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 511ae06dd874.03.98.03.c2.1c.00.39.2f 95 2 1 0
+V v 93 1 511e9467c121.03.98.03.c2.20.00.18.57
+F o 0 ""
+V v 94 1 511e9468d95c.03.98.03.c2.20.00.18.57
+F o 0 ""
+V v 95 1 511e962a0db9.03.98.03.c2.20.00.18.57
+F o 0 ""
+O 95
+R cspuv 0 "$JPO4NETS/hw2_num1/schematic/sheet1" 94 mgc_sheet 511e9629ece5.03.98.03.c2.20.00.18.57 511ae06dd8d4.03.98.03.c2.1c.00.39.2f
+O 94
+R cspuv 0 "$JPO4NETS/hw2_num1/schematic/sheet1" 93 mgc_sheet 511e9468c64e.03.98.03.c2.20.00.18.57 511ae06dd8d4.03.98.03.c2.1c.00.39.2f
+O 93
+R cspuv 0 "$JPO4NETS/hw2_num1/schematic/sheet1" 92 mgc_sheet 511e9467a8a2.03.98.03.c2.20.00.18.57 511ae06dd8d4.03.98.03.c2.1c.00.39.2f

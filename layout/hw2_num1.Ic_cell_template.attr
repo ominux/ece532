@@ -1,41 +1,30 @@
-A 5 u Ic_cell_template 511adeb2c34e.03.98.03.c2.1c.00.18.af 54 4 37 0
-V v 50 1 511ade2b1e63.03.98.03.c2.1c.00.18.af
-F f 50 "hw2_num1.iccel_50"
-V v 51 1 511ae13c02ef.03.98.03.c2.1c.00.3a.0a
-F f 51 "hw2_num1.iccel_51"
-V v 52 1 511ae1dbc0aa.03.98.03.c2.1c.00.3a.0a
-F f 52 "hw2_num1.iccel_52"
-V v 53 1 511ae1f673eb.03.98.03.c2.1c.00.3a.0a
-F f 53 "hw2_num1.iccel_53"
-V v 54 1 511ae214e0dd.03.98.03.c2.1c.00.3a.0a
-F f 54 "hw2_num1.iccel_54"
-O 54
+A 5 u Ic_cell_template 511adeb2c34e.03.98.03.c2.1c.00.18.af 75 4 44 0
+V v 71 1 511e94915ae6.03.98.03.c2.20.00.0f.28
+F f 71 "hw2_num1.iccel_71"
+V v 72 1 511e95764939.03.98.03.c2.20.00.0f.28
+F f 72 "hw2_num1.iccel_72"
+V v 73 1 511e95ac70bb.03.98.03.c2.20.00.0f.28
+F f 73 "hw2_num1.iccel_73"
+V v 74 1 511e95c1ab26.03.98.03.c2.20.00.0f.28
+F f 74 "hw2_num1.iccel_74"
+V v 75 1 511e988a4831.03.98.03.c2.20.00.1c.33
+F f 75 "hw2_num1.iccel_75"
+O 75
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
-R csduv 29 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
-R csduv 33 "$EE299LAY/ACONP" 12 Ic_cell_template 44fd655712c7.03.98.03.c1.8b.00.3e.d4 3836b9433af1.03.98.03.c4.0a.00.05.71
-R csduv 34 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
-R csdni 36 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
-O 53
+R csdni 40 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+O 74
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
-R csduv 29 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
-R csduv 33 "$EE299LAY/ACONP" 12 Ic_cell_template 44fd655712c7.03.98.03.c1.8b.00.3e.d4 3836b9433af1.03.98.03.c4.0a.00.05.71
-R csduv 34 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
-R csdni 36 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
-O 52
+R csdni 40 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+R csduv 42 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 511e80b786b6.03.98.03.c2.20.01.10.64 511e80b786b6.03.98.03.c2.20.00.10.64
+O 73
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
-R csduv 29 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
-R csduv 33 "$EE299LAY/ACONP" 12 Ic_cell_template 44fd655712c7.03.98.03.c1.8b.00.3e.d4 3836b9433af1.03.98.03.c4.0a.00.05.71
-R csduv 34 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
-R csdni 36 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
-O 51
+R csdni 40 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+R csduv 42 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 511e80b786b6.03.98.03.c2.20.01.10.64 511e80b786b6.03.98.03.c2.20.00.10.64
+O 72
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
-R csduv 29 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
-R csduv 33 "$EE299LAY/ACONP" 12 Ic_cell_template 44fd655712c7.03.98.03.c1.8b.00.3e.d4 3836b9433af1.03.98.03.c4.0a.00.05.71
-R csduv 34 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
-R csdni 35 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
-O 50
+R csdni 40 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 71
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
-R csduv 29 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
-R csdni 30 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
-R csduv 33 "$EE299LAY/ACONP" 12 Ic_cell_template 44fd655712c7.03.98.03.c1.8b.00.3e.d4 3836b9433af1.03.98.03.c4.0a.00.05.71
-R csduv 34 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+R csdni 40 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+R csduv 41 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 511e80b786b6.03.98.03.c2.20.01.10.64 511e80b786b6.03.98.03.c2.20.00.10.64
