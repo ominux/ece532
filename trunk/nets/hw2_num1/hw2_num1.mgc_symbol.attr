@@ -1,13 +1,13 @@
-A 5 u mgc_symbol 511ae06dd843.03.98.03.c2.1c.00.39.2f 20 2 1 0
-V v 18 1 511eae70f074.03.98.03.c2.20.00.2f.30
-F f 18 "hw2_num1.smbl_18"
-V v 19 1 511eae74103b.03.98.03.c2.20.00.2f.30
-F f 19 "hw2_num1.smbl_19"
-V v 20 1 511eae79bfcb.03.98.03.c2.20.00.2f.30
-F f 20 "hw2_num1.smbl_20"
-O 20
-R csduv 0 "$JPO4NETS/hw2_num1/part" 22 Eddm_part 511eae74105f.03.98.03.c2.20.00.2f.30 511ae06de686.03.98.03.c2.1c.00.39.2f
-O 19
-R csduv 0 "$JPO4NETS/hw2_num1/part" 22 Eddm_part 511eae74105f.03.98.03.c2.20.00.2f.30 511ae06de686.03.98.03.c2.1c.00.39.2f
-O 18
-R csduv 0 "$JPO4NETS/hw2_num1/part" 21 Eddm_part 511eae70f08d.03.98.03.c2.20.00.2f.30 511ae06de686.03.98.03.c2.1c.00.39.2f
+A 5 u mgc_symbol 511ae06dd843.03.98.03.c2.1c.00.39.2f 23 2 1 0
+V v 21 1 511eb3eb8d7c.03.98.03.c2.20.00.3e.30
+F f 21 "hw2_num1.smbl_21"
+V v 22 1 511eb3eea09b.03.98.03.c2.20.00.3e.30
+F f 22 "hw2_num1.smbl_22"
+V v 23 1 511eb3f18187.03.98.03.c2.20.00.3e.30
+F f 23 "hw2_num1.smbl_23"
+O 23
+R csduv 0 "$JPO4NETS/hw2_num1/part" 24 Eddm_part 511eb3eea0c8.03.98.03.c2.20.00.3e.30 511ae06de686.03.98.03.c2.1c.00.39.2f
+O 22
+R csduv 0 "$JPO4NETS/hw2_num1/part" 24 Eddm_part 511eb3eea0c8.03.98.03.c2.20.00.3e.30 511ae06de686.03.98.03.c2.1c.00.39.2f
+O 21
+R csduv 0 "$JPO4NETS/hw2_num1/part" 23 Eddm_part 511eb3eb8d96.03.98.03.c2.20.00.3e.30 511ae06de686.03.98.03.c2.1c.00.39.2f

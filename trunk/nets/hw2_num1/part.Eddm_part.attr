@@ -1,19 +1,19 @@
-A 5 u Eddm_part 511ae06de686.03.98.03.c2.1c.00.39.2f 22 2 2 0
-V v 20 1 511ea662c7c2.03.98.03.c2.20.00.2f.30
-F f 20 "part.part_20"
-V v 21 1 511eae70f08d.03.98.03.c2.20.00.2f.30
-F f 21 "part.part_21"
+A 5 u Eddm_part 511ae06de686.03.98.03.c2.1c.00.39.2f 24 2 2 0
 V v 22 1 511eae74105f.03.98.03.c2.20.00.2f.30
 F f 22 "part.part_22"
+V v 23 1 511eb3eb8d96.03.98.03.c2.20.00.3e.30
+F f 23 "part.part_23"
+V v 24 1 511eb3eea0c8.03.98.03.c2.20.00.3e.30
+F f 24 "part.part_24"
+O 24
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw2_num1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ae06dd874.03.98.03.c2.1c.00.39.2f
+R csduv 1 "$JPO4NETS/hw2_num1/hw2_num1" 22 mgc_symbol 511eb3eea09b.03.98.03.c2.20.00.3e.30 511ae06dd843.03.98.03.c2.1c.00.39.2f
+O 23
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw2_num1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ae06dd874.03.98.03.c2.1c.00.39.2f
+R csduv 1 "$JPO4NETS/hw2_num1/hw2_num1" 21 mgc_symbol 511eb3eb8d7c.03.98.03.c2.20.00.3e.30 511ae06dd843.03.98.03.c2.1c.00.39.2f
 O 22
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/hw2_num1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ae06dd874.03.98.03.c2.1c.00.39.2f
 R csduv 1 "$JPO4NETS/hw2_num1/hw2_num1" 19 mgc_symbol 511eae74103b.03.98.03.c2.20.00.2f.30 511ae06dd843.03.98.03.c2.1c.00.39.2f
-O 21
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw2_num1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ae06dd874.03.98.03.c2.1c.00.39.2f
-R csduv 1 "$JPO4NETS/hw2_num1/hw2_num1" 18 mgc_symbol 511eae70f074.03.98.03.c2.20.00.2f.30 511ae06dd843.03.98.03.c2.1c.00.39.2f
-O 20
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw2_num1/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ae06dd874.03.98.03.c2.1c.00.39.2f
-R csduv 1 "$JPO4NETS/hw2_num1/hw2_num1" 16 mgc_symbol 511ea662c797.03.98.03.c2.20.00.2f.30 511ae06dd843.03.98.03.c2.1c.00.39.2f
