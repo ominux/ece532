@@ -1,14 +1,14 @@
-A 5 u Ic_cell_template 511adeb2c34e.03.98.03.c2.1c.00.18.af 116 4 57 0
+A 5 u Ic_cell_template 511eb17fa3fc.03.98.03.c2.20.00.2f.5e 116 4 57 0
 V v 112 1 511eb06043fc.03.98.03.c2.20.00.2f.5e
-F f 112 "hw2_num1.iccel_112"
+F f 112 "hw2_num2_10_105_clean.iccel_112"
 V v 113 1 511eb0c63f41.03.98.03.c2.20.00.2f.5e
-F f 113 "hw2_num1.iccel_113"
+F f 113 "hw2_num2_10_105_clean.iccel_113"
 V v 114 1 511eb1008a7c.03.98.03.c2.20.00.2f.5e
-F f 114 "hw2_num1.iccel_114"
+F f 114 "hw2_num2_10_105_clean.iccel_114"
 V v 115 1 511eb10d0d22.03.98.03.c2.20.00.2f.5e
-F f 115 "hw2_num1.iccel_115"
+F f 115 "hw2_num2_10_105_clean.iccel_115"
 V v 116 1 511eb138684f.03.98.03.c2.20.00.2f.5e
-F f 116 "hw2_num1.iccel_116"
+F f 116 "hw2_num2_10_105_clean.iccel_116"
 O 116
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
 R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
