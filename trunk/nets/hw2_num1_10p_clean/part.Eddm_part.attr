@@ -1,0 +1,19 @@
+A 5 u Eddm_part 511ea4b2906b.03.98.03.c2.20.00.21.f6 19 2 2 0
+V v 17 1 511add6e445b.03.98.03.c2.1c.00.18.80
+F f 17 "part.part_17"
+V v 18 1 511ae07253d5.03.98.03.c2.1c.00.39.94
+F f 18 "part.part_18"
+V v 19 1 511ea4b80738.03.98.03.c2.20.00.2c.19
+F f 19 "part.part_19"
+O 19
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw2_num1_10p_clean/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ea4b276ed.03.98.03.c2.20.00.21.f6
+R csduv 1 "$JPO4NETS/hw2_num1_10p_clean/hw2_num1_10p_clean" 13 mgc_symbol 511add6e4434.03.98.03.c2.1c.00.18.80 511ea4b27694.03.98.03.c2.20.00.21.f6
+O 18
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw2_num1_10p_clean/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ea4b276ed.03.98.03.c2.20.00.21.f6
+R csduv 1 "$JPO4NETS/hw2_num1_10p_clean/hw2_num1_10p_clean" 13 mgc_symbol 511add6e4434.03.98.03.c2.1c.00.18.80 511ea4b27694.03.98.03.c2.20.00.21.f6
+O 17
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw2_num1_10p_clean/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 511ea4b276ed.03.98.03.c2.20.00.21.f6
+R csduv 1 "$JPO4NETS/hw2_num1_10p_clean/hw2_num1_10p_clean" 13 mgc_symbol 511add6e4434.03.98.03.c2.1c.00.18.80 511ea4b27694.03.98.03.c2.20.00.21.f6
