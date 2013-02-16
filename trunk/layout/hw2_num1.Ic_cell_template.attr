@@ -1,6 +1,4 @@
-A 5 u Ic_cell_template 511adeb2c34e.03.98.03.c2.1c.00.18.af 146 4 59 0
-V v 142 1 511ec10c5ded.03.98.03.c2.20.00.3b.f2
-F f 142 "hw2_num1.iccel_142"
+A 5 u Ic_cell_template 511adeb2c34e.03.98.03.c2.1c.00.18.af 147 4 59 0
 V v 143 1 511ec1510709.03.98.03.c2.20.00.3b.f2
 F f 143 "hw2_num1.iccel_143"
 V v 144 1 511ec4a06124.03.98.03.c2.20.00.3b.f2
@@ -9,6 +7,14 @@ V v 145 1 511ec4abb23c.03.98.03.c2.20.00.3b.f2
 F f 145 "hw2_num1.iccel_145"
 V v 146 1 511ec4d13d36.03.98.03.c2.20.00.3b.f2
 F f 146 "hw2_num1.iccel_146"
+V v 147 1 511efa64c315.03.98.03.c2.20.00.02.53
+F f 147 "hw2_num1.iccel_147"
+O 147
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 49 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 511ea4183cde.03.98.03.c2.20.00.1e.24 511e98fe1d11.03.98.03.c2.20.00.1e.24
+R csduv 56 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+R csdni 58 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
 O 146
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
 R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
@@ -28,12 +34,6 @@ R csduv 49 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 5
 R csduv 56 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
 R csdni 58 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
 O 143
-R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
-R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
-R csduv 49 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 511ea4183cde.03.98.03.c2.20.00.1e.24 511e98fe1d11.03.98.03.c2.20.00.1e.24
-R csduv 56 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
-R csdni 58 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
-O 142
 R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
 R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
 R csduv 49 "/home/software/ece532/jpo4/mentor/UnitCap500fF" 1 Ic_cell_template 511ea4183cde.03.98.03.c2.20.00.1e.24 511e98fe1d11.03.98.03.c2.20.00.1e.24
