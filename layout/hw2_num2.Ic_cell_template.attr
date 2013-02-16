@@ -1,0 +1,36 @@
+A 5 u Ic_cell_template 511f019ddf96.03.98.03.c2.20.00.02.53 168 4 67 0
+V v 164 1 511f10109ec7.03.98.03.c2.20.00.12.9f
+F f 164 "hw2_num2.iccel_164"
+V v 165 1 511f12ad18b7.03.98.03.c2.20.00.12.9f
+F f 165 "hw2_num2.iccel_165"
+V v 166 1 511f12de607e.03.98.03.c2.20.00.12.9f
+F f 166 "hw2_num2.iccel_166"
+V v 167 1 511f13688b71.03.98.03.c2.20.00.12.9f
+F f 167 "hw2_num2.iccel_167"
+V v 168 1 511f1444a010.03.98.03.c2.20.00.12.9f
+F f 168 "hw2_num2.iccel_168"
+O 168
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 64 "/home/software/ece532/jpo4/mentor/UnitResistor500" 1 Ic_cell_template 511f0df2d12d.03.98.03.c2.20.00.12.9f 511f0a86e92f.03.98.03.c2.20.00.12.9f
+R csdni 66 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 167
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 64 "/home/software/ece532/jpo4/mentor/UnitResistor500" 1 Ic_cell_template 511f0df2d12d.03.98.03.c2.20.00.12.9f 511f0a86e92f.03.98.03.c2.20.00.12.9f
+R csdni 66 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 166
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 64 "/home/software/ece532/jpo4/mentor/UnitResistor500" 1 Ic_cell_template 511f0df2d12d.03.98.03.c2.20.00.12.9f 511f0a86e92f.03.98.03.c2.20.00.12.9f
+R csdni 66 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 165
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 64 "/home/software/ece532/jpo4/mentor/UnitResistor500" 1 Ic_cell_template 511f0df2d12d.03.98.03.c2.20.00.12.9f 511f0a86e92f.03.98.03.c2.20.00.12.9f
+R csdni 66 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 164
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 43 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 64 "/home/software/ece532/jpo4/mentor/UnitResistor500" 1 Ic_cell_template 511f0df2d12d.03.98.03.c2.20.00.12.9f 511f0a86e92f.03.98.03.c2.20.00.12.9f
+R csdni 66 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file

@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 511f0bb93e4c.03.98.03.c2.20.00.02.41 18 2 1 0
+V v 16 1 511f0bfd115c.03.98.03.c2.20.00.02.41
+F f 16 "hw2_num2_test.smbl_16"
+V v 17 1 511f0c06d04e.03.98.03.c2.20.00.02.41
+F f 17 "hw2_num2_test.smbl_17"
+V v 18 1 511f13bd0b6a.03.98.03.c2.20.00.02.41
+F f 18 "hw2_num2_test.smbl_18"
+O 18
+R csduv 0 "$JPO4NETS/hw2_num2_test/part" 21 Eddm_part 511f0bfd117e.03.98.03.c2.20.00.02.41 511f0bb957bf.03.98.03.c2.20.00.02.41
+O 17
+R csduv 0 "$JPO4NETS/hw2_num2_test/part" 21 Eddm_part 511f0bfd117e.03.98.03.c2.20.00.02.41 511f0bb957bf.03.98.03.c2.20.00.02.41
+O 16
+R csduv 0 "$JPO4NETS/hw2_num2_test/part" 21 Eddm_part 511f0bfd117e.03.98.03.c2.20.00.02.41 511f0bb957bf.03.98.03.c2.20.00.02.41
