@@ -1,0 +1,27 @@
+Common Source Transient Simulation Output With Adjusted W/L 
+
+
+subckt                                   
+ element  0:mp1      0:mn3      0:mp2     
+ model    0:pmos     0:nmos     0:pmos    
+ region     Saturati   Saturati   Saturati
+  id       -50.0000u  200.1072u -200.1072u
+  ibs        0.         0.         0.     
+  ibd        0.         0.         0.     
+  vgs       -1.4192     1.8000    -1.4192 
+  vds       -1.4192     2.4464    -2.5536 
+  vbs        0.         0.         0.     
+  vth     -929.9514m  733.2791m -927.1799m
+  vdsat   -416.1488m  641.3320m -423.9132m
+  vod     -489.2376m    1.0667  -492.0091m
+  beta     429.4096u  516.9119u    1.5666m
+  gam eff  551.8625m  945.2470m  552.5062m
+  gm       177.3363u  307.9146u  695.4423u
+  gds        3.8347u    2.8958u   10.5370u
+  gmb       52.5812u   90.5454u  205.6926u
+  cdtot     16.8058f    7.2360f   48.9204f
+  cgtot     20.3543f    9.3288f   72.1560f
+  cstot     34.0225f   14.2060f  117.5811f
+  cbtot     42.3553f   19.1186f  133.3768f
+  cgs       16.3576f    6.6161f   59.5741f
+  cgd        2.0865f  795.4238a    7.6349f

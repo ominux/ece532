@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "F-2011.09-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "00:45:30 03/19/2013 "
+* "netlist" "cs_ac.sp "
+* "runtitle" ""
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ in =   1.8000        
++ inbias =   1.8000        
++ iref =   3.5416        
++ out =   2.5089        
++ vdd =   5.0000        
+***   END: Saved Operating Point ***                     
