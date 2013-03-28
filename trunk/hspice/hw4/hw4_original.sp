@@ -28,6 +28,14 @@
 * TJ
 * in degrees Kelvin
 * move this around for part 3
+* No TJ in our models though
+* DO .TEMP instead, it's in celcius, room temp is 25
+* t3-6 in spice manual
+* when you raise temperature, the current should go down since higher resistive 
+* junctions diffusions etc
+* but if bias voltages are tuned by resistors could change
+* don't debug and put everything in saturation here, just re-run it and
+* see what happens
 
 
 
