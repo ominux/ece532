@@ -11,6 +11,27 @@
 * 2 to 2.05 V for the step
 * Input range is about 1.2V he said so there's some clipping
 * Check all transistors are all in Saturation
+* Just because it's in sat isn't enough, check VDS too
+
+* Noise statement
+* Check spice manual
+* Sums all noise components
+* .NOISE somenodetodonoiseanalysison srcnam inter
+* .NOISE makes the spice simulator look at a node you are calculating noise on
+* like .TRANSIENT / .AC
+* He will send an example of how to run this
+
+* Sample statement, noise folding analysis
+* .SAMPLE etc
+
+* For part 3, there is a junction paramter in the spice file
+* TJ
+* in degrees Kelvin
+* move this around for part 3
+
+
+
+
 
 
 
