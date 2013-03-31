@@ -56,13 +56,19 @@
 *.TRAN .001u .001ms   sweep sfreq 5e6 20e6 2e6
 .TRAN 10n 200us  
 
-* Do this sweet so we can see right where we want to be biased
+* Do this sweep so we can see right where we want to be biased
 * This will be helpful for AC Analysis, could use this for ACGND etc?
 *.DC SWEEP biasvalue  1.3995v 1.4005v .00001v
 
 *.DC sweep bias .5v 2.0v .25v width .5u 50u .4u
 *.DC sweep vbias .5v 2.0v .25v 
 *.DC  
+
+
+
+
+
+
 .GLOBAL vdd gnd
 .PARAM VDD=5.0
 
@@ -90,6 +96,9 @@
 *vbias outbias 0 outbias
 
 
+VSRC1 INP 0 1.0v
+
+
 
 
 
@@ -106,7 +115,7 @@
 
 * this is for measuring slew rate and settling time
 * comment this out for AC, only for DC
-Vp1 INP 0 0  pulse 2.5 3.0 2n 2n 1n 1600n 3200n
+*Vp1 INP 0 0  pulse 2.5 3.0 2n 2n 1n 1600n 3200n
 
 *vinp INP 0 0  pulse 2.499 2.501 2n 0.1n 0.1n 40u 80u
 *vinp INP 0 0  pulse 2.1 2.9 2n 0.1n 0.1n 40u 80u
@@ -133,15 +142,15 @@ Vp1 INP 0 0  pulse 2.5 3.0 2n 2n 1n 1600n 3200n
 
 * Power supply definitions
 vdd vdd gnd 5.0v
-vacgnd acgnd gnd 2.9v
+vacgnd ACGND gnd 2.9v
 vgainctln gainctln  gnd 0 
 vgainctlp gainctlp  gnd vdd
 *vbias bias 0 1.25 
 vnbias NBIAS 0 1.3
 
 * these are floating nodes used for debugging
-vpc PC 0  3.0
-vnc NC 0 2.7
+*vpc PC 0  3.0
+*vnc NC 0 2.7
 
 
 
@@ -160,7 +169,7 @@ vnc NC 0 2.7
         MPOUT OUTPUT N$229 VDD VDD PMOS L=1.6e-6 W=225e-6 M=1
         MOUT_BIAS OUTPUT NBIAS GROUND GROUND NMOS L=1.6e-6 W=44e-6 M=1
 
-		* load devices / resistors for diff pair
+	* load devices / resistors for diff pair
         M_PLOAD1 N$239 N$239 VDD VDD PMOS L=1.6e-6 W=14e-6 M=1
         M_PLOAD2 N$229 N$239 VDD VDD PMOS L=1.6e-6 W=14e-6 M=1
 
@@ -173,14 +182,6 @@ vnc NC 0 2.7
 
 .ends HIGHBWN
 
-
-
-
-
-
-
-
-.include '/ece/digital/share/saturn/hspice/opampjim/pip/pip.sp.pex'
 
 
 
@@ -207,7 +208,8 @@ RFeed INN OUT 20000
 * ACGND is a bias at 2.9V. this is the common mode center. AC GND
 * could be at 0 v, but that would load down output, we want it at common mode
 * if ACGND is at 0V, we would get more offset
-Rgnd INN ACGND 20000
+*Rgnd INN ACGND 20000
+Rgnd INN GND 20000
 
 *MXBIAS VDD BIAS BIAS VDD PMOS L=4u W=30u
 *RBIAS BIAS GND 850k
@@ -224,9 +226,9 @@ Rgnd INN ACGND 20000
 *Cload OUTPUT gnd 3.5p
 
 * small load capacitor
-Cload OUT gnd 4p
- 
- 
+Cload OUT GND 4p
+
+
  
  
  
@@ -244,16 +246,9 @@ Cload OUT gnd 4p
 
 
 
+* .INCLUDE '/ece/digital/share/saturn/hspice/opampjim/pip/pip.sp.pex'
+.INCLUDE 'spice_models/ami.5um.typmodels'
 
-*.INCLUDE '/home/dsl/simulation/opjim/lvl49.5um'
-*.INCLUDE '/home/dsl/simulation/opjim/t06f.5um'
-*.INCLUDE '/home/dsl/simulation/opjim/t05c.5um'
-.INCLUDE '/opt/digital/share/saturn/hspice/opampjim/ami.5um.typmodels'
-**.INCLUDE '/ece/digital/share/mgc_hep/duke_local/Mosisami.5u.spice.models/ami.5umtypmodels'
-**.INCLUDE '/ece/digital/share/mgc_hep/duke_local/Mosisami.5u.spice.models/ami.5um.bcmodels'
-**.INCLUDE '/ece/digital/share/mgc_hep/duke_local/Mosisami.5u.spice.models/ami.5um.wcmodels'
-**.INCLUDE '/ece/digital/share/mgc_hep/duke_local/Mosisami.5u.spice.models/ami.5um.bcnwcpmodels'
-**.INCLUDE '/ece/digital/share/mgc_hep/duke_local/Mosisami.5u.spice.models/ami.5um.wcnbcpmodels'
 
 .END
 
