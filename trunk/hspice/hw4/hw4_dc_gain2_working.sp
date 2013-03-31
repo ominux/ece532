@@ -54,7 +54,7 @@
 *.TRAN 1u 3ms  sweep biasvalue 0 1.8 .1
 *.TRAN 1u 50ms sweep cvalue 0 4p .5p
 *.TRAN .001u .001ms   sweep sfreq 5e6 20e6 2e6
-*.TRAN 10n 200us  
+.TRAN 10n 200us  
 
 * Do this sweep so we can see right where we want to be biased
 * This will be helpful for AC Analysis, could use this for ACGND etc?
@@ -77,13 +77,13 @@
 
 
 
-.AC  dec 10 1 1GHz 
+*.AC  dec 10 1 1GHz 
 **.AC  dec 10 1 1GHz sweep offset 1.5 3.5 .1
 **.AC  dec 10 1 1GHz sweep cvalue 0 2.0p .1p 
 
 * Use this for AC Analysis
 * builds off ACGND
-Vp1 INP ACGND   AC=1e-4
+*Vp1 INP ACGND   AC=1e-4
 
 **VSRC INP gnd 1.25 AC 1 sin(.0001 0 1)
 *vp1 INP 0 sin (.9 .0005 3000)
@@ -96,7 +96,7 @@ Vp1 INP ACGND   AC=1e-4
 *vbias outbias 0 outbias
 
 
-*VPOS INP 0 2.0v
+VPOS INP 0 1.0v
 
 
 
@@ -204,16 +204,16 @@ XI_1744  OUT INN NBIAS INP VDD GND  HIGHBWN
 * for open loop gain we comment these out
 
 * gain should be 2 with this setup, these are resistors around the subcircuit
-*RFeed INN OUT 20000
+RFeed INN OUT 20000
 
-ROpen INN OUT 100G
-COpen INN GND 1u
+*ROpen INN OUT 100G
+*COpen INN GND 1u
 
 * ACGND is a bias at 2.9V. this is the common mode center. AC GND
 * could be at 0 v, but that would load down output, we want it at common mode
 * if ACGND is at 0V, we would get more offset
 *Rgnd INN ACGND 20000
-*Rgnd INN GND 20000
+Rgnd INN GND 20000
 
 *MXBIAS VDD BIAS BIAS VDD PMOS L=4u W=30u
 *RBIAS BIAS GND 850k
