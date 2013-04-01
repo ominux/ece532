@@ -1,11 +1,11 @@
 * "simulator" "HSPICE" 
 * "version" "F-2011.09-SP2 32-BIT"
 * "format" "HSP"
-* "rundate" "00:23:16 04/01/2013 "
+* "rundate" "00:19:20 04/01/2013 "
 * "netlist" "hw4_ac_gain_phase_working.sp "
 * "runtitle" "* he said what he gave us should be 99% of what we need"
 * time =    0.            
-* temperature =   25.0000        
+* temperature =   75.0000        
 *** BEGIN: Saved Operating Point ***                     
 .option 
 + gmindc=   1.0000p       
@@ -16,8 +16,8 @@
 + nbias =   1.3000        
 + out =   2.8998        
 + vdd =   5.0000        
-+ xi_1744.n$228 =   1.7567        
-+ xi_1744.n$229 =   3.6416        
-+ xi_1744.n$239 =   3.6756        
-+ xi_1744.n$653 =   3.6416        
++ xi_1744.n$228 =   1.7778        
++ xi_1744.n$229 =   3.6487        
++ xi_1744.n$239 =   3.6844        
++ xi_1744.n$653 =   3.6487        
 ***   END: Saved Operating Point ***                     
