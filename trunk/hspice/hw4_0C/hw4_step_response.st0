@@ -1,9 +1,9 @@
 ***** HSPICE -- F-2011.09-SP2 32-BIT (Feb 27 2012) linux ******
- Input File: hw4_ac_gain_phase_working.sp
+ Input File: hw4_step_response.sp
  lic:
  lic: FLEXlm: v10.8
- lic: USER:   jpo4                 HOSTNAME: vlsi02.egr.duke.edu
- lic: HOSTID: 1803733005e0         PID:      25197
+ lic: USER:   jpo4                 HOSTNAME: vlsi03.egr.duke.edu
+ lic: HOSTID: 180373300741         PID:      31025
  lic: Using FLEXlm license file:
  lic: 27060@license01.egr.duke.edu
  lic: Checkout 1 hspice
@@ -49,26 +49,27 @@
        option list
  init: end read circuit files,  cpu clock=  6.00E-02 memory=    149 kb
  init: begin check errors,  cpu clock=  6.00E-02
- init: end check errors,  cpu clock=  6.00E-02 memory=    150 kb
- init: begin setup matrix, pivot=     0 cpu clock=  6.00E-02
-       establish matrix -- done,  cpu clock=  6.00E-02 memory=    157 kb
-       re-order matrix -- done,  cpu clock=  6.00E-02 memory=    159 kb
- init: end setup matrix,  cpu clock=  6.00E-02 memory=    178 kb
- dcop: begin dcop,  cpu clock=  6.00E-02
- dcop: end dcop,  cpu clock=  7.00E-02 memory=    178 kb  tot_iter=      73
- output: hw4_ac_gain_phase_working.ac0
- sweep: ac ac0    begin, #sweeps=  91 cpu clock=  7.00E-02
- ac: frequency=    1.26E+00
- ac: frequency=    7.94E+00
- ac: frequency=    6.31E+01
- ac: frequency=    5.01E+02
- ac: frequency=    3.98E+03
- ac: frequency=    3.16E+04
- ac: frequency=    2.51E+05
- ac: frequency=    2.00E+06
- ac: frequency=    1.58E+07
- ac: frequency=    1.26E+08
- ac: frequency=    1.00E+09
- sweep: ac ac0    end,  cpu clock=  7.00E-02 memory=    187 kb
+ init: end check errors,  cpu clock=  7.00E-02 memory=    149 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  7.00E-02
+       establish matrix -- done,  cpu clock=  7.00E-02 memory=    156 kb
+       re-order matrix -- done,  cpu clock=  7.00E-02 memory=    158 kb
+ init: end setup matrix,  cpu clock=  7.00E-02 memory=    176 kb
+ dcop: begin dcop,  cpu clock=  7.00E-02
+ dcop: end dcop,  cpu clock=  7.00E-02 memory=    176 kb  tot_iter=      82
+ dcop: begin dcop,  cpu clock=  7.00E-02
+ dcop: end dcop,  cpu clock=  8.00E-02 memory=    176 kb  tot_iter=     152
+ output: hw4_step_response.tr0
+ sweep: tran tran0    begin, stop_t=  1.00E-05 #sweeps=**** cpu clock=  8.00E-02
+ tran: time= 1.0360E-06 tot_iter=     172 conv_iter=      72 cpu clock= 9.00E-02
+ tran: time= 2.0020E-06 tot_iter=     176 conv_iter=      74 cpu clock= 9.00E-02
+ tran: time= 3.1355E-06 tot_iter=     276 conv_iter=     118 cpu clock= 9.00E-02
+ tran: time= 4.0010E-06 tot_iter=     280 conv_iter=     120 cpu clock= 1.00E-01
+ tran: time= 5.0087E-06 tot_iter=     408 conv_iter=     172 cpu clock= 1.10E-01
+ tran: time= 6.0020E-06 tot_iter=     412 conv_iter=     174 cpu clock= 1.10E-01
+ tran: time= 7.1355E-06 tot_iter=     512 conv_iter=     218 cpu clock= 1.10E-01
+ tran: time= 8.0010E-06 tot_iter=     516 conv_iter=     220 cpu clock= 1.10E-01
+ tran: time= 9.0087E-06 tot_iter=     644 conv_iter=     272 cpu clock= 1.20E-01
+ tran: time= 1.0000E-05 tot_iter=     648 conv_iter=     274 cpu clock= 1.20E-01
+ sweep: tran tran0    end,  cpu clock=  1.20E-01 memory=    176 kb
 >info:         ***** hspice job concluded
  lic: Release hspice token(s)
