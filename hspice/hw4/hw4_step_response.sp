@@ -44,6 +44,7 @@
 
 
 
+
 *HSpice File
 *.OPTIONS ACCT POST PROBE
 .OPTIONS ACCT POST ACOUT=0 DCON=1 ACCURATE=1 UNWRAP LIST 
@@ -53,7 +54,7 @@
 *.TRAN 1u 3ms  sweep biasvalue 0 1.8 .1
 *.TRAN 1u 50ms sweep cvalue 0 4p .5p
 *.TRAN .001u .001ms   sweep sfreq 5e6 20e6 2e6
-*.TRAN 10n 200us  
+.TRAN 1n 30us  
 
 * Do this sweep so we can see right where we want to be biased
 * This will be helpful for AC Analysis, could use this for ACGND etc?
@@ -76,13 +77,13 @@
 
 
 
-.AC  dec 10 1 1GHz 
+*.AC  dec 10 1 1GHz 
 **.AC  dec 10 1 1GHz sweep offset 1.5 3.5 .1
 **.AC  dec 10 1 1GHz sweep cvalue 0 2.0p .1p 
 
 * Use this for AC Analysis
 * builds off ACGND
-Vp1 INP ACGND   AC=1e-4
+*Vp1 INP ACGND   AC=1e-4
 
 **VSRC INP gnd 1.25 AC 1 sin(.0001 0 1)
 *vp1 INP 0 sin (.9 .0005 3000)
@@ -95,7 +96,7 @@ Vp1 INP ACGND   AC=1e-4
 *vbias outbias 0 outbias
 
 
-*VPOS INP 0 2.0v
+*VPOS INP 0 1.0v
 
 
 
@@ -114,7 +115,7 @@ Vp1 INP ACGND   AC=1e-4
 
 * this is for measuring slew rate and settling time
 * comment this out for AC, only for DC
-*Vp1 INP 0 0  pulse 2.5 3.0 2n 2n 1n 1600n 3200n
+Vp1 INP 0 0  pulse 2.5 3.0 1n 1n 1n 2u 4u
 
 *vinp INP 0 0  pulse 2.499 2.501 2n 0.1n 0.1n 40u 80u
 *vinp INP 0 0  pulse 2.1 2.9 2n 0.1n 0.1n 40u 80u
@@ -158,11 +159,11 @@ vnbias NBIAS 0 1.3
 
 
 
+
 .subckt HIGHBWN  OUTPUT NIN NBIAS PIN VDD GROUND
 
-      *  C2 N$653 OUTPUT  C=4.5p
+        * C2 N$653 OUTPUT  C=4.5p
         C2 N$653 OUTPUT  C=7p
-
         R3 N$229 N$653  R=1851.5
 
 
@@ -190,8 +191,6 @@ vnbias NBIAS 0 1.3
 
 
 
-
-
 * spice command to initialize a node, this is an intial condition
 * might need to use this
 *.IC v(N_1237) 1.4
@@ -207,9 +206,10 @@ XI_1744  OUT INN NBIAS INP VDD GND  HIGHBWN
 
 * gain should be 2 with this setup, these are resistors around the subcircuit
 *RFeed INN OUT 20000
+RFeed INN OUT 0
 
-ROpen INN OUT 100G
-COpen INN GND 1u
+*ROpen INN OUT 100G
+*COpen INN GND 1u
 
 * ACGND is a bias at 2.9V. this is the common mode center. AC GND
 * could be at 0 v, but that would load down output, we want it at common mode
