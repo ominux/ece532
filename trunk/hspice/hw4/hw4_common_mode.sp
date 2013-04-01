@@ -54,7 +54,7 @@
 *.TRAN 1u 3ms  sweep biasvalue 0 1.8 .1
 *.TRAN 1u 50ms sweep cvalue 0 4p .5p
 *.TRAN .001u .001ms   sweep sfreq 5e6 20e6 2e6
-.TRAN 0.01n 10us  
+*.TRAN 1n 30us  
 
 * Do this sweep so we can see right where we want to be biased
 * This will be helpful for AC Analysis, could use this for ACGND etc?
@@ -115,7 +115,7 @@
 
 * this is for measuring slew rate and settling time
 * comment this out for AC, only for DC
-Vp1 INP 0 0  pulse 2.5 3.0 1n 1n 1n 2u 4u
+*Vp1 INP 0 0  pulse 2.5 3.0 1n 1n 1n 2u 4u
 
 *vinp INP 0 0  pulse 2.499 2.501 2n 0.1n 0.1n 40u 80u
 *vinp INP 0 0  pulse 2.1 2.9 2n 0.1n 0.1n 40u 80u
@@ -124,10 +124,9 @@ Vp1 INP 0 0  pulse 2.5 3.0 1n 1n 1n 2u 4u
 *vinp INN 0 .9v
 *vinp P1 0 0  pulse 2.3 2.7 2n 0.1n 0.1n 40u 80u
 
-
-
-
-
+* common mode test
+VP1 INP 0 2*.DC SWEEP input  0v 5v .01v
+.DC SWEEP VP1 0 5 0.01
 
 
 
@@ -246,10 +245,8 @@ Cload OUT GND 20p
 .probe ac gain=par('20*log10(vm(OUT)/vm(INP))')
 .probe ac phase=par('vp(OUT)-vp(INP,INN)')
 .probe ac margin=par('vp(OUT)-vp(INP,INN)+180')
-
-
-
-
+
+.probe dc vout_minus_vin=par('v(OUT)-v(INP)')
 
 
 * .INCLUDE '/ece/digital/share/saturn/hspice/opampjim/pip/pip.sp.pex'
