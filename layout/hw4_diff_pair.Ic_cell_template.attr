@@ -1,0 +1,33 @@
+A 5 u Ic_cell_template 515affaf04d5.03.98.03.c2.20.00.2a.9b 49 4 25 0
+V v 45 1 515aff6360cf.03.98.03.c2.20.00.2a.9b
+F f 45 "hw4_diff_pair.iccel_45"
+V v 46 1 515affebedf3.03.98.03.c2.20.00.2a.9b
+F f 46 "hw4_diff_pair.iccel_46"
+V v 47 1 515b0117c81b.03.98.03.c2.20.00.2a.9b
+F f 47 "hw4_diff_pair.iccel_47"
+V v 48 1 515b0404b9e6.03.98.03.c2.20.00.2a.9b
+F f 48 "hw4_diff_pair.iccel_48"
+V v 49 1 515b0571c96f.03.98.03.c2.20.00.2a.9b
+F f 49 "hw4_diff_pair.iccel_49"
+O 49
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 22 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+R csduv 23 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 24 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+O 48
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 22 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+R csduv 23 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 24 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+O 47
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 22 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+R csduv 23 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+O 46
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 22 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+R csduv 23 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+O 45
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 22 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
+R csduv 23 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
