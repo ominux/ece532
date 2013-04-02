@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 515afec8cf32.03.98.03.c2.20.00.2a.81 89 2 1 0
-V v 87 1 515aff07aa73.03.98.03.c2.20.00.2a.81
+A 5 u mgc_schematic 515afec8cf32.03.98.03.c2.20.00.2a.81 92 2 1 0
+V v 90 1 515b47ac0fbf.03.98.03.c2.1e.00.36.7d
 F o 0 ""
-V v 88 1 515aff368a69.03.98.03.c2.20.00.2a.81
+V v 91 1 515b47e0512d.03.98.03.c2.1e.00.36.7d
 F o 0 ""
-V v 89 1 515aff584ab5.03.98.03.c2.20.00.2a.81
+V v 92 1 515b5116a5d6.03.98.03.c2.1e.00.36.7d
 F o 0 ""
-O 89
-R cspuv 0 "$JPO4NETS/hw4_diff_pair/schematic/sheet1" 88 mgc_sheet 515aff582a92.03.98.03.c2.20.00.2a.81 515afec8cff5.03.98.03.c2.20.00.2a.81
-O 88
-R cspuv 0 "$JPO4NETS/hw4_diff_pair/schematic/sheet1" 87 mgc_sheet 515aff3670ac.03.98.03.c2.20.00.2a.81 515afec8cff5.03.98.03.c2.20.00.2a.81
-O 87
-R cspuv 0 "$JPO4NETS/hw4_diff_pair/schematic/sheet1" 86 mgc_sheet 515aff079575.03.98.03.c2.20.00.2a.81 515afec8cff5.03.98.03.c2.20.00.2a.81
+O 92
+R cspuv 0 "$JPO4NETS/hw4_diff_pair/schematic/sheet1" 91 mgc_sheet 515b51168457.03.98.03.c2.1e.00.36.7d 515afec8cff5.03.98.03.c2.20.00.2a.81
+O 91
+R cspuv 0 "$JPO4NETS/hw4_diff_pair/schematic/sheet1" 90 mgc_sheet 515b47e02fc9.03.98.03.c2.1e.00.36.7d 515afec8cff5.03.98.03.c2.20.00.2a.81
+O 90
+R cspuv 0 "$JPO4NETS/hw4_diff_pair/schematic/sheet1" 89 mgc_sheet 515b47abe9ce.03.98.03.c2.1e.00.36.7d 515afec8cff5.03.98.03.c2.20.00.2a.81
