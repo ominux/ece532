@@ -167,7 +167,7 @@ vnbias NBIAS 0 1.3
 
 
         MPOUT OUTPUT N$229 VDD VDD PMOS L=1.6e-6 W=225e-6 M=1
-        MOUT_BIAS OUTPUT NBIAS GROUND GROUND NMOS L=1.6e-6 W=44e-6 M=1
+        MOUT_BIAS OUTPUT NBIAS GROUND GROUND NMOS L=1.6e-6 W=48e-6 M=1
 
 	* load devices / resistors for diff pair
         M_PLOAD1 N$239 N$239 VDD VDD PMOS L=1.6e-6 W=14e-6 M=1
