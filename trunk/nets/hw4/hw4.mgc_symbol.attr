@@ -1,13 +1,13 @@
-A 5 u mgc_symbol 515a34d9eb45.03.98.03.c2.1e.00.07.2b 7 2 1 0
-V v 5 1 4d4013ee82d9.03.98.03.11.33.00.35.96
-F f 5 "hw4.smbl_5"
-V v 6 1 4d40142c9460.03.98.03.11.33.00.35.96
-F f 6 "hw4.smbl_6"
-V v 7 1 4d40159863e1.03.98.03.11.33.00.35.96
-F f 7 "hw4.smbl_7"
-O 7
-R csduv 0 "$JPO4NETS/hw4/part" 11 Eddm_part 4d40159863fa.03.98.03.11.33.00.35.96 515a34da17f8.03.98.03.c2.1e.00.07.2b
-O 6
-R csduv 0 "$JPO4NETS/hw4/part" 10 Eddm_part 4d40142c947b.03.98.03.11.33.00.35.96 515a34da17f8.03.98.03.c2.1e.00.07.2b
-O 5
-R csduv 0 "$JPO4NETS/hw4/part" 9 Eddm_part 4d4013ee8303.03.98.03.11.33.00.35.96 515a34da17f8.03.98.03.c2.1e.00.07.2b
+A 5 u mgc_symbol 515a34d9eb45.03.98.03.c2.1e.00.07.2b 12 2 1 0
+V v 10 1 515a3dea3789.03.98.03.c2.1e.00.11.f5
+F f 10 "hw4.smbl_10"
+V v 11 1 515a3e0b260d.03.98.03.c2.1e.00.11.f5
+F f 11 "hw4.smbl_11"
+V v 12 1 515a3e17f1f3.03.98.03.c2.1e.00.11.f5
+F f 12 "hw4.smbl_12"
+O 12
+R csduv 0 "$JPO4NETS/hw4/part" 14 Eddm_part 515a3de0d428.03.98.03.c2.1e.00.11.f5 515a34da17f8.03.98.03.c2.1e.00.07.2b
+O 11
+R csduv 0 "$JPO4NETS/hw4/part" 14 Eddm_part 515a3de0d428.03.98.03.c2.1e.00.11.f5 515a34da17f8.03.98.03.c2.1e.00.07.2b
+O 10
+R csduv 0 "$JPO4NETS/hw4/part" 14 Eddm_part 515a3de0d428.03.98.03.c2.1e.00.11.f5 515a34da17f8.03.98.03.c2.1e.00.07.2b
