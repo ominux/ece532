@@ -1,0 +1,31 @@
+A 5 u Ic_cell_template 515a464b7c86.03.98.03.c2.1e.00.1a.7d 57 4 23 0
+V v 53 1 515a4c5b3b57.03.98.03.c2.1e.00.1a.7d
+F f 53 "hw4_pmos_unit_test.iccel_53"
+V v 54 1 515a4c8947ae.03.98.03.c2.1e.00.1a.7d
+F f 54 "hw4_pmos_unit_test.iccel_54"
+V v 55 1 515a4cae488f.03.98.03.c2.1e.00.1a.7d
+F f 55 "hw4_pmos_unit_test.iccel_55"
+V v 56 1 515a4cc128ba.03.98.03.c2.1e.00.1a.7d
+F f 56 "hw4_pmos_unit_test.iccel_56"
+V v 57 1 515a4d04e52e.03.98.03.c2.1e.00.1a.7d
+F f 57 "hw4_pmos_unit_test.iccel_57"
+O 57
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 22 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 56
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 22 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 55
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 22 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 54
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 22 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 53
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 12 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csdni 22 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file

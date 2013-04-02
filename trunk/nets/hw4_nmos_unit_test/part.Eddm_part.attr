@@ -1,0 +1,19 @@
+A 5 u Eddm_part 515a442e9397.03.98.03.c2.1e.00.1e.85 21 2 2 0
+V v 19 1 510ed5dea951.03.98.03.c2.22.00.62.41
+F f 19 "part.part_19"
+V v 20 1 510ed5e2eb46.03.98.03.c2.22.00.62.41
+F f 20 "part.part_20"
+V v 21 1 515a4433349b.03.98.03.c2.1e.00.22.0f
+F f 21 "part.part_21"
+O 21
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_nmos_unit_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515a442e7a51.03.98.03.c2.1e.00.1e.85
+R csduv 1 "$JPO4NETS/hw4_nmos_unit_test/hw4_nmos_unit_test" 18 mgc_symbol 510ed5e2eb3e.03.98.03.c2.22.00.62.41 515a442e79f9.03.98.03.c2.1e.00.1e.85
+O 20
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_nmos_unit_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515a442e7a51.03.98.03.c2.1e.00.1e.85
+R csduv 1 "$JPO4NETS/hw4_nmos_unit_test/hw4_nmos_unit_test" 18 mgc_symbol 510ed5e2eb3e.03.98.03.c2.22.00.62.41 515a442e79f9.03.98.03.c2.1e.00.1e.85
+O 19
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_nmos_unit_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515a442e7a51.03.98.03.c2.1e.00.1e.85
+R csduv 1 "$JPO4NETS/hw4_nmos_unit_test/hw4_nmos_unit_test" 17 mgc_symbol 510ed5dea937.03.98.03.c2.22.00.62.41 515a442e79f9.03.98.03.c2.1e.00.1e.85
