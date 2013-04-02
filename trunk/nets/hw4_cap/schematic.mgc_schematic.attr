@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 515a718747ae.03.98.03.c2.1e.00.4a.13 91 2 1 0
+V v 89 1 511add8895cc.03.98.03.c2.1c.00.18.80
+F o 0 ""
+V v 90 1 515a71b118f2.03.98.03.c2.1e.00.4a.13
+F o 0 ""
+V v 91 1 515a74f1a18b.03.98.03.c2.1e.00.4a.13
+F o 0 ""
+O 91
+R cspuv 0 "$JPO4NETS/hw4_cap/schematic/sheet1" 90 mgc_sheet 515a74f17f1f.03.98.03.c2.1e.00.4a.13 515a71874830.03.98.03.c2.1e.00.4a.13
+O 90
+R cspuv 0 "$JPO4NETS/hw4_cap/schematic/sheet1" 89 mgc_sheet 515a71b102d3.03.98.03.c2.1e.00.4a.13 515a71874830.03.98.03.c2.1e.00.4a.13
+O 89
+R cspuv 0 "$JPO4NETS/hw4_cap/schematic/sheet1" 88 mgc_sheet 511add8883c3.03.98.03.c2.1c.00.18.80 515a71874830.03.98.03.c2.1e.00.4a.13
