@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 515a58df27a4.03.98.03.c2.1e.00.2c.83 158 2 1 0
+V v 156 1 515a6474a75d.03.98.03.c2.1e.00.2c.83
+F o 0 ""
+V v 157 1 515a64c8b5b3.03.98.03.c2.1e.00.2c.83
+F o 0 ""
+V v 158 1 515a64d939ab.03.98.03.c2.1e.00.2c.83
+F o 0 ""
+O 158
+R cspuv 0 "$JPO4NETS/hw4_nmos_unit_test2/schematic/sheet1" 157 mgc_sheet 515a64d90763.03.98.03.c2.1e.00.2c.83 515a58df288f.03.98.03.c2.1e.00.2c.83
+O 157
+R cspuv 0 "$JPO4NETS/hw4_nmos_unit_test2/schematic/sheet1" 156 mgc_sheet 515a64c8a497.03.98.03.c2.1e.00.2c.83 515a58df288f.03.98.03.c2.1e.00.2c.83
+O 156
+R cspuv 0 "$JPO4NETS/hw4_nmos_unit_test2/schematic/sheet1" 155 mgc_sheet 515a64748d8c.03.98.03.c2.1e.00.2c.83 515a58df288f.03.98.03.c2.1e.00.2c.83

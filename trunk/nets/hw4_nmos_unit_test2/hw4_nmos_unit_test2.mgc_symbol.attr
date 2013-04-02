@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 515a58df3770.03.98.03.c2.1e.00.2c.83 29 2 1 0
+V v 27 1 515a590a96de.03.98.03.c2.1e.00.2c.83
+F f 27 "hw4_nmos_unit_test2.smbl_27"
+V v 28 1 515a590bc58b.03.98.03.c2.1e.00.2c.83
+F f 28 "hw4_nmos_unit_test2.smbl_28"
+V v 29 1 515a590e3c6b.03.98.03.c2.1e.00.2c.83
+F f 29 "hw4_nmos_unit_test2.smbl_29"
+O 29
+R csduv 0 "$JPO4NETS/hw4_nmos_unit_test2/part" 27 Eddm_part 515a590bc5ae.03.98.03.c2.1e.00.2c.83 515a58df3729.03.98.03.c2.1e.00.2c.83
+O 28
+R csduv 0 "$JPO4NETS/hw4_nmos_unit_test2/part" 27 Eddm_part 515a590bc5ae.03.98.03.c2.1e.00.2c.83 515a58df3729.03.98.03.c2.1e.00.2c.83
+O 27
+R csduv 0 "$JPO4NETS/hw4_nmos_unit_test2/part" 26 Eddm_part 515a590a96f8.03.98.03.c2.1e.00.2c.83 515a58df3729.03.98.03.c2.1e.00.2c.83
