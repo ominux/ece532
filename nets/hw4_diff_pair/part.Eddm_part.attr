@@ -1,19 +1,19 @@
-A 5 u Eddm_part 515afec8e9a2.03.98.03.c2.20.00.2a.81 17 2 2 0
-V v 15 1 515afece0464.03.98.03.c2.20.00.33.59
-F f 15 "part.part_15"
-V v 16 1 515aff4fdac0.03.98.03.c2.20.00.2a.81
-F f 16 "part.part_16"
+A 5 u Eddm_part 515afec8e9a2.03.98.03.c2.20.00.2a.81 19 2 2 0
 V v 17 1 515aff511bc1.03.98.03.c2.20.00.2a.81
 F f 17 "part.part_17"
+V v 18 1 515b47d572c1.03.98.03.c2.1e.00.36.7d
+F f 18 "part.part_18"
+V v 19 1 515b47da1563.03.98.03.c2.1e.00.36.7d
+F f 19 "part.part_19"
+O 19
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_diff_pair/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515afec8cf32.03.98.03.c2.20.00.2a.81
+R csduv 1 "$JPO4NETS/hw4_diff_pair/hw4_diff_pair" 17 mgc_symbol 515b47da1539.03.98.03.c2.1e.00.36.7d 515afec8cecf.03.98.03.c2.20.00.2a.81
+O 18
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_diff_pair/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515afec8cf32.03.98.03.c2.20.00.2a.81
+R csduv 1 "$JPO4NETS/hw4_diff_pair/hw4_diff_pair" 16 mgc_symbol 515b47d572a6.03.98.03.c2.1e.00.36.7d 515afec8cecf.03.98.03.c2.20.00.2a.81
 O 17
 P "eddm__stream_to_use" "eddm__propl_dstream"
 R csduv 0 "$JPO4NETS/hw4_diff_pair/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515afec8cf32.03.98.03.c2.20.00.2a.81
 R csduv 1 "$JPO4NETS/hw4_diff_pair/hw4_diff_pair" 14 mgc_symbol 515aff511b9a.03.98.03.c2.20.00.2a.81 515afec8cecf.03.98.03.c2.20.00.2a.81
-O 16
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw4_diff_pair/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515afec8cf32.03.98.03.c2.20.00.2a.81
-R csduv 1 "$JPO4NETS/hw4_diff_pair/hw4_diff_pair" 13 mgc_symbol 515aff4fdaa6.03.98.03.c2.20.00.2a.81 515afec8cecf.03.98.03.c2.20.00.2a.81
-O 15
-P "eddm__stream_to_use" "eddm__propl_dstream"
-R csduv 0 "$JPO4NETS/hw4_diff_pair/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515afec8cf32.03.98.03.c2.20.00.2a.81
-R csduv 1 "$JPO4NETS/hw4_diff_pair/hw4_diff_pair" 9 mgc_symbol 515a3de0d3fd.03.98.03.c2.1e.00.11.f5 515afec8cecf.03.98.03.c2.20.00.2a.81

@@ -1,13 +1,13 @@
-A 5 u mgc_symbol 515afec8cecf.03.98.03.c2.20.00.2a.81 15 2 1 0
-V v 13 1 515aff4fdaa6.03.98.03.c2.20.00.2a.81
-F f 13 "hw4_diff_pair.smbl_13"
-V v 14 1 515aff511b9a.03.98.03.c2.20.00.2a.81
-F f 14 "hw4_diff_pair.smbl_14"
-V v 15 1 515aff540182.03.98.03.c2.20.00.2a.81
-F f 15 "hw4_diff_pair.smbl_15"
-O 15
-R csduv 0 "$JPO4NETS/hw4_diff_pair/part" 17 Eddm_part 515aff511bc1.03.98.03.c2.20.00.2a.81 515afec8e9a2.03.98.03.c2.20.00.2a.81
-O 14
-R csduv 0 "$JPO4NETS/hw4_diff_pair/part" 17 Eddm_part 515aff511bc1.03.98.03.c2.20.00.2a.81 515afec8e9a2.03.98.03.c2.20.00.2a.81
-O 13
-R csduv 0 "$JPO4NETS/hw4_diff_pair/part" 16 Eddm_part 515aff4fdac0.03.98.03.c2.20.00.2a.81 515afec8e9a2.03.98.03.c2.20.00.2a.81
+A 5 u mgc_symbol 515afec8cecf.03.98.03.c2.20.00.2a.81 18 2 1 0
+V v 16 1 515b47d572a6.03.98.03.c2.1e.00.36.7d
+F f 16 "hw4_diff_pair.smbl_16"
+V v 17 1 515b47da1539.03.98.03.c2.1e.00.36.7d
+F f 17 "hw4_diff_pair.smbl_17"
+V v 18 1 515b47de6029.03.98.03.c2.1e.00.36.7d
+F f 18 "hw4_diff_pair.smbl_18"
+O 18
+R csduv 0 "$JPO4NETS/hw4_diff_pair/part" 19 Eddm_part 515b47da1563.03.98.03.c2.1e.00.36.7d 515afec8e9a2.03.98.03.c2.20.00.2a.81
+O 17
+R csduv 0 "$JPO4NETS/hw4_diff_pair/part" 19 Eddm_part 515b47da1563.03.98.03.c2.1e.00.36.7d 515afec8e9a2.03.98.03.c2.20.00.2a.81
+O 16
+R csduv 0 "$JPO4NETS/hw4_diff_pair/part" 18 Eddm_part 515b47d572c1.03.98.03.c2.1e.00.36.7d 515afec8e9a2.03.98.03.c2.20.00.2a.81
