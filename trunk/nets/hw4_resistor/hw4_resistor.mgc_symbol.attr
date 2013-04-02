@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 515a77da1510.03.98.03.c2.1e.00.4a.13 9 2 1 0
+V v 7 1 4d40159863e1.03.98.03.11.33.00.35.96
+F f 7 "hw4_resistor.smbl_7"
+V v 8 1 511859756590.03.98.03.c2.1e.00.22.e3
+F f 8 "hw4_resistor.smbl_8"
+V v 9 1 5118597d4791.03.98.03.c2.1e.00.22.e3
+F f 9 "hw4_resistor.smbl_9"
+O 9
+R csduv 0 "$JPO4NETS/hw4_resistor/part" 14 Eddm_part 5118597d47bc.03.98.03.c2.1e.00.22.e3 515a77da2f68.03.98.03.c2.1e.00.4a.13
+O 8
+R csduv 0 "$JPO4NETS/hw4_resistor/part" 13 Eddm_part 5118597565ab.03.98.03.c2.1e.00.22.e3 515a77da2f68.03.98.03.c2.1e.00.4a.13
+O 7
+R csduv 0 "$JPO4NETS/hw4_resistor/part" 11 Eddm_part 4d40159863fa.03.98.03.11.33.00.35.96 515a77da2f68.03.98.03.c2.1e.00.4a.13

@@ -1,0 +1,19 @@
+A 5 u Eddm_part 515a77da2f68.03.98.03.c2.1e.00.4a.13 15 2 2 0
+V v 13 1 5118597565ab.03.98.03.c2.1e.00.22.e3
+F f 13 "part.part_13"
+V v 14 1 5118597d47bc.03.98.03.c2.1e.00.22.e3
+F f 14 "part.part_14"
+V v 15 1 515a77de9794.03.98.03.c2.1e.00.5b.0e
+F f 15 "part.part_15"
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_resistor/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515a77da1553.03.98.03.c2.1e.00.4a.13
+R csduv 1 "$JPO4NETS/hw4_resistor/hw4_resistor" 9 mgc_symbol 5118597d4791.03.98.03.c2.1e.00.22.e3 515a77da1510.03.98.03.c2.1e.00.4a.13
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_resistor/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515a77da1553.03.98.03.c2.1e.00.4a.13
+R csduv 1 "$JPO4NETS/hw4_resistor/hw4_resistor" 9 mgc_symbol 5118597d4791.03.98.03.c2.1e.00.22.e3 515a77da1510.03.98.03.c2.1e.00.4a.13
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/hw4_resistor/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 515a77da1553.03.98.03.c2.1e.00.4a.13
+R csduv 1 "$JPO4NETS/hw4_resistor/hw4_resistor" 8 mgc_symbol 511859756590.03.98.03.c2.1e.00.22.e3 515a77da1510.03.98.03.c2.1e.00.4a.13
