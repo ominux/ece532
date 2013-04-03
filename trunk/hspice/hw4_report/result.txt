@@ -1,0 +1,230 @@
+
+
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         /home/software/ece532/jpo4/mentor/lvs.rep
+LAYOUT NAME:              $JPO4LAY/hw4
+SOURCE NAME:              $JPO4NETS/hw4/viewictrace
+RULE FILE:                /opt/digital/share/mgc_hep/technology/ic/ami.5um.rules.3term
+LVS MODE:                 Mask
+RULE FILE NAME:           /opt/digital/share/mgc_hep/technology/ic/ami.5um.rules.3term
+CREATION TIME:            Tue Apr  2 23:37:58 2013
+CURRENT DIRECTORY:        /home/software/ece532/jpo4/mentor
+USER NAME:                jpo4
+
+
+**************************************************************************************************************
+                               OVERALL COMPARISON RESULTS
+**************************************************************************************************************
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              6         6
+
+ Nets:              49        10    *
+
+ Instances:         13         4    *    mn (3 pins)
+                    13         3    *    mp (3 pins)
+                     1         1         c (2 pins)
+                     1         1         r (2 pins)
+                ------    ------
+ Total Inst:        28         9
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              6         6
+
+ Nets:              10        10
+
+ Instances:          4         4         mn (3 pins)
+                     3         3         mp (3 pins)
+                     1         1         c (2 pins)
+                     1         1         r (2 pins)
+                ------    ------
+ Total Inst:         9         9
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            phy_comp element comp
+   LVS COMPONENT SUBTYPE PROPERTY         t
+   LVS PIN NAME PROPERTY                  phy_pin
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       NO
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   LVS SPICE ALLOW INLINE PARAMETERS     UNSPECIFIED
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   // LVS REPORT OPTION
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+
+   // Filter
+
+   LVS FILTER  sch_filter_direct_open  OPEN SOURCE DIRECT
+   LVS FILTER  sch_filter_direct_short  SHORT SOURCE DIRECT
+   LVS FILTER  sch_filter_mask_open  OPEN SOURCE MASK
+   LVS FILTER  sch_filter_mask_short  SHORT SOURCE MASK
+   LVS FILTER  lay_filter_direct_open  OPEN LAYOUT DIRECT
+   LVS FILTER  lay_filter_direct_short  SHORT LAYOUT DIRECT
+
+   // Trace Property
+
+   TRACE PROPERTY  mn  instpar(w) nw w 1
+   TRACE PROPERTY  mp  instpar(w) pw w 1
+   // TRACE PROPERTY  me  instpar(w) width w 0
+   // TRACE PROPERTY  md  instpar(w) width w 0
+   TRACE PROPERTY  mn  instpar(l) nl l 1
+   TRACE PROPERTY  mp  instpar(l) pl l 1
+   // TRACE PROPERTY  me  instpar(l) length l 0
+   // TRACE PROPERTY  md  instpar(l) length l 0
+   TRACE PROPERTY  r  instpar(r) r r 1
+   TRACE PROPERTY  c  instpar(c) c c 1
+   // TRACE PROPERTY  d  instpar(a) area a 0
+   // TRACE PROPERTY  d  instpar(p) perimeter p 0
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               6          6            0            0
+
+   Nets:               10         10            0            0
+
+   Instances:           4          4            0            0    mn
+                        3          3            0            0    mp
+                        1          1            0            0    c
+                        1          1            0            0    r
+                  -------    -------    ---------    ---------
+   Total Inst:          9          9            0            0
+
+
+o Statistics:
+
+   39 isolated layout nets were deleted.
+
+   25 layout mos transistors were reduced to 6.
+     19 mos transistors were deleted by parallel reduction.
+
+
+o Isolated Layout Nets:
+
+      (Layout nets which are not connected to any instances or ports).
+
+   4(-22.000,-28.200) 12(260.700,73.300) 13(262.800,73.300) 14(264.900,73.300)
+   15(267.000,73.300) 16(269.100,73.300) 17(271.200,73.300) 18(273.300,73.300)
+   19(275.400,73.300) 20(277.500,73.300) 21(279.600,73.300) 22(281.700,73.300)
+   23(283.800,73.300) 24(285.900,73.300) 25(288.000,73.300) 26(290.100,73.300)
+   27(292.200,73.300) 28(294.300,73.300) 29(296.400,73.300) 30(298.500,73.300)
+   31(300.600,73.300) 32(302.700,73.300) 33(304.800,73.300) 34(306.900,73.300)
+   35(309.000,73.300) 36(311.100,73.300) 37(313.200,73.300) 38(315.300,73.300)
+   39(317.400,73.300) 40(319.500,73.300) 41(321.600,73.300) 42(323.700,73.300)
+   43(325.800,73.300) 44(327.900,73.300) 45(330.000,73.300) 46(332.100,73.300)
+   47(334.200,73.300) 48(336.300,73.300) 49(338.400,73.300)
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD gnd OUTPUT NBIAS NIN PIN
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  27 sec
