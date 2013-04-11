@@ -1,0 +1,23 @@
+POWER MOSFET 
+1ma / um for length so must be bigger
+
+NOISE ON OUTPUT
+look at thermal
+
+COULD ADD DIFFERENTIAL STAGE IN
+make PD or PI controller
+
+CHANGE RANGE
+5 V In
+3.3 V  Out
+
+TAKE REF OFF CHIP
+
+OP AMP -5 to 5
+must change my op amp to work like this
+or make it so i don't need negative rails
+
+INCREASE RESISTOR VALUE of feedback resistor divider
+
+REDO LOOP GAIN
+
