@@ -1,13 +1,13 @@
-A 5 u mgc_symbol 518038c92373.03.98.03.c2.1c.00.59.0d 12 2 1 0
-V v 10 1 515a3dea3789.03.98.03.c2.1e.00.11.f5
-F f 10 "proj_opamp.smbl_10"
-V v 11 1 515a3e0b260d.03.98.03.c2.1e.00.11.f5
-F f 11 "proj_opamp.smbl_11"
+A 5 u mgc_symbol 518038c92373.03.98.03.c2.1c.00.59.0d 14 2 1 0
 V v 12 1 515a3e17f1f3.03.98.03.c2.1e.00.11.f5
 F f 12 "proj_opamp.smbl_12"
+V v 13 1 51803f0acb3a.03.98.03.c2.1c.00.59.0d
+F f 13 "proj_opamp.smbl_13"
+V v 14 1 51803f0c7db4.03.98.03.c2.1c.00.59.0d
+F f 14 "proj_opamp.smbl_14"
+O 14
+R csduv 0 "$JPO4NETS/proj_opamp/part" 17 Eddm_part 51803f0c7dbd.03.98.03.c2.1c.00.59.0d 518038c9551b.03.98.03.c2.1c.00.59.0d
+O 13
+R csduv 0 "$JPO4NETS/proj_opamp/part" 16 Eddm_part 51803f0acb55.03.98.03.c2.1c.00.59.0d 518038c9551b.03.98.03.c2.1c.00.59.0d
 O 12
-R csduv 0 "$JPO4NETS/proj_opamp/part" 14 Eddm_part 515a3de0d428.03.98.03.c2.1e.00.11.f5 518038c9551b.03.98.03.c2.1c.00.59.0d
-O 11
-R csduv 0 "$JPO4NETS/proj_opamp/part" 14 Eddm_part 515a3de0d428.03.98.03.c2.1e.00.11.f5 518038c9551b.03.98.03.c2.1c.00.59.0d
-O 10
 R csduv 0 "$JPO4NETS/proj_opamp/part" 14 Eddm_part 515a3de0d428.03.98.03.c2.1e.00.11.f5 518038c9551b.03.98.03.c2.1c.00.59.0d
