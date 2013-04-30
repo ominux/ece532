@@ -1,0 +1,19 @@
+A 5 u Eddm_part 518038c9551b.03.98.03.c2.1c.00.59.0d 15 2 2 0
+V v 13 1 515a3db2be02.03.98.03.c2.1e.00.11.f5
+F f 13 "part.part_13"
+V v 14 1 515a3de0d428.03.98.03.c2.1e.00.11.f5
+F f 14 "part.part_14"
+V v 15 1 518038cee7b6.03.98.03.c2.1c.00.5a.e6
+F f 15 "part.part_15"
+O 15
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_opamp/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518038c92787.03.98.03.c2.1c.00.59.0d
+R csduv 1 "$JPO4NETS/proj_opamp/proj_opamp" 9 mgc_symbol 515a3de0d3fd.03.98.03.c2.1e.00.11.f5 518038c92373.03.98.03.c2.1c.00.59.0d
+O 14
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_opamp/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518038c92787.03.98.03.c2.1c.00.59.0d
+R csduv 1 "$JPO4NETS/proj_opamp/proj_opamp" 9 mgc_symbol 515a3de0d3fd.03.98.03.c2.1e.00.11.f5 518038c92373.03.98.03.c2.1c.00.59.0d
+O 13
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_opamp/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518038c92787.03.98.03.c2.1c.00.59.0d
+R csduv 1 "$JPO4NETS/proj_opamp/proj_opamp" 8 mgc_symbol 515a3db2bde8.03.98.03.c2.1e.00.11.f5 518038c92373.03.98.03.c2.1c.00.59.0d
