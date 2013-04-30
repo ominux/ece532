@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 518038c92787.03.98.03.c2.1c.00.59.0d 90 2 1 0
+V v 88 1 515c8b58b896.03.98.03.c2.21.00.52.e6
+F o 0 ""
+V v 89 1 515c8b5f9631.03.98.03.c2.21.00.52.e6
+F o 0 ""
+V v 90 1 51803902e9c9.03.98.03.c2.1c.00.59.0d
+F o 0 ""
+O 90
+R cspuv 0 "$JPO4NETS/proj_opamp/schematic/sheet1" 89 mgc_sheet 51803902d2ff.03.98.03.c2.1c.00.59.0d 518038c92c99.03.98.03.c2.1c.00.59.0d
+O 89
+R cspuv 0 "$JPO4NETS/proj_opamp/schematic/sheet1" 88 mgc_sheet 515c8b5f40b2.03.98.03.c2.21.00.52.e6 518038c92c99.03.98.03.c2.1c.00.59.0d
+O 88
+R cspuv 0 "$JPO4NETS/proj_opamp/schematic/sheet1" 87 mgc_sheet 515c8b588e45.03.98.03.c2.21.00.52.e6 518038c92c99.03.98.03.c2.1c.00.59.0d
