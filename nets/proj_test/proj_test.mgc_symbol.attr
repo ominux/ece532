@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 5180b2ea8398.03.98.03.c2.1c.00.59.0d 20 2 1 0
+V v 18 1 5180b6e1ab6f.03.98.03.c2.1c.00.59.0d
+F f 18 "proj_test.smbl_18"
+V v 19 1 5180b6f60ed4.03.98.03.c2.1c.00.59.0d
+F f 19 "proj_test.smbl_19"
+V v 20 1 5180b72d8258.03.98.03.c2.1c.00.59.0d
+F f 20 "proj_test.smbl_20"
+O 20
+R csduv 0 "$JPO4NETS/proj_test/part" 21 Eddm_part 5180b6d83221.03.98.03.c2.1c.00.59.0d 5180b2ea832b.03.98.03.c2.1c.00.59.0d
+O 19
+R csduv 0 "$JPO4NETS/proj_test/part" 21 Eddm_part 5180b6d83221.03.98.03.c2.1c.00.59.0d 5180b2ea832b.03.98.03.c2.1c.00.59.0d
+O 18
+R csduv 0 "$JPO4NETS/proj_test/part" 21 Eddm_part 5180b6d83221.03.98.03.c2.1c.00.59.0d 5180b2ea832b.03.98.03.c2.1c.00.59.0d

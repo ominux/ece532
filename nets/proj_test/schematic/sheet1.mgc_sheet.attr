@@ -1,0 +1,40 @@
+A 5 u mgc_sheet 5180b2ea5f65.03.98.03.c2.1c.00.59.0d 97 2 37 0
+V v 95 2 5180b72643ce.03.98.03.c2.1c.00.59.0d
+F f 95 "sheet1.ssht_95"
+F f 95 "sheet1.sgfx_95"
+V v 96 2 5180b727cce5.03.98.03.c2.1c.00.59.0d
+F f 96 "sheet1.ssht_96"
+F f 96 "sheet1.sgfx_96"
+V v 97 2 5180b7303324.03.98.03.c2.1c.00.59.0d
+F f 97 "sheet1.ssht_97"
+F f 97 "sheet1.sgfx_97"
+O 97
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5180b2ea5e85.03.98.03.c2.1c.00.59.0d
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 35 "$JPO4NETS/proj_opamp/part" 21 Eddm_part 5180b650b566.03.98.03.c2.1c.00.59.0d 518038c9551b.03.98.03.c2.1c.00.59.0d
+R csduv 36 "$JPO4NETS/proj_opamp/proj_opamp" 20 mgc_symbol 5180b650b55e.03.98.03.c2.1c.00.59.0d 518038c92373.03.98.03.c2.1c.00.59.0d
+O 96
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5180b2ea5e85.03.98.03.c2.1c.00.59.0d
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 35 "$JPO4NETS/proj_opamp/part" 21 Eddm_part 5180b650b566.03.98.03.c2.1c.00.59.0d 518038c9551b.03.98.03.c2.1c.00.59.0d
+R csduv 36 "$JPO4NETS/proj_opamp/proj_opamp" 20 mgc_symbol 5180b650b55e.03.98.03.c2.1c.00.59.0d 518038c92373.03.98.03.c2.1c.00.59.0d
+O 95
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 5180b2ea5e85.03.98.03.c2.1c.00.59.0d
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 35 "$JPO4NETS/proj_opamp/part" 21 Eddm_part 5180b650b566.03.98.03.c2.1c.00.59.0d 518038c9551b.03.98.03.c2.1c.00.59.0d
+R csduv 36 "$JPO4NETS/proj_opamp/proj_opamp" 20 mgc_symbol 5180b650b55e.03.98.03.c2.1c.00.59.0d 518038c92373.03.98.03.c2.1c.00.59.0d
