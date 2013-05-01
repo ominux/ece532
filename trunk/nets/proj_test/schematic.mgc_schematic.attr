@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 5180b2ea5e85.03.98.03.c2.1c.00.59.0d 98 2 1 0
+V v 96 1 5180b7265bc5.03.98.03.c2.1c.00.59.0d
+F o 0 ""
+V v 97 1 5180b727df9d.03.98.03.c2.1c.00.59.0d
+F o 0 ""
+V v 98 1 5180b73045c3.03.98.03.c2.1c.00.59.0d
+F o 0 ""
+O 98
+R cspuv 0 "$JPO4NETS/proj_test/schematic/sheet1" 97 mgc_sheet 5180b7303324.03.98.03.c2.1c.00.59.0d 5180b2ea5f65.03.98.03.c2.1c.00.59.0d
+O 97
+R cspuv 0 "$JPO4NETS/proj_test/schematic/sheet1" 96 mgc_sheet 5180b727cce5.03.98.03.c2.1c.00.59.0d 5180b2ea5f65.03.98.03.c2.1c.00.59.0d
+O 96
+R cspuv 0 "$JPO4NETS/proj_test/schematic/sheet1" 95 mgc_sheet 5180b72643ce.03.98.03.c2.1c.00.59.0d 5180b2ea5f65.03.98.03.c2.1c.00.59.0d
