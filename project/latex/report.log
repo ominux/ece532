@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  21 APR 2013 02:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 MAY 2013 17:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -252,26 +252,57 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip55
 \subfig@bottom=\skip56
 )
-(./report.aux)
+(./report.aux
+
+LaTeX Warning: Label `fig:wl' multiply defined.
+
+
+LaTeX Warning: Label `fig:pidfb' multiply defined.
+
+
+LaTeX Warning: Label `fig:pidfb' multiply defined.
+
+
+LaTeX Warning: Label `fig:pidfb' multiply defined.
+
+
+LaTeX Warning: Label `fig:pidfb' multiply defined.
+
+
+LaTeX Warning: Label `fig:pidfb' multiply defined.
+
+
+LaTeX Warning: Label `fig:pidfb' multiply defined.
+
+
+LaTeX Warning: Label `fig:pidfb' multiply defined.
+
+
+LaTeX Warning: Label `fig:neg' multiply defined.
+
+
+LaTeX Warning: Label `fig:neg' multiply defined.
+
+)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Try loading font information for U+msa on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 16.
  (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 14.
+LaTeX Font Info:    Try loading font information for U+msb on input line 16.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -290,8 +321,8 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 * \paperheight=794.96999pt
 * \textwidth=430.00462pt
 * \textheight=556.47656pt
-* \oddsidemargin=1.44614pt
-* \evensidemargin=38.30426pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
 * \topmargin=1.12738pt
 * \headheight=8.0pt
 * \headsep=14.0pt
@@ -324,32 +355,244 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
 )
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
-LaTeX Warning: Reference `fig:guitar' on page 1 undefined on input line 24.
+ []
 
 [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./report.aux)
+<Media/ldos.png, id=11, 1039.885pt x 399.4925pt>
+File: Media/ldos.png Graphic file (type png)
+ <use Media/ldos.png>
+Package pdftex.def Info: Media/ldos.png used on input line 42.
+(pdftex.def)             Requested size: 433.62pt x 166.58484pt.
 
-LaTeX Warning: There were undefined references.
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 42--43
+ [] 
+ []
+
+<Media/black.png, id=12, 1018.80624pt x 313.17pt>
+File: Media/black.png Graphic file (type png)
+ <use Media/black.png>
+Package pdftex.def Info: Media/black.png used on input line 52.
+(pdftex.def)             Requested size: 433.62pt x 133.28902pt.
+
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 52--53
+ [] 
+ []
+
+<Media/specs.png, id=13, 1008.76875pt x 705.63625pt>
+File: Media/specs.png Graphic file (type png)
+ <use Media/specs.png>
+Package pdftex.def Info: Media/specs.png used on input line 62.
+(pdftex.def)             Requested size: 433.62pt x 303.32077pt.
+
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 62--63
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./Media/ldos.png> <./Media/black.png>]
+<Media/WL.png, id=17, 504.88625pt x 768.8725pt>
+File: Media/WL.png Graphic file (type png)
+ <use Media/WL.png>
+Package pdftex.def Info: Media/WL.png used on input line 86.
+(pdftex.def)             Requested size: 260.17244pt x 396.21426pt.
+ [3 <./Media/specs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+[4 <./Media/WL.png>] <Media/PID.png, id=26, 1038.88126pt x 359.3425pt>
+File: Media/PID.png Graphic file (type png)
+
+<use Media/PID.png>
+Package pdftex.def Info: Media/PID.png used on input line 98.
+(pdftex.def)             Requested size: 208.92976pt x 72.26999pt.
+ <Media/PID_sc.png, id=27, 1004.75375pt x 546.04pt>
+File: Media/PID_sc.png Graphic file (type png)
+
+<use Media/PID_sc.png>
+Package pdftex.def Info: Media/PID_sc.png used on input line 106.
+(pdftex.def)             Requested size: 265.96718pt x 144.54pt.
+ <Media/pidfb.png, id=28, 1011.78pt x 553.06625pt>
+File: Media/pidfb.png Graphic file (type png)
+
+<use Media/pidfb.png>
+Package pdftex.def Info: Media/pidfb.png used on input line 114.
+(pdftex.def)             Requested size: 289.07999pt x 158.02216pt.
+ [5 <./Media/PID.png> <./Media/PID_sc.png> <./Media/pidfb.png>] <Media/cleanfin
+al.png, id=32, 750.805pt x 404.51125pt>
+File: Media/cleanfinal.png Graphic file (type png)
+
+<use Media/cleanfinal.png>
+Package pdftex.def Info: Media/cleanfinal.png used on input line 124.
+(pdftex.def)             Requested size: 505.89pt x 272.56421pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 124--125
+ [] 
+ []
+
+[6 <./Media/cleanfinal.png>]
+<Media/design.png, id=36, 1700.3525pt x 732.7375pt>
+File: Media/design.png Graphic file (type png)
+ <use Media/design.png>
+Package pdftex.def Info: Media/design.png used on input line 137.
+(pdftex.def)             Requested size: 505.89pt x 218.0005pt.
+
+<Media/diff.png, id=37, 733.74126pt x 563.10374pt>
+File: Media/diff.png Graphic file (type png)
+ <use Media/diff.png>
+Package pdftex.def Info: Media/diff.png used on input line 142.
+(pdftex.def)             Requested size: 289.07999pt x 221.85216pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Media/driver.png, id=38, 806.01125pt x 587.19376pt>
+File: Media/driver.png Graphic file (type png)
+ <use Media/driver.png>
+Package pdftex.def Info: Media/driver.png used on input line 150.
+(pdftex.def)             Requested size: 289.07999pt x 210.60112pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./Media/design.png>] [8 <./Media/diff.png> <./Media/driver.png>]
+<Media/ss.png, id=46, 1765.59625pt x 954.56625pt>
+File: Media/ss.png Graphic file (type png)
+ <use Media/ss.png>
+Package pdftex.def Info: Media/ss.png used on input line 165.
+(pdftex.def)             Requested size: 505.89pt x 273.51076pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 165--166
+ [] 
+ []
+
+[9 <./Media/ss.png>] <Media/lg.png, id=50, 1031.855pt x 437.635pt>
+File: Media/lg.png Graphic file (type png)
+
+<use Media/lg.png>
+Package pdftex.def Info: Media/lg.png used on input line 177.
+(pdftex.def)             Requested size: 505.89pt x 214.55655pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 177--178
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+[10 <./Media/lg.png>] <Media/sin.png, id=55, 1753.55125pt x 438.63875pt>
+File: Media/sin.png Graphic file (type png)
+
+<use Media/sin.png>
+Package pdftex.def Info: Media/sin.png used on input line 201.
+(pdftex.def)             Requested size: 505.89pt x 126.53935pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 201--202
+ [] 
+ []
+
+<Media/pwr.png, id=56, 1102.1175pt x 434.62375pt>
+File: Media/pwr.png Graphic file (type png)
+ <use Media/pwr.png>
+Package pdftex.def Info: Media/pwr.png used on input line 211.
+(pdftex.def)             Requested size: 505.89pt x 199.49828pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 211--212
+ [] 
+ []
+
+[11 <./Media/sin.png> <./Media/pwr.png>]
+<Media/pos.png, id=60, 1083.04625pt x 553.06625pt>
+File: Media/pos.png Graphic file (type png)
+ <use Media/pos.png>
+Package pdftex.def Info: Media/pos.png used on input line 223.
+(pdftex.def)             Requested size: 361.34999pt x 184.52092pt.
+
+<Media/neg.png, id=61, 1011.78pt x 540.0175pt>
+File: Media/neg.png Graphic file (type png)
+ <use Media/neg.png>
+Package pdftex.def Info: Media/neg.png used on input line 233.
+(pdftex.def)             Requested size: 361.34999pt x 192.86526pt.
+
+<Media/thermsw.png, id=62, 1724.4425pt x 435.6275pt>
+File: Media/thermsw.png Graphic file (type png)
+ <use Media/thermsw.png>
+Package pdftex.def Info: Media/thermsw.png used on input line 249.
+(pdftex.def)             Requested size: 505.89pt x 127.7911pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 249--250
+ [] 
+ []
+
+[12 <./Media/pos.png> <./Media/neg.png>]
+<Media/opamp.png, id=66, 991.705pt x 416.55624pt>
+File: Media/opamp.png Graphic file (type png)
+ <use Media/opamp.png>
+Package pdftex.def Info: Media/opamp.png used on input line 262.
+(pdftex.def)             Requested size: 505.89pt x 212.49171pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 262--263
+ [] 
+ []
+
+[13 <./Media/thermsw.png> <./Media/opamp.png>]
+<Media/ccplan.png, id=71, 1000.73875pt x 552.0625pt>
+File: Media/ccplan.png Graphic file (type png)
+ <use Media/ccplan.png>
+Package pdftex.def Info: Media/ccplan.png used on input line 274.
+(pdftex.def)             Requested size: 289.07999pt x 159.47066pt.
+
+[14 <./Media/ccplan.png>] (./report.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3471 strings out of 493488
- 45756 string characters out of 3141326
- 105818 words of memory out of 3000000
- 6575 multiletter control sequences out of 15000+200000
- 7994 words of font info for 31 fonts, out of 3000000 for 9000
+ 3583 strings out of 493488
+ 47610 string characters out of 3141326
+ 107910 words of memory out of 3000000
+ 6669 multiletter control sequences out of 15000+200000
+ 9048 words of font info for 36 fonts, out of 3000000 for 9000
  1118 hyphenation exceptions out of 8191
- 42i,4n,31p,322b,190s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,6n,31p,790b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on report.pdf (1 page, 54207 bytes).
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
+usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (14 pages, 629318 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
