@@ -1,0 +1,46 @@
+A 5 u mgc_sheet 518341153ecd.03.98.03.c2.25.00.62.99 108 2 41 0
+V v 106 2 51834168073b.03.98.03.c2.25.00.62.99
+F f 106 "sheet1.ssht_106"
+F f 106 "sheet1.sgfx_106"
+V v 107 2 518341783050.03.98.03.c2.25.00.62.99
+F f 107 "sheet1.ssht_107"
+F f 107 "sheet1.sgfx_107"
+V v 108 2 518341795d76.03.98.03.c2.25.00.62.99
+F f 108 "sheet1.ssht_108"
+F f 108 "sheet1.sgfx_108"
+O 108
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test_symbol/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518341153d6e.03.98.03.c2.25.00.62.99
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 37 "$EE299NETS/nmos/part" 31 Eddm_part 794df747f0a2.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.01.2f.82
+R csduv 38 "$EE299NETS/nmos/nmos" 38 mgc_symbol 794df747f0a1.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.00.2f.82
+R csduv 39 "$LIBNETS/res/part" 13 Eddm_part 77e3402a46e5.02.98.03.c4.05.00.00.00 76d8bf2153c2.02.98.03.c4.09.00.00.00
+R csduv 40 "$LIBNETS/res/res" 14 mgc_symbol 77e34029acb2.02.98.03.c4.05.00.00.00 76d8bf215487.02.98.03.c4.09.00.00.00
+O 107
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test_symbol/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518341153d6e.03.98.03.c2.25.00.62.99
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 37 "$EE299NETS/nmos/part" 31 Eddm_part 794df747f0a2.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.01.2f.82
+R csduv 38 "$EE299NETS/nmos/nmos" 38 mgc_symbol 794df747f0a1.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.00.2f.82
+R csduv 39 "$LIBNETS/res/part" 13 Eddm_part 77e3402a46e5.02.98.03.c4.05.00.00.00 76d8bf2153c2.02.98.03.c4.09.00.00.00
+R csduv 40 "$LIBNETS/res/res" 14 mgc_symbol 77e34029acb2.02.98.03.c4.05.00.00.00 76d8bf215487.02.98.03.c4.09.00.00.00
+O 106
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test_symbol/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518341153d6e.03.98.03.c2.25.00.62.99
+P "eddm__refer_state" "eddm__refer_floating"
+R csduv 29 "$MGC_IC_GENERIC_LIB/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 3890e8888efb.03.86.56.31.70.00.3a.eb
+R csduv 30 "$MGC_IC_GENERIC_LIB/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 3890e8888efa.03.86.56.31.70.04.3a.eb
+R csduv 31 "$MGC_IC_GENERIC_LIB/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 3890e8888efa.03.86.56.31.70.03.3a.eb
+R csduv 32 "$MGC_IC_GENERIC_LIB/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 3890e8888efa.03.86.56.31.70.02.3a.eb
+R csduv 37 "$EE299NETS/nmos/part" 31 Eddm_part 794df747f0a2.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.01.2f.82
+R csduv 38 "$EE299NETS/nmos/nmos" 38 mgc_symbol 794df747f0a1.02.98.03.c1.6c.00.00.00 3883396479b4.03.98.03.c4.20.00.2f.82
+R csduv 39 "$LIBNETS/res/part" 13 Eddm_part 77e3402a46e5.02.98.03.c4.05.00.00.00 76d8bf2153c2.02.98.03.c4.09.00.00.00
+R csduv 40 "$LIBNETS/res/res" 14 mgc_symbol 77e34029acb2.02.98.03.c4.05.00.00.00 76d8bf215487.02.98.03.c4.09.00.00.00

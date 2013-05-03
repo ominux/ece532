@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 518341153d6e.03.98.03.c2.25.00.62.99 109 2 1 0
+V v 107 1 5183416824b4.03.98.03.c2.25.00.62.99
+F o 0 ""
+V v 108 1 5183417850b4.03.98.03.c2.25.00.62.99
+F o 0 ""
+V v 109 1 51834179778b.03.98.03.c2.25.00.62.99
+F o 0 ""
+O 109
+R cspuv 0 "$JPO4NETS/proj_test_symbol/schematic/sheet1" 108 mgc_sheet 518341795d76.03.98.03.c2.25.00.62.99 518341153ecd.03.98.03.c2.25.00.62.99
+O 108
+R cspuv 0 "$JPO4NETS/proj_test_symbol/schematic/sheet1" 107 mgc_sheet 518341783050.03.98.03.c2.25.00.62.99 518341153ecd.03.98.03.c2.25.00.62.99
+O 107
+R cspuv 0 "$JPO4NETS/proj_test_symbol/schematic/sheet1" 106 mgc_sheet 51834168073b.03.98.03.c2.25.00.62.99 518341153ecd.03.98.03.c2.25.00.62.99

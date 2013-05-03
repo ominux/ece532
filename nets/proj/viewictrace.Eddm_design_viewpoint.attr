@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 51833dad72a8.03.98.03.c2.25.00.62.99 1 2 3 0
+V v 1 4 42737e3766a8.03.98.03.c1.8b.00.33.9b
+F f 1 "viewictrace.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "$JPO4NETS/proj/part" 4 Eddm_part 42737db0b607.03.98.03.c1.8b.00.33.48 51833dad812c.03.98.03.c2.25.00.62.99
+R cspuv 1 "$JPO4NETS/proj/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 51833dad6270.03.98.03.c2.25.00.62.99
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "$ULTRANETS/opampip_fix/opampip" 3 mgc_symbol 42737db0b54e.03.98.03.c1.8b.00.33.48 47975578a244.03.98.03.11.37.00.31.32

@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 515a77da1553.03.98.03.c2.1e.00.4a.13 79 2 1 0
-V v 77 1 515a79ddf312.03.98.03.c2.1e.00.4a.13
-F o 0 ""
+A 5 u mgc_schematic 515a77da1553.03.98.03.c2.1e.00.4a.13 80 2 1 0
 V v 78 1 515a7ac5cda4.03.98.03.c2.1e.00.4a.13
 F o 0 ""
 V v 79 1 515a7c3f068f.03.98.03.c2.1e.00.4a.13
 F o 0 ""
+V v 80 1 518344bbe011.03.98.03.c2.25.00.62.99
+F o 0 ""
+O 80
+R cspuv 0 "$JPO4NETS/hw4_resistor/schematic/sheet1" 79 mgc_sheet 518344bbc538.03.98.03.c2.25.00.62.99 515a77da15f1.03.98.03.c2.1e.00.4a.13
 O 79
 R cspuv 0 "$JPO4NETS/hw4_resistor/schematic/sheet1" 78 mgc_sheet 515a7c3ee632.03.98.03.c2.1e.00.4a.13 515a77da15f1.03.98.03.c2.1e.00.4a.13
 O 78
 R cspuv 0 "$JPO4NETS/hw4_resistor/schematic/sheet1" 77 mgc_sheet 515a7ac5baac.03.98.03.c2.1e.00.4a.13 515a77da15f1.03.98.03.c2.1e.00.4a.13
-O 77
-R cspuv 0 "$JPO4NETS/hw4_resistor/schematic/sheet1" 76 mgc_sheet 515a79ddcd28.03.98.03.c2.1e.00.4a.13 515a77da15f1.03.98.03.c2.1e.00.4a.13

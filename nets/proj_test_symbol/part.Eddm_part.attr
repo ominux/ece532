@@ -1,0 +1,19 @@
+A 5 u Eddm_part 51834115527e.03.98.03.c2.25.00.62.99 27 2 2 0
+V v 25 1 5183411a61f6.03.98.03.c2.25.00.70.65
+F f 25 "part.part_25"
+V v 26 1 5183416620e7.03.98.03.c2.25.00.62.99
+F f 26 "part.part_26"
+V v 27 1 5183416a4f2b.03.98.03.c2.25.00.62.99
+F f 27 "part.part_27"
+O 27
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test_symbol/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518341153d6e.03.98.03.c2.25.00.62.99
+R csduv 1 "$JPO4NETS/proj_test_symbol/proj_test_symbol" 26 mgc_symbol 5183416a4f24.03.98.03.c2.25.00.62.99 518341153d01.03.98.03.c2.25.00.62.99
+O 26
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test_symbol/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518341153d6e.03.98.03.c2.25.00.62.99
+R csduv 1 "$JPO4NETS/proj_test_symbol/proj_test_symbol" 25 mgc_symbol 5183416620cd.03.98.03.c2.25.00.62.99 518341153d01.03.98.03.c2.25.00.62.99
+O 25
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_test_symbol/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 518341153d6e.03.98.03.c2.25.00.62.99
+R csduv 1 "$JPO4NETS/proj_test_symbol/proj_test_symbol" 22 mgc_symbol 518340668258.03.98.03.c2.25.00.62.99 518341153d01.03.98.03.c2.25.00.62.99

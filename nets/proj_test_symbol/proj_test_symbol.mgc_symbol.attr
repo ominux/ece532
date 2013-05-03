@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 518341153d01.03.98.03.c2.25.00.62.99 26 2 1 0
+V v 24 1 5183406c08ff.03.98.03.c2.25.00.62.99
+F f 24 "proj_test_symbol.smbl_24"
+V v 25 1 5183416620cd.03.98.03.c2.25.00.62.99
+F f 25 "proj_test_symbol.smbl_25"
+V v 26 1 5183416a4f24.03.98.03.c2.25.00.62.99
+F f 26 "proj_test_symbol.smbl_26"
+O 26
+R csduv 0 "$JPO4NETS/proj_test_symbol/part" 27 Eddm_part 5183416a4f2b.03.98.03.c2.25.00.62.99 51834115527e.03.98.03.c2.25.00.62.99
+O 25
+R csduv 0 "$JPO4NETS/proj_test_symbol/part" 26 Eddm_part 5183416620e7.03.98.03.c2.25.00.62.99 51834115527e.03.98.03.c2.25.00.62.99
+O 24
+R csduv 0 "$JPO4NETS/proj_test_symbol/part" 24 Eddm_part 51834066827b.03.98.03.c2.25.00.62.99 51834115527e.03.98.03.c2.25.00.62.99
