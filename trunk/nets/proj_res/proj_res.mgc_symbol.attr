@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 518344e50ebf.03.98.03.c2.25.00.62.99 16 2 1 0
+V v 14 1 518345cb7b63.03.98.03.c2.25.00.62.99
+F f 14 "proj_res.smbl_14"
+V v 15 1 518345d3e60e.03.98.03.c2.25.00.62.99
+F f 15 "proj_res.smbl_15"
+V v 16 1 518345dc73b3.03.98.03.c2.25.00.62.99
+F f 16 "proj_res.smbl_16"
+O 16
+R csduv 0 "$JPO4NETS/proj_res/part" 21 Eddm_part 518345d3e619.03.98.03.c2.25.00.62.99 518344e529e1.03.98.03.c2.25.00.62.99
+O 15
+R csduv 0 "$JPO4NETS/proj_res/part" 21 Eddm_part 518345d3e619.03.98.03.c2.25.00.62.99 518344e529e1.03.98.03.c2.25.00.62.99
+O 14
+R csduv 0 "$JPO4NETS/proj_res/part" 20 Eddm_part 518345cb7b7d.03.98.03.c2.25.00.62.99 518344e529e1.03.98.03.c2.25.00.62.99

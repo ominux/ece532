@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 518344e50f24.03.98.03.c2.25.00.62.99 87 2 1 0
+V v 85 1 518345d09113.03.98.03.c2.25.00.62.99
+F o 0 ""
+V v 86 1 518345d9e680.03.98.03.c2.25.00.62.99
+F o 0 ""
+V v 87 1 518345df73a7.03.98.03.c2.25.00.62.99
+F o 0 ""
+O 87
+R cspuv 0 "$JPO4NETS/proj_res/schematic/sheet1" 86 mgc_sheet 518345df5d8b.03.98.03.c2.25.00.62.99 518344e5102c.03.98.03.c2.25.00.62.99
+O 86
+R cspuv 0 "$JPO4NETS/proj_res/schematic/sheet1" 85 mgc_sheet 518345d9d31b.03.98.03.c2.25.00.62.99 518344e5102c.03.98.03.c2.25.00.62.99
+O 85
+R cspuv 0 "$JPO4NETS/proj_res/schematic/sheet1" 84 mgc_sheet 518345d07958.03.98.03.c2.25.00.62.99 518344e5102c.03.98.03.c2.25.00.62.99
