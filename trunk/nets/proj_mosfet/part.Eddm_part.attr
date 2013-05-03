@@ -1,0 +1,19 @@
+A 5 u Eddm_part 51837a226b09.03.98.03.c2.25.00.62.99 29 2 2 0
+V v 27 1 51837a2792c8.03.98.03.c2.25.00.29.27
+F f 27 "part.part_27"
+V v 28 1 51837ac7dfac.03.98.03.c2.25.00.62.99
+F f 28 "part.part_28"
+V v 29 1 51837acf8fe6.03.98.03.c2.25.00.62.99
+F f 29 "part.part_29"
+O 29
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_mosfet/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 51837a22509f.03.98.03.c2.25.00.62.99
+R csduv 1 "$JPO4NETS/proj_mosfet/proj_mosfet" 28 mgc_symbol 51837acf8fc1.03.98.03.c2.25.00.62.99 51837a225028.03.98.03.c2.25.00.62.99
+O 28
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_mosfet/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 51837a22509f.03.98.03.c2.25.00.62.99
+R csduv 1 "$JPO4NETS/proj_mosfet/proj_mosfet" 27 mgc_symbol 51837ac7df91.03.98.03.c2.25.00.62.99 51837a225028.03.98.03.c2.25.00.62.99
+O 27
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "$JPO4NETS/proj_mosfet/schematic" 2 mgc_schematic 39eee0b3c42b.03.98.03.c4.01.00.2b.1d 51837a22509f.03.98.03.c2.25.00.62.99
+R csduv 1 "$JPO4NETS/proj_mosfet/proj_mosfet" 26 mgc_symbol 5183425470fb.03.98.03.c2.25.00.62.99 51837a225028.03.98.03.c2.25.00.62.99

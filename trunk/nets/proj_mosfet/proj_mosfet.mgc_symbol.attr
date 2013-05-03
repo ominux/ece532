@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 51837a225028.03.98.03.c2.25.00.62.99 28 2 1 0
+V v 26 1 5183425470fb.03.98.03.c2.25.00.62.99
+F f 26 "proj_mosfet.smbl_26"
+V v 27 1 51837ac7df91.03.98.03.c2.25.00.62.99
+F f 27 "proj_mosfet.smbl_27"
+V v 28 1 51837acf8fc1.03.98.03.c2.25.00.62.99
+F f 28 "proj_mosfet.smbl_28"
+O 28
+R csduv 0 "$JPO4NETS/proj_mosfet/part" 29 Eddm_part 51837acf8fe6.03.98.03.c2.25.00.62.99 51837a226b09.03.98.03.c2.25.00.62.99
+O 27
+R csduv 0 "$JPO4NETS/proj_mosfet/part" 28 Eddm_part 51837ac7dfac.03.98.03.c2.25.00.62.99 51837a226b09.03.98.03.c2.25.00.62.99
+O 26
+R csduv 0 "$JPO4NETS/proj_mosfet/part" 26 Eddm_part 518342547102.03.98.03.c2.25.00.62.99 51837a226b09.03.98.03.c2.25.00.62.99
