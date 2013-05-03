@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 51837a22509f.03.98.03.c2.25.00.62.99 115 2 1 0
+V v 113 1 51837a7c6ff1.03.98.03.c2.25.00.62.99
+F o 0 ""
+V v 114 1 51837ad0e9e1.03.98.03.c2.25.00.62.99
+F o 0 ""
+V v 115 1 51837ad3e27e.03.98.03.c2.25.00.62.99
+F o 0 ""
+O 115
+R cspuv 0 "$JPO4NETS/proj_mosfet/schematic/sheet1" 114 mgc_sheet 51837ad3be6a.03.98.03.c2.25.00.62.99 51837a225192.03.98.03.c2.25.00.62.99
+O 114
+R cspuv 0 "$JPO4NETS/proj_mosfet/schematic/sheet1" 113 mgc_sheet 51837ad0d839.03.98.03.c2.25.00.62.99 51837a225192.03.98.03.c2.25.00.62.99
+O 113
+R cspuv 0 "$JPO4NETS/proj_mosfet/schematic/sheet1" 112 mgc_sheet 51837a7c4cff.03.98.03.c2.25.00.62.99 51837a225192.03.98.03.c2.25.00.62.99
