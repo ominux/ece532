@@ -5,13 +5,13 @@
 \newlabel{fig:wl}{{1}{2}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces I/O Diagram}}{2}}
 \newlabel{fig:black}{{2}{2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces I/O Diagram. Specs I am able to match or beat are highlighted with green; specs I am not able to match are in red.}}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces I/O Diagram. Specs from Texas Instruments's part I am able to match or beat are highlighted with green; specs I am not able to match are marked with red.}}{3}}
 \newlabel{fig:specs}{{3}{3}}
 \@writefile{toc}{\contentsline {section}{\tocsection {}{3}{Design Challenges}}{3}}
 \@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{3.1}{Power MOSFET Limitations}}{3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Top: W = 100, Middle: W = 420, Bottom: W = 1000. $V_{DS}$ vs $V_{GS}$ for a single MOSFET using our technology. This is an important graph because $V_{DS}$ determines the output voltage and $V_{GS}$ is what I use to control it. Note the nice linear region around 2.5V for my L = 8u, W = 420u.}}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces L = 8u for all. Top: W = 100u, Middle: W = 420u, Bottom: W = 1000u. $V_{DS}$ vs $V_{GS}$ for a single MOSFET using our technology. This is an important graph because $V_{DS}$ determines the output voltage and $V_{GS}$ is what I use to control it. Note the nice linear region in the middle one.}}{4}}
 \newlabel{fig:wl}{{4}{4}}
-\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{3.2}{Process Limitation: No Negative Voltage}}{4}}
+\@writefile{toc}{\contentsline {subsection}{\tocsubsection {}{3.2}{Process Limitation: No Negative Voltage}}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The initial PID controller I designed.}}{5}}
 \newlabel{fig:piedmont}{{5}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Using this, I can precisely control the output.}}{5}}
@@ -25,30 +25,26 @@
 \newlabel{fig:pidfb}{{9}{8}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Close up of inverting amplifier and gate driver.}}{8}}
 \newlabel{fig:pidfb}{{10}{8}}
-\@writefile{toc}{\contentsline {section}{\tocsection {}{5}{Simulations}}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Steady State Output. $V_{out}$ is 2.5V with the 5V input.}}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Steady State Output. Showing the amplifier tuned for $V_{out} = 2.00$.}}{9}}
 \newlabel{fig:pidfb}{{11}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Loop Gain, $T(s)$.}}{10}}
-\newlabel{fig:pidfb}{{12}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces $V_{out} $ vs $V_{in}$ with a 1V sine wave on the input.}}{11}}
-\newlabel{fig:pidfb}{{13}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Steady state current draw and steady state power loss through control circuitry. The quiescent power loss is 2.4 mW.}}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Steady State Output. Showing the amplifier tuned for $V_{out} = 4.00$.}}{9}}
+\newlabel{fig:pidfb}{{12}{9}}
+\@writefile{toc}{\contentsline {section}{\tocsection {}{5}{Simulations}}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Loop Gain, $T(s)$.}}{10}}
+\newlabel{fig:pidfb}{{13}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces $V_{out} $ vs $V_{in}$ with a sine wave on the input.}}{11}}
 \newlabel{fig:pidfb}{{14}{11}}
-\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Positive settling time = 16 ns}}{12}}
-\newlabel{fig:pos}{{15}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Negative settling time = 25 ns.}}{12}}
-\newlabel{fig:neg}{{16}{12}}
-\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Regulator operation over a range from 0 to 50 degrees Celcius.}}{13}}
-\newlabel{fig:neg}{{17}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Steady state current draw and steady state power loss through control circuitry. The quiescent power loss is 2.5 mW.}}{11}}
+\newlabel{fig:pidfb}{{15}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Regulator operation from 10 degrees C (top) to 45 degrees C (bottom) in 5 degree increments.}}{13}}
+\newlabel{fig:neg}{{16}{13}}
 \@writefile{toc}{\contentsline {section}{\tocsection {}{6}{Layout}}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces My improved op amp.}}{13}}
-\newlabel{fig:neg}{{18}{13}}
 \newlabel{tocindent-1}{0pt}
 \newlabel{tocindent0}{0pt}
 \newlabel{tocindent1}{17.77782pt}
 \newlabel{tocindent2}{29.38873pt}
 \newlabel{tocindent3}{0pt}
-\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces My common centroid scheme.}}{14}}
-\newlabel{fig:cc}{{19}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces My common centroid scheme.}}{14}}
+\newlabel{fig:cc}{{17}{14}}
 \@writefile{toc}{\contentsline {section}{\tocsection {}{7}{Fabrication}}{14}}
 \@writefile{toc}{\contentsline {section}{\tocsection {}{8}{Conclusion}}{14}}
