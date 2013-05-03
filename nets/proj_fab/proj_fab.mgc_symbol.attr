@@ -1,0 +1,13 @@
+A 5 u mgc_symbol 518402b90b38.03.98.03.c2.25.00.17.3b 4 2 1 0
+V v 2 1 518404dd5601.03.98.03.c2.25.00.17.3b
+F f 2 "proj_fab.smbl_2"
+V v 3 1 518404e5d1a1.03.98.03.c2.25.00.17.3b
+F f 3 "proj_fab.smbl_3"
+V v 4 1 51840588f234.03.98.03.c2.25.00.17.3b
+F f 4 "proj_fab.smbl_4"
+O 4
+R csduv 0 "$JPO4NETS/proj_fab/part" 5 Eddm_part 51840588f239.03.98.03.c2.25.00.17.3b 5184028863b8.03.98.03.c2.25.00.17.3b
+O 3
+R csduv 0 "$JPO4NETS/proj_fab/part" 4 Eddm_part 518404dd5629.03.98.03.c2.25.00.17.3b 5184028863b8.03.98.03.c2.25.00.17.3b
+O 2
+R csduv 0 "$JPO4NETS/proj_fab/part" 4 Eddm_part 518404dd5629.03.98.03.c2.25.00.17.3b 5184028863b8.03.98.03.c2.25.00.17.3b
