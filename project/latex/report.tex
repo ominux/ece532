@@ -18,7 +18,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
-In this report I will detail the design of a linear regulator that takes a 5 volt input and outputs 1.5 volts on the output.\\
+In this report I will detail the design of a linear regulator that takes a 5 volt input and outputs 1.0 - 4.0 volts on the output. I can control it by tuning the feedback amplifiers. I fine tune the final amplifier that will be fabricated to output 2.5V\\
 
 This report is divided into the following sections:
 \begin{enumerate}
@@ -35,7 +35,7 @@ This report is divided into the following sections:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Design Goals}
 
-There are several types of linear regulators. Note that drop out depends on a variety of factors, not just the topology (as I show later). My design will use only one power element, and thus falls under the LDO category (even though I am going to optimize it to output 2.5 volts).
+There are several types of linear regulators. Note that drop out depends on a variety of factors, not just the topology (as I show later). My design will use only one power element, and thus falls under the LDO category with a minimum drop of 1 Volt.
 
 \begin{figure}[h]
 	\begin{center}
@@ -55,13 +55,13 @@ I have cut down significantly on the amount of I/O, external power, and referenc
 	\label{fig:black}
 \end{figure}
 
-Following are the specifications I am designing to. For comparison, I am using the Texas Instruments TLV1171 which is a highly optimized linear regulator that claims 500x lower quiescent power draw over most commercial regulators. Note the TI part outputs 2V, mine will output 2.5 Volts.
+Following are the specifications I am designing to. For comparison, I am using the Texas Instruments TLV1171 which is a highly optimized linear regulator that claims 500x lower quiescent power draw over most commercial regulators.
 
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=6in]{Media/specs.png}
 	\end{center}
-	\caption{I/O Diagram. Specs I am able to match or beat are highlighted with green; specs I am not able to match are in red.}
+	\caption{I/O Diagram. Specs from Texas Instruments's part I am able to match or beat are highlighted with green; specs I am not able to match are marked with red.}
 	\label{fig:specs}
 \end{figure}
 
@@ -77,17 +77,18 @@ The rule of thumb for analog amplifier design is:
 \text{Max } I_{DS} = \frac{1 \text{mA}}{ 1 \mu m}
 \end{equation}
 
-This suggests that I find the ideal $\frac{W}{L}$ ratio and then scale it up to the current I need. However, there is a problem. As $\frac{W}{L}$, decreases, the $V_{DS}$ of the mosfet becomes a bigger factor. In order to have an efficient regulator, I need a very high $\frac{W}{L}$, which costs a lot of area that I do not have. On the flip side, a larger ratio decreases the size of the controllable linear region, which makes the regulator harder to control.
+This suggests that I find the ideal $\frac{W}{L}$ ratio and then scale it up to the current I need. However, there is a problem. As $\frac{W}{L}$, decreases, the $V_{DS}$ of the mosfet becomes a bigger factor. In order to have an efficient regulator, I need a very high $\frac{W}{L}$, which costs a lot of area that I do not have. On the flip side, a larger ratio decreases the size of the controllable linear region, which makes the regulator harder to control. The best compromise, is L = 8u, W = 420 u as shown in Figure \ref{fig:wl}.
 
-I want to be able to control my output around 2.5 volts. Therefore, I need to have the linear region be centered around 2.5 volts. Furthermore, I want to be able to push through several mA, so I will choose L = 8u. See the plots to see how I chose my ideal W, which will be 420.
+I want to find a linearization point for my feedback circuit with a large linear region. The middle graph is ideal for this. So my power MOSFET pass element will have $\frac{W}{L}=\frac{420}{8}=\frac{52.5}{1}$ which will allow up to 8mA of output current.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=3.6in]{Media/WL.png}
+		\includegraphics[width=4.0in]{Media/WL.png}
 	\end{center}
-	\caption{Top: W = 100, Middle: W = 420, Bottom: W = 1000. $V_{DS}$ vs $V_{GS}$ for a single MOSFET using our technology. This is an important graph because $V_{DS}$ determines the output voltage and $V_{GS}$ is what I use to control it. Note the nice linear region around 2.5V for my L = 8u, W = 420u.}
+	\caption{L = 8u for all. Top: W = 100u, Middle: W = 420u, Bottom: W = 1000u. $V_{DS}$ vs $V_{GS}$ for a single MOSFET using our technology. This is an important graph because $V_{DS}$ determines the output voltage and $V_{GS}$ is what I use to control it. Note the nice linear region in the middle one.}
 	\label{fig:wl}
 \end{figure}
+
 
 \subsection{Process Limitation: No Negative Voltage}
 
@@ -103,7 +104,7 @@ Use of the negative voltage rail allows a PID controller to be directly implemen
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[height=2in]{Media/PID_sc.png}
+		\includegraphics[height=1.7in]{Media/PID_sc.png}
 	\end{center}
 	\caption{Using this, I can precisely control the output.}
 	\label{fig:pid}
@@ -111,13 +112,17 @@ Use of the negative voltage rail allows a PID controller to be directly implemen
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=4in]{Media/pidfb.png}
+		\includegraphics[width=3in]{Media/pidfb.png}
 	\end{center}
 	\caption{PID controlled output voltage (blue) with a 4V sinusoidal input (green) and the PID controller output (red) to precisely control the blue output and keep it constant.}
 	\label{fig:pidfb}
 \end{figure}
 
-However, to fabricate my design I will need to have a maximum voltage differential on chip of 5V. Therefore, I do not have access to this negative voltage rail, and I will have to improvise. To solve this I will design a negative feedback proportional-only controller that uses a differential amplifier that does not output a negative voltage. My solution is to output a voltage, 2.5V that can be output without any voltage initialization and also without the gate being needed to be driven negative. The other alternative is a complicated series of circuits and references to step the operating point up, perform the operations, and then step it back down again. Chip manufacturers do this with several hundred transistors, but I will simplify things to complete this project.
+\newpage
+
+However, to fabricate my design I will need to have a maximum voltage differential on chip of 5V. Therefore, I do not have access to this negative voltage rail, and I will have to improvise with a negative feedback differential amplifier that never pushes the error signal below 0. \\
+
+My solution is to reduce the feedback path to a porportional-only controller, and then use the same reference as I am already using for the op-amps, which is 1.3 Volts. With a 2 Volt output, I then have $V_{error} = 0.3$ which drives my gate to give a 2.0 Volt output. I can tune this to provide a 4.0 Volt output and anything in between or down to 1.0 V as well. These are shown later in the simulations.
 
 \begin{figure}[h]
 	\begin{center}
@@ -134,12 +139,12 @@ However, to fabricate my design I will need to have a maximum voltage differenti
 
 Here is the final design:
 	\begin{center}
-		\includegraphics[width=7.0in, angle=90]{Media/design.png}
+		\includegraphics[width=6.0in, angle=90]{Media/design.png}
 	\end{center}
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=4in]{Media/diff.png}
+		\includegraphics[width=3in]{Media/diff.png}
 	\end{center}
 	\caption{Close up of error amplifier.}
 	\label{fig:pidfb}
@@ -147,108 +152,102 @@ Here is the final design:
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=4in]{Media/driver.png}
+		\includegraphics[width=3in]{Media/driver.png}
 	\end{center}
 	\caption{Close up of inverting amplifier and gate driver.}
 	\label{fig:pidfb}
 \end{figure}
 
-   .
+.
 \newpage
-
+.
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Simulations}
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=7in]{Media/ss.png}
+		\includegraphics[width=3in]{Media/ss1.png}
 	\end{center}
-	\caption{Steady State Output. $V_{out}$ is 2.5V with the 5V input.}
+	\caption{Steady State Output. Showing the amplifier tuned for $V_{out} = 2.00$.}
 	\label{fig:pidfb}
 \end{figure}
 
-The output is correct to within 0.02 Volts.
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=3in]{Media/ss2.png}
+	\end{center}
+	\caption{Steady State Output. Showing the amplifier tuned for $V_{out} = 4.00$.}
+	\label{fig:pidfb}
+\end{figure}
 
-\newpage
+Both are accurate in steady state to within 1\%.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=7in]{Media/lg.png}
+		\includegraphics[width=6in]{Media/lg.png}
 	\end{center}
 	\caption{Loop Gain, $T(s)$.}
 	\label{fig:pidfb}
 \end{figure}
 
-The loop gain, $T(s)$ is very high, 63 dB. Note in my previous designs the loop gain was about -20 dB. I have greatly improved it here, by over 80 dB. For a negative feedback voltage regulator:\\
+The loop gain, $T(s)$ is between 10 dB and 60 dB. Note in my previous designs the loop gain was about -20 dB. I have greatly improved it here. This is very import because for a negative feedback voltage regulator we have:\\
 
-Voltage noise on the input is rejected in proportion to $\frac{1}{1 + T(s)} \approx 0$. \\
+\begin{itemize}
+\item Voltage noise on the input is rejected in proportion to $\frac{1}{1 + T(s)}$, which is $ \approx 0$ if $T(s)$ is very high.
+\item Voltage disturbances on the load are rejected in proportion to $\frac{1}{1 + T(s)}$, which is $ \approx 0$ if $T(s)$ is very high.
+\item The reference voltage is followed in proportion to $\frac{T(s)}{1 + T(s)}$, which is $ \approx 1$ if $T(s)$ is very high. \\
+\end{itemize}
 
-Voltage disturbances on the load are rejected in proportion to $\frac{1}{1 + T(s)} \approx 0$. \\
+Therefore, since my loop gain, $T(s)$ is sufficiently high, voltage and current disturbances should be rejected well as they are multiplied by a very small number, and the reference voltage should be followed well as it is multiplied by something close to unity. \\
 
-The reference voltage is followed in proportion to $\frac{T(s)}{1 + T(s)} \approx 1$. \\
-
-Therefore, since my loop gain, $T(s)$ is very high, voltage and current disturbances should be rejected very well as they are multiplied by 0, and the reference voltage should be followed well as it is multiplied by unity. \\
-
-Note that the above is in the ideal case. I modified my error amplifier to work without a negative rail so I do not actually see nearly the ideal rejection.
-
+Note that the above is the idea case; several non-idealities as well as the fact my error amplifier cannot realize the entire negative range will hamper the affect of the feedback circuit to actively compensate.
+ 
 \newpage
 
-Output with a sinusoidal input:
+The regulator maintains stability even with a sine wave of just under 1 V. The hypothetical noise rejection from the loop gain is not realized, but the output is still usable. 
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=7in]{Media/sin.png}
+		\includegraphics[width=3.5in]{Media/sin.png}
 	\end{center}
-	\caption{$V_{out} $ vs $V_{in}$ with a 1V sine wave on the input.}
+	\caption{$V_{out} $ vs $V_{in}$ with a sine wave on the input.}
 	\label{fig:pidfb}
 \end{figure}
 
-Here is the steady state power loss across the control circuitry:
+Here is the steady state current draw and power loss across the control circuitry:
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=7in]{Media/pwr.png}
+		\includegraphics[width=4.5in]{Media/pwr.png}
 	\end{center}
-	\caption{Steady state current draw and steady state power loss through control circuitry. The quiescent power loss is 2.4 mW.}
+	\caption{Steady state current draw and steady state power loss through control circuitry. The quiescent power loss is 2.5 mW.}
 	\label{fig:pidfb}
 \end{figure}
 
 \newpage
 
-The positive settling time is 16 nano seconds.
+The positive settling time is 10 nano seconds. The negative settling time is 8 nano seconds. From the linear section of the same graphs, I also get the slew rates:
+
+Positive slew rate = \scalebox{1.5}{ $ \frac{100 \text{ Volts}}{\mu \text{ sec}} $ }
+
+Negative slew rate = \scalebox{1.5}{  $\frac{166 \text{ Volts}}{\mu \text{ sec}}$ }
+
+	\begin{center}
+		\includegraphics[width=4in]{Media/pos.png}
+	\end{center}
+
+	\begin{center}
+		\includegraphics[width=4.0in]{Media/neg.png}
+	\end{center}
+
+Here is a temperature sweep of my regulator over a 35 degree Celsius range from 10 degrees Celcius to 45 degrees Celcius. It keeps the output without a 200 mV range of optimal. Outside of these temperatures performance is adversely affected.
 
 \begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=5in]{Media/pos.png}
+		\includegraphics[width=3.5in]{Media/thermsw.png}
 	\end{center}
-	\caption{Positive settling time = 16 ns}
-	\label{fig:pos}
-\end{figure}
-
-The negative settling time is 25 nano seconds
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=5in]{Media/neg.png}
-	\end{center}
-	\caption{Negative settling time = 25 ns.}
-	\label{fig:neg}
-\end{figure}
-
-From the same graphs, I also get the slew rates:
-
-Positive slew rate = \scalebox{1.5}{ $ \frac{5 \text{ Volts}}{\mu \text{ sec}} $ }
-
-Negative slew rate = \scalebox{1.5}{  $\frac{66 \text{ Volts}}{\mu \text{ sec}}$ }
-
-Here is a temperature sweep of my regulator over a 50 degree Celsius range from 25 degrees below ambient to 25 degrees above ambient (0-50). It keeps the output without a 200 mV range of optimal.
-
-\begin{figure}[h]
-	\begin{center}
-		\includegraphics[width=7in]{Media/thermsw.png}
-	\end{center}
-	\caption{Regulator operation over a range from 0 to 50 degrees Celcius.}
+	\caption{Regulator operation from 10 degrees C (top) to 45 degrees C (bottom) in 5 degree increments.}
 	\label{fig:neg}
 \end{figure}
 
@@ -256,16 +255,9 @@ Here is a temperature sweep of my regulator over a 50 degree Celsius range from 
 \section{Layout}
 
 I improved my op amp from homework 4 for this project. Here is my new op amp (the one I used above in simulations) as a schematic and also the layout for it.
-
-\begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=7in]{Media/opamp.png}
 	\end{center}
-	\caption{My improved op amp.}
-	\label{fig:neg}
-\end{figure}
-
-\newpage
 
 For the rest of my design, I have several resistors that I need to common centroid. Here is my common centroid scheme:
 
