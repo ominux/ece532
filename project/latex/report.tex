@@ -18,7 +18,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
-In this report I will detail the design of a linear regulator that takes a 5 volt input and outputs 1.0 - 4.0 volts on the output. I can control it by tuning the feedback amplifiers. I fine tune the final amplifier that will be fabricated to output 2.5V\\
+In this report I will detail the design of a linear regulator that takes a 5 volt input and outputs 1.0 - 4.0 volts on the output. I can control it by tuning the feedback amplifiers. I fine tune the final amplifier that will be fabricated to output 2.5V. I learned a lot in this project, from how to design a negative feedback controller to the design tradeoffs involved in analog circuits. Almost every decision I made had a pro and a con (such as more current vs. using more area). The layout showed me how important it is to plan ahead and think of a project modularly.
 
 This report is divided into the following sections:
 \begin{enumerate}
@@ -27,8 +27,11 @@ This report is divided into the following sections:
 \item Schematics
 \item Simulations
 \item Layout
-\item Fabrication
 \end{enumerate}
+
+	\begin{center}
+		\includegraphics[width=4in]{Media/lay_final.png}
+	\end{center}
 
 \newpage
 
@@ -146,7 +149,7 @@ Here is the final design:
 	\begin{center}
 		\includegraphics[width=3in]{Media/diff.png}
 	\end{center}
-	\caption{Close up of error amplifier.}
+	\caption{Close up of differential amplifier.}
 	\label{fig:pidfb}
 \end{figure}
 
@@ -154,7 +157,7 @@ Here is the final design:
 	\begin{center}
 		\includegraphics[width=3in]{Media/driver.png}
 	\end{center}
-	\caption{Close up of inverting amplifier and gate driver.}
+	\caption{Close up of gain amplifier and gate driver.}
 	\label{fig:pidfb}
 \end{figure}
 
@@ -181,7 +184,7 @@ Here is the final design:
 	\label{fig:pidfb}
 \end{figure}
 
-Both are accurate in steady state to within 1\%.
+Both are accurate in steady state to within 2\%.
 
 \begin{figure}[h]
 	\begin{center}
@@ -205,7 +208,7 @@ Note that the above is the idea case; several non-idealities as well as the fact
  
 \newpage
 
-The regulator maintains stability even with a sine wave of just under 1 V. The hypothetical noise rejection from the loop gain is not realized, but the output is still usable. 
+The regulator maintains stability even with a sine wave of just under 1 V. The hypothetical noise rejection from the loop gain is not realized, but regulator maintains stability under load.
 
 \begin{figure}[h]
 	\begin{center}
@@ -269,15 +272,53 @@ For the rest of my design, I have several resistors that I need to common centro
 	\label{fig:cc}
 \end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Fabrication}
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[width=4in, angle=90]{Media/res.png}
+	\end{center}
+	\caption{Common centroid resistors with dummy resistors added around the outside.}
+	\label{fig:cc}
+\end{figure}
 
-I am fabricating my project, which is why I have added the extra pads at the top level. I will test the project next semester in the fall when it comes back.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=4in, angle=90]{Media/lay_mos.png}
+	\end{center}
+	\caption{Power MOSFET. This is the pass element that controls power flow through the regulator.}
+	\label{fig:cc}
+\end{figure}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Conclusion}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=5in]{Media/schem.png}
+	\end{center}
+	\caption{Final design in Design Architect.}
+	\label{fig:cc}
+\end{figure}
 
-I built a full linear regulator in this project. I learned a lot, from how to design a negative feedback controller to the design tradeoffs involved in analog circuits. Almost every decision I made had a pro and a con (such as more current vs more accurate control). The layout showed me how important it is to plan ahead and think of a project modularly.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=8in, angle=90]{Media/lay_final.png}
+	\end{center}
+	\caption{Final Layout.}
+	\label{fig:cc}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=6in]{Media/checks.png}
+	\end{center}
+	\caption{The design is DRC (top) and LVS (bottom) clean.}
+	\label{fig:cc}
+\end{figure}
+
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=3.5in]{Media/area.png}
+	\end{center}
+	\caption{The area is 0.33 mm$^2$.}
+	\label{fig:cc}
+\end{figure}
 
 \end{document}
 

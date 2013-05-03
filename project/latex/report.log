@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  2 MAY 2013 23:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 MAY 2013 15:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -280,6 +280,21 @@ LaTeX Warning: Label `fig:pidfb' multiply defined.
 
 LaTeX Warning: Label `fig:pidfb' multiply defined.
 
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
 )
 \openout1 = `report.aux'.
 
@@ -351,39 +366,41 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
-)
-Underfull \hbox (badness 10000) in paragraph at lines 21--22
+) <Media/lay_final.png, id=1, 680.5425pt x 536.0025pt>
+File: Media/lay_final.png Graphic file (type png)
 
- []
-
-[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<Media/ldos.png, id=11, 1039.885pt x 399.4925pt>
+<use Media/lay_final.png>
+Package pdftex.def Info: Media/lay_final.png used on input line 33.
+(pdftex.def)             Requested size: 289.07999pt x 227.67946pt.
+ [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Me
+dia/lay_final.png>]
+<Media/ldos.png, id=12, 1039.885pt x 399.4925pt>
 File: Media/ldos.png Graphic file (type png)
  <use Media/ldos.png>
-Package pdftex.def Info: Media/ldos.png used on input line 42.
+Package pdftex.def Info: Media/ldos.png used on input line 45.
 (pdftex.def)             Requested size: 433.62pt x 166.58484pt.
 
-Overfull \hbox (3.61537pt too wide) in paragraph at lines 42--43
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 45--46
  [] 
  []
 
-<Media/black.png, id=12, 936.49875pt x 309.155pt>
+<Media/black.png, id=13, 936.49875pt x 309.155pt>
 File: Media/black.png Graphic file (type png)
  <use Media/black.png>
-Package pdftex.def Info: Media/black.png used on input line 52.
+Package pdftex.def Info: Media/black.png used on input line 55.
 (pdftex.def)             Requested size: 433.62pt x 143.14705pt.
 
-Overfull \hbox (3.61537pt too wide) in paragraph at lines 52--53
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 55--56
  [] 
  []
 
-<Media/specs.png, id=13, 1008.76875pt x 705.63625pt>
+<Media/specs.png, id=14, 998.73125pt x 700.6175pt>
 File: Media/specs.png Graphic file (type png)
  <use Media/specs.png>
-Package pdftex.def Info: Media/specs.png used on input line 62.
-(pdftex.def)             Requested size: 433.62pt x 303.32077pt.
+Package pdftex.def Info: Media/specs.png used on input line 65.
+(pdftex.def)             Requested size: 433.62pt x 304.18886pt.
 
-Overfull \hbox (3.61537pt too wide) in paragraph at lines 62--63
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 65--66
  [] 
  []
 
@@ -391,190 +408,237 @@ Overfull \hbox (3.61537pt too wide) in paragraph at lines 62--63
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./Media/ldos.png> <./Media/black.png>]
-<Media/WL.png, id=17, 504.88625pt x 768.8725pt>
+<Media/WL.png, id=18, 504.88625pt x 768.8725pt>
 File: Media/WL.png Graphic file (type png)
  <use Media/WL.png>
-Package pdftex.def Info: Media/WL.png used on input line 86.
+Package pdftex.def Info: Media/WL.png used on input line 89.
 (pdftex.def)             Requested size: 289.07999pt x 440.23286pt.
  [3 <./Media/specs.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[4 <./Media/WL.png>] <Media/PID.png, id=26, 1038.88126pt x 359.3425pt>
+[4 <./Media/WL.png>] <Media/PID.png, id=27, 1038.88126pt x 359.3425pt>
 File: Media/PID.png Graphic file (type png)
 
 <use Media/PID.png>
-Package pdftex.def Info: Media/PID.png used on input line 99.
+Package pdftex.def Info: Media/PID.png used on input line 102.
 (pdftex.def)             Requested size: 208.92976pt x 72.26999pt.
- <Media/PID_sc.png, id=27, 1004.75375pt x 546.04pt>
+ <Media/PID_sc.png, id=28, 1004.75375pt x 546.04pt>
 File: Media/PID_sc.png Graphic file (type png)
 
 <use Media/PID_sc.png>
-Package pdftex.def Info: Media/PID_sc.png used on input line 107.
+Package pdftex.def Info: Media/PID_sc.png used on input line 110.
 (pdftex.def)             Requested size: 226.05984pt x 122.85876pt.
- <Media/pidfb.png, id=28, 1011.78pt x 553.06625pt>
+ <Media/pidfb.png, id=29, 1011.78pt x 553.06625pt>
 File: Media/pidfb.png Graphic file (type png)
 
 <use Media/pidfb.png>
-Package pdftex.def Info: Media/pidfb.png used on input line 115.
+Package pdftex.def Info: Media/pidfb.png used on input line 118.
 (pdftex.def)             Requested size: 216.81pt x 118.51028pt.
  [5 <./Media/PID.png> <./Media/PID_sc.png> <./Media/pidfb.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
-<Media/cleanfinal.png, id=32, 719.68875pt x 369.38pt>
+<Media/cleanfinal.png, id=33, 844.15375pt x 443.6575pt>
 File: Media/cleanfinal.png Graphic file (type png)
 
 <use Media/cleanfinal.png>
-Package pdftex.def Info: Media/cleanfinal.png used on input line 129.
-(pdftex.def)             Requested size: 505.89pt x 259.65767pt.
+Package pdftex.def Info: Media/cleanfinal.png used on input line 132.
+(pdftex.def)             Requested size: 505.89pt x 265.88513pt.
 
-Overfull \hbox (75.88538pt too wide) in paragraph at lines 129--130
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 132--133
  [] 
  []
 
 [6 <./Media/cleanfinal.png>]
-<Media/design.png, id=36, 1638.12pt x 795.97375pt>
+<Media/design.png, id=37, 1641.13126pt x 807.015pt>
 File: Media/design.png Graphic file (type png)
  <use Media/design.png>
-Package pdftex.def Info: Media/design.png used on input line 142.
-(pdftex.def)             Requested size: 433.62pt x 210.70128pt.
+Package pdftex.def Info: Media/design.png used on input line 145.
+(pdftex.def)             Requested size: 433.62pt x 213.21762pt.
 
-<Media/diff.png, id=37, 504.88625pt x 498.86375pt>
+<Media/diff.png, id=38, 504.88625pt x 498.86375pt>
 File: Media/diff.png Graphic file (type png)
  <use Media/diff.png>
-Package pdftex.def Info: Media/diff.png used on input line 147.
+Package pdftex.def Info: Media/diff.png used on input line 150.
 (pdftex.def)             Requested size: 216.81pt x 214.22559pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/driver.png, id=38, 546.04pt x 532.99126pt>
+<Media/driver.png, id=39, 487.8225pt x 485.815pt>
 File: Media/driver.png Graphic file (type png)
  <use Media/driver.png>
-Package pdftex.def Info: Media/driver.png used on input line 155.
-(pdftex.def)             Requested size: 216.81pt x 211.63123pt.
+Package pdftex.def Info: Media/driver.png used on input line 158.
+(pdftex.def)             Requested size: 216.81pt x 215.91641pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./Media/design.png>] <Media/ss1.png, id=43, 418.56375pt x 436.63126pt>
+[7 <./Media/design.png>] <Media/ss1.png, id=44, 418.56375pt x 436.63126pt>
 File: Media/ss1.png Graphic file (type png)
 
 <use Media/ss1.png>
-Package pdftex.def Info: Media/ss1.png used on input line 170.
+Package pdftex.def Info: Media/ss1.png used on input line 173.
 (pdftex.def)             Requested size: 216.81pt x 226.16345pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/ss2.png, id=44, 452.69125pt x 435.6275pt>
+<Media/ss2.png, id=45, 452.69125pt x 435.6275pt>
 File: Media/ss2.png Graphic file (type png)
  <use Media/ss2.png>
-Package pdftex.def Info: Media/ss2.png used on input line 178.
+Package pdftex.def Info: Media/ss2.png used on input line 181.
 (pdftex.def)             Requested size: 216.81pt x 208.63351pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Media/lg.png, id=45, 730.73pt x 434.62375pt>
+<Media/lg.png, id=46, 730.73pt x 434.62375pt>
 File: Media/lg.png Graphic file (type png)
  <use Media/lg.png>
-Package pdftex.def Info: Media/lg.png used on input line 188.
+Package pdftex.def Info: Media/lg.png used on input line 191.
 (pdftex.def)             Requested size: 433.62pt x 257.91132pt.
 
-Overfull \hbox (3.61537pt too wide) in paragraph at lines 188--189
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 191--192
  [] 
  []
 
 
-Underfull \vbox (badness 2644) has occurred while \output is active []
+Underfull \vbox (badness 1910) has occurred while \output is active []
 
  [8 <./Media/diff.png> <./Media/driver.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 [9 <./Media/ss1.png> <./Media/ss2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-[10 <./Media/lg.png>] <Media/sin.png, id=56, 523.9575pt x 432.61626pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+[10 <./Media/lg.png>] <Media/sin.png, id=57, 523.9575pt x 432.61626pt>
 File: Media/sin.png Graphic file (type png)
 
 <use Media/sin.png>
-Package pdftex.def Info: Media/sin.png used on input line 212.
+Package pdftex.def Info: Media/sin.png used on input line 215.
 (pdftex.def)             Requested size: 252.94499pt x 208.84825pt.
- <Media/pwr.png, id=57, 702.625pt x 434.62375pt>
+ <Media/pwr.png, id=58, 702.625pt x 434.62375pt>
 File: Media/pwr.png Graphic file (type png)
 
 <use Media/pwr.png>
-Package pdftex.def Info: Media/pwr.png used on input line 222.
+Package pdftex.def Info: Media/pwr.png used on input line 225.
 (pdftex.def)             Requested size: 325.215pt x 201.17613pt.
  [11 <./Media/sin.png> <./Media/pwr.png>]
-<Media/pos.png, id=61, 927.465pt x 691.58376pt>
+<Media/pos.png, id=62, 927.465pt x 691.58376pt>
 File: Media/pos.png Graphic file (type png)
  <use Media/pos.png>
-Package pdftex.def Info: Media/pos.png used on input line 237.
+Package pdftex.def Info: Media/pos.png used on input line 240.
 (pdftex.def)             Requested size: 289.07999pt x 215.56009pt.
 
-<Media/neg.png, id=62, 907.39pt x 691.58376pt>
+<Media/neg.png, id=63, 907.39pt x 691.58376pt>
 File: Media/neg.png Graphic file (type png)
  <use Media/neg.png>
-Package pdftex.def Info: Media/neg.png used on input line 241.
+Package pdftex.def Info: Media/neg.png used on input line 244.
 (pdftex.def)             Requested size: 289.07999pt x 220.32991pt.
 
-<Media/thermsw.png, id=63, 605.26125pt x 434.62375pt>
+<Media/thermsw.png, id=64, 605.26125pt x 434.62375pt>
 File: Media/thermsw.png Graphic file (type png)
  <use Media/thermsw.png>
-Package pdftex.def Info: Media/thermsw.png used on input line 248.
+Package pdftex.def Info: Media/thermsw.png used on input line 251.
 (pdftex.def)             Requested size: 252.94499pt x 181.63216pt.
 
 Underfull \vbox (badness 4193) has occurred while \output is active []
 
- [12 <./Media/pos.png> <./Media/neg.png>]
-<Media/opamp.png, id=67, 991.705pt x 416.55624pt>
+ [12 <./Media/pos.png> <./Media/neg.png>] <Media/opamp.png, id=68, 997.7275pt x
+ 417.56pt>
 File: Media/opamp.png Graphic file (type png)
- <use Media/opamp.png>
-Package pdftex.def Info: Media/opamp.png used on input line 259.
-(pdftex.def)             Requested size: 505.89pt x 212.49171pt.
 
-Overfull \hbox (75.88538pt too wide) in paragraph at lines 259--260
+<use Media/opamp.png>
+Package pdftex.def Info: Media/opamp.png used on input line 262.
+(pdftex.def)             Requested size: 505.89pt x 211.7167pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 262--263
  [] 
  []
 
-<Media/ccplan.png, id=68, 1012.78375pt x 549.05125pt>
+<Media/ccplan.png, id=69, 999.735pt x 545.03625pt>
 File: Media/ccplan.png Graphic file (type png)
  <use Media/ccplan.png>
-Package pdftex.def Info: Media/ccplan.png used on input line 266.
-(pdftex.def)             Requested size: 289.07999pt x 156.7158pt.
+Package pdftex.def Info: Media/ccplan.png used on input line 269.
+(pdftex.def)             Requested size: 289.07999pt x 157.59904pt.
 
-[13 <./Media/thermsw.png> <./Media/opamp.png>] [14 <./Media/ccplan.png>]
-(./report.aux)
+[13 <./Media/thermsw.png> <./Media/opamp.png>]
+<Media/res.png, id=74, 653.44125pt x 776.9025pt>
+File: Media/res.png Graphic file (type png)
+ <use Media/res.png>
+Package pdftex.def Info: Media/res.png used on input line 277.
+(pdftex.def)             Requested size: 289.07999pt x 343.69931pt.
+
+<Media/lay_mos.png, id=75, 616.3025pt x 692.5875pt>
+File: Media/lay_mos.png Graphic file (type png)
+ <use Media/lay_mos.png>
+Package pdftex.def Info: Media/lay_mos.png used on input line 285.
+(pdftex.def)             Requested size: 289.07999pt x 324.87152pt.
+
+<Media/schem.png, id=76, 775.89874pt x 244.915pt>
+File: Media/schem.png Graphic file (type png)
+ <use Media/schem.png>
+Package pdftex.def Info: Media/schem.png used on input line 293.
+(pdftex.def)             Requested size: 361.34999pt x 114.06366pt.
+File: Media/lay_final.png Graphic file (type png)
+
+<use Media/lay_final.png>
+Package pdftex.def Info: Media/lay_final.png used on input line 301.
+(pdftex.def)             Requested size: 578.15999pt x 455.39163pt.
+
+Overfull \hbox (25.38701pt too wide) in paragraph at lines 301--302
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 48.62787pt on input line 305.
+
+<Media/checks.png, id=77, 979.66pt x 686.565pt>
+File: Media/checks.png Graphic file (type png)
+ <use Media/checks.png>
+Package pdftex.def Info: Media/checks.png used on input line 309.
+(pdftex.def)             Requested size: 433.62pt x 303.88095pt.
+
+Overfull \hbox (3.61537pt too wide) in paragraph at lines 309--310
+ [] 
+ []
+
+<Media/area.png, id=78, 509.905pt x 367.3725pt>
+File: Media/area.png Graphic file (type png)
+ <use Media/area.png>
+Package pdftex.def Info: Media/area.png used on input line 317.
+(pdftex.def)             Requested size: 252.94499pt x 182.23953pt.
+ [14 <./Media/ccplan.png> <./Media/res.png>] [15 <./Media/lay_mos.png> <./Media
+/schem.png>] [16] [17 <./Media/checks.png> <./Media/area.png>] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3588 strings out of 493488
- 47686 string characters out of 3141326
+ 3618 strings out of 493488
+ 48234 string characters out of 3141326
  108900 words of memory out of 3000000
- 6672 multiletter control sequences out of 15000+200000
+ 6696 multiletter control sequences out of 15000+200000
  9048 words of font info for 36 fonts, out of 3000000 for 9000
  1118 hyphenation exceptions out of 8191
- 42i,6n,31p,559b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,7n,31p,585b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
@@ -583,10 +647,10 @@ usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (14 pages, 626075 bytes).
+Output written on report.pdf (17 pages, 1145180 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 118 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
