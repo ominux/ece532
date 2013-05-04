@@ -1,13 +1,13 @@
-A 5 u mgc_schematic 518402885e33.03.98.03.c2.25.00.17.3b 21 2 1 0
-V v 19 1 5184058b26dd.03.98.03.c2.25.00.17.3b
-F o 0 ""
-V v 20 1 51840595ef0d.03.98.03.c2.25.00.17.3b
-F o 0 ""
+A 5 u mgc_schematic 518402885e33.03.98.03.c2.25.00.17.3b 23 2 1 0
 V v 21 1 518552384018.03.98.03.c2.21.00.15.92
 F o 0 ""
+V v 22 1 51856d1b1f93.03.98.03.c2.21.00.45.d2
+F o 0 ""
+V v 23 1 51856d4210a9.03.98.03.c2.21.00.45.d2
+F o 0 ""
+O 23
+R cspuv 0 "$JPO4NETS/proj_fab/schematic/sheet1" 22 mgc_sheet 51856d41eb1c.03.98.03.c2.21.00.45.d2 518402885f0b.03.98.03.c2.25.00.17.3b
+O 22
+R cspuv 0 "$JPO4NETS/proj_fab/schematic/sheet1" 21 mgc_sheet 51856d1af12e.03.98.03.c2.21.00.45.d2 518402885f0b.03.98.03.c2.25.00.17.3b
 O 21
 R cspuv 0 "$JPO4NETS/proj_fab/schematic/sheet1" 20 mgc_sheet 518552381e81.03.98.03.c2.21.00.15.92 518402885f0b.03.98.03.c2.25.00.17.3b
-O 20
-R cspuv 0 "$JPO4NETS/proj_fab/schematic/sheet1" 19 mgc_sheet 51840595d75d.03.98.03.c2.25.00.17.3b 518402885f0b.03.98.03.c2.25.00.17.3b
-O 19
-R cspuv 0 "$JPO4NETS/proj_fab/schematic/sheet1" 18 mgc_sheet 5184058b00f5.03.98.03.c2.25.00.17.3b 518402885f0b.03.98.03.c2.25.00.17.3b
