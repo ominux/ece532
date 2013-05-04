@@ -1,0 +1,51 @@
+A 5 u Ic_cell_template 5185506163fa.03.98.03.c2.21.00.13.a1 110 4 48 0
+V v 106 1 5183ed18ef54.03.98.03.c2.25.00.14.e1
+F f 106 "proj_test2.iccel_106"
+V v 107 1 5183ee618cdc.03.98.03.c2.25.00.14.e1
+F f 107 "proj_test2.iccel_107"
+V v 108 1 5183f2b53d6f.03.98.03.c2.25.00.14.e1
+F f 108 "proj_test2.iccel_108"
+V v 109 1 518550abc45c.03.98.03.c2.21.00.13.a1
+F f 109 "proj_test2.iccel_109"
+V v 110 1 51855150ce63.03.98.03.c2.21.00.13.a1
+F f 110 "proj_test2.iccel_110"
+O 110
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 42 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+R csduv 43 "$AMILAY/AGR" 2 Ic_cell_template 385811d2ed04.03.98.03.c4.09.00.07.cc 38581197cd28.03.98.03.c4.09.00.07.cc
+R csduv 44 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 45 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 46 "$AMILAY/AGR_COR" 3 Ic_cell_template 38581205d5f3.03.98.03.c4.09.00.07.cc 385811a735a8.03.98.03.c4.09.00.07.cc
+R csduv 47 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+O 109
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csdni 42 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+R csduv 43 "$AMILAY/AGR" 2 Ic_cell_template 385811d2ed04.03.98.03.c4.09.00.07.cc 38581197cd28.03.98.03.c4.09.00.07.cc
+R csduv 44 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 45 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 46 "$AMILAY/AGR_COR" 3 Ic_cell_template 38581205d5f3.03.98.03.c4.09.00.07.cc 385811a735a8.03.98.03.c4.09.00.07.cc
+R csduv 47 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+O 108
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 24 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 25 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 28 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+R csduv 30 "$AMILAY/AGR" 2 Ic_cell_template 385811d2ed04.03.98.03.c4.09.00.07.cc 38581197cd28.03.98.03.c4.09.00.07.cc
+R csduv 31 "$AMILAY/AGR_COR" 3 Ic_cell_template 38581205d5f3.03.98.03.c4.09.00.07.cc 385811a735a8.03.98.03.c4.09.00.07.cc
+R csdni 42 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 107
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 24 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 25 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 28 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+R csduv 30 "$AMILAY/AGR" 2 Ic_cell_template 385811d2ed04.03.98.03.c4.09.00.07.cc 38581197cd28.03.98.03.c4.09.00.07.cc
+R csduv 31 "$AMILAY/AGR_COR" 3 Ic_cell_template 38581205d5f3.03.98.03.c4.09.00.07.cc 385811a735a8.03.98.03.c4.09.00.07.cc
+R csdni 42 "$MGC_HEP/technology/ic/ami.5um.rules.3term" 1 Mgc_file
+O 106
+R csduv 1 "$MGC_HEP/technology/ic/scmos" 34 Ic_persist_process 3ee4a0b1a307.03.98.03.c1.8b.00.5c.5a 6ebf230e645f.02.c0.00.02.02.00.00.00
+R csduv 24 "$EE299LAY/ACONA" 19 Ic_cell_template 44fd6556c68a.03.98.03.c1.8b.00.3e.d4 3836b910b91a.03.98.03.c4.0a.00.05.71
+R csduv 25 "$EE299LAY/ACONV" 14 Ic_cell_template 46ceaccb9f0e.03.98.03.11.33.00.2d.6d 3836b9987502.03.98.03.c4.0a.00.05.71
+R csduv 28 "$EE299LAY/ACONE" 2 Ic_cell_template 43f4d900c164.03.98.03.c1.8b.00.04.69 43f4d89a2d20.03.98.03.c1.8b.00.04.69
+R csduv 30 "$AMILAY/AGR" 2 Ic_cell_template 385811d2ed04.03.98.03.c4.09.00.07.cc 38581197cd28.03.98.03.c4.09.00.07.cc
+R csduv 31 "$AMILAY/AGR_COR" 3 Ic_cell_template 38581205d5f3.03.98.03.c4.09.00.07.cc 385811a735a8.03.98.03.c4.09.00.07.cc
+R csdni 41 "$MGC_DESIGN_KIT/process/sdl_process_rules" 1 Mgc_file
