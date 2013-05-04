@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 MAY 2013 15:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  4 MAY 2013 14:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -295,6 +295,15 @@ LaTeX Warning: Label `fig:cc' multiply defined.
 
 LaTeX Warning: Label `fig:cc' multiply defined.
 
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
+
+LaTeX Warning: Label `fig:cc' multiply defined.
+
 )
 \openout1 = `report.aux'.
 
@@ -366,14 +375,14 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
 \everyMPtoPDFconversion=\toks28
-) <Media/lay_final.png, id=1, 680.5425pt x 536.0025pt>
-File: Media/lay_final.png Graphic file (type png)
+) <Media/full_layout.png, id=1, 1019.81pt x 665.48625pt>
+File: Media/full_layout.png Graphic file (type png)
 
-<use Media/lay_final.png>
-Package pdftex.def Info: Media/lay_final.png used on input line 33.
-(pdftex.def)             Requested size: 289.07999pt x 227.67946pt.
+<use Media/full_layout.png>
+Package pdftex.def Info: Media/full_layout.png used on input line 33.
+(pdftex.def)             Requested size: 289.07999pt x 188.63994pt.
  [1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Me
-dia/lay_final.png>]
+dia/full_layout.png>]
 <Media/ldos.png, id=12, 1039.885pt x 399.4925pt>
 File: Media/ldos.png Graphic file (type png)
  <use Media/ldos.png>
@@ -597,6 +606,8 @@ File: Media/schem.png Graphic file (type png)
  <use Media/schem.png>
 Package pdftex.def Info: Media/schem.png used on input line 293.
 (pdftex.def)             Requested size: 361.34999pt x 114.06366pt.
+
+<Media/lay_final.png, id=77, 680.5425pt x 536.0025pt>
 File: Media/lay_final.png Graphic file (type png)
 
 <use Media/lay_final.png>
@@ -610,7 +621,7 @@ Overfull \hbox (25.38701pt too wide) in paragraph at lines 301--302
 
 LaTeX Warning: Float too large for page by 48.62787pt on input line 305.
 
-<Media/checks.png, id=77, 979.66pt x 686.565pt>
+<Media/checks.png, id=78, 979.66pt x 686.565pt>
 File: Media/checks.png Graphic file (type png)
  <use Media/checks.png>
 Package pdftex.def Info: Media/checks.png used on input line 309.
@@ -620,22 +631,45 @@ Overfull \hbox (3.61537pt too wide) in paragraph at lines 309--310
  [] 
  []
 
-<Media/area.png, id=78, 509.905pt x 367.3725pt>
+<Media/area.png, id=79, 509.905pt x 367.3725pt>
 File: Media/area.png Graphic file (type png)
  <use Media/area.png>
 Package pdftex.def Info: Media/area.png used on input line 317.
 (pdftex.def)             Requested size: 252.94499pt x 182.23953pt.
- [14 <./Media/ccplan.png> <./Media/res.png>] [15 <./Media/lay_mos.png> <./Media
-/schem.png>] [16] [17 <./Media/checks.png> <./Media/area.png>] (./report.aux)
+
+<Media/netlist.png, id=80, 586.19pt x 731.73375pt>
+File: Media/netlist.png Graphic file (type png)
+ <use Media/netlist.png>
+Package pdftex.def Info: Media/netlist.png used on input line 325.
+(pdftex.def)             Requested size: 505.89pt x 631.4895pt.
+
+Overfull \hbox (75.88538pt too wide) in paragraph at lines 325--326
+ [] 
+ []
+
+
+LaTeX Warning: Float too large for page by 101.95738pt on input line 329.
+
+File: Media/full_layout.png Graphic file (type png)
+<use Media/full_layout.png>
+Package pdftex.def Info: Media/full_layout.png used on input line 333.
+(pdftex.def)             Requested size: 650.43pt x 424.4678pt.
+
+
+LaTeX Warning: Float too large for page by 115.84232pt on input line 337.
+
+[14 <./Media/ccplan.png> <./Media/res.png>] [15 <./Media/lay_mos.png> <./Media/
+schem.png>] [16 <./Media/lay_final.png>] [17 <./Media/checks.png> <./Media/area
+.png>] [18 <./Media/netlist.png>] [19] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3618 strings out of 493488
- 48234 string characters out of 3141326
+ 3628 strings out of 493488
+ 48450 string characters out of 3141326
  108900 words of memory out of 3000000
- 6696 multiletter control sequences out of 15000+200000
+ 6704 multiletter control sequences out of 15000+200000
  9048 words of font info for 36 fonts, out of 3000000 for 9000
  1118 hyphenation exceptions out of 8191
  42i,7n,31p,585b,233s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -647,10 +681,10 @@ usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/l
 ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (17 pages, 1145180 bytes).
+Output written on report.pdf (19 pages, 1368907 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
